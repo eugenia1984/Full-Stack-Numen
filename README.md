@@ -4,7 +4,7 @@
 
 ## :star: All the practice
 
-Here you will find every exercise I did as a practice during the Full Stack Academy by Numen course.
+[Here you will find every exercise I did as a practice during the Full Stack Academy by Numen course.]( https://eugenia1984.github.io/Full-Stack-Numen/)
 
 ---
 
@@ -79,7 +79,7 @@ SPANISH
 
 ## :star: Toda la práctica
 
-Acá podrán ver todos los ejercicios realizados como prácticas en al cursada de la Academia Numen del curso Full Stack.
+[Acá podrán ver todos los ejercicios realizados como prácticas en al cursada de la Academia Numen del curso Full Stack.]( https://eugenia1984.github.io/Full-Stack-Numen/)
 
 ---
 

@@ -1,0 +1,53 @@
+/* ************ Custom Properties ************ */
+:root {
+  --primary-color: #c50e25;
+  --secondary-color: #f6ba3d;
+  --third-color: #f88b02;
+  --fourth-color: #f2e8d0;
+  --fifth-color:  #f0e343;
+  --sixth-color: #a3c20f;
+  --white-color: #fff;
+  --dongle: 'Dongle', sans-serif;
+}
+
+/* *************** Reset *************** */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--dongle);
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+h1 { font-size: 1.75rem; }
+
+h2 { font-size: 1.25rem; }
+
+h3 { font-size: 1rem; }
+
+/* *************** Components *************** */
+
+/* Header */
+.header {
+  background-color: var(--sixth-color);
+  color: var(--white-color);
+  padding: 1rem 1.5rem;
+  text-align: center;
+}
+
+/* Footer */
+.footer {
+  background-color: var(--sixth-color);
+  padding: 1rem 1.5rem;
+  text-align: center;
+}
+
+/* *************** Utilities *************** */
+/*una regla que solo modifica un atributo de css*/
+
+/* *************** Site Styles *************** */
