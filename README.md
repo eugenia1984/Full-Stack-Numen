@@ -26,7 +26,7 @@ I practiced with the HTML semantic tags, tables, iframe ans multimedia tags. And
 
 Task: Must have this tags: multimedia tags like: ```<audio>``` and ```<video>```, at least one ```<iframe>```, one ```<table>``` and one ```<a>``` that it's linked to google.
 
-:tv: [You can see the web here](https://eugenia1984.github.io/FSNumen-Class2-HTML/class2)
+:tv: [You can see the web here](https://eugenia1984.github.io/Full-Stack-Numen/class2)
 
 
 
@@ -36,7 +36,7 @@ I just practice with the HTML semantic tags, tables, iframe and multi media tags
 
 I tried to copy this contact from from: [https://www.omadahealth.com/contact](https://www.omadahealth.com/contact)
 
-:tv: [You can see the practise here](https://eugenia1984.github.io/FSNumen-Class3-HTML-CSS/class3)
+:tv: [You can see the practise here](https://eugenia1984.github.io/Full-Stack-Numen/class3)
 
 
 
