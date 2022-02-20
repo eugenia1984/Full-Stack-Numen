@@ -55,7 +55,7 @@ Using as a guide [this article](https://www.indeed.com/career-advice/interviewin
 
 With **scroll-snap** I made a scroll effect, so you just need to scroll a bit with the mouse and the next text will be there.
 
-📺 [You can see the practise here](https://eugenia1984.github.io/FSNumen-Class4-HTML-CSS-/class4). 
+📺 [You can see the practise here](https://eugenia1984.github.io/Full-Stack-Numen/class4). 
 
 ---
 
@@ -105,7 +105,7 @@ Una simple práctica con las etiquetas semánticas de **HTML5**.. Pero... como n
 
 Debía: crear la estructura básica de HTML, con las etiquetas semánticas y tener las etiquetas: multimedia como: ```<audio>``` and ```<video>```, al menos una ```<iframe>```, una ```<table>``` y una  ```<a>``` que me lleve a Google.
 
-:tv: [Podes ver la práctica acá](https://eugenia1984.github.io/FSNumen-Class2-HTML/class2)
+:tv: [Podes ver la práctica acá](https://eugenia1984.github.io/Full-Stack-Numen/class2)
 
 
 ### :book: Full Stack Numen - Clase 3 - HTML y CSS
@@ -116,7 +116,7 @@ Debía: agregar un archivo de css, nombrarlo como estilos.css y vincularlo a htm
 
 Trate de imitar el formulario de contacto de [https://www.omadahealth.com/contact](https://www.omadahealth.com/contact)
 
-:tv: [Podes ver la práctica acá](https://eugenia1984.github.io/FSNumen-Class3-HTML-CSS/class3)
+:tv: [Podes ver la práctica acá](https://eugenia1984.github.io/Full-Stack-Numen/class3)
 
 
 ### :book: Full Stack Numen - Clase 4 - HTML y CSS
@@ -133,7 +133,7 @@ Usando como guía [este articulo](https://www.indeed.com/career-advice/interview
 
 Aplique el efecto de **scroll-snap** para generar un efecto como de diapositiva, con el minimo movimiento de scroll dle mouse vas a poder ver el proximo tip.
 
-📺 [Podes ver la práctica acá](https://eugenia1984.github.io/FSNumen-Class4-HTML-CSS-/class4). 
+📺 [Podes ver la práctica acá](https://eugenia1984.github.io/Full-Stack-Numen/class4). 
 
 
 ---
