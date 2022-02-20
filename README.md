@@ -26,7 +26,7 @@ I practiced with the HTML semantic tags, tables, iframe ans multimedia tags. And
 
 Task: Must have this tags: multimedia tags like: ```<audio>``` and ```<video>```, at least one ```<iframe>```, one ```<table>``` and one ```<a>``` that it's linked to google.
 
-:tv: You can see the web [HERE](https://eugenia1984.github.io/FSNumen-Class2-HTML/)
+:tv: [You can see the web here](https://eugenia1984.github.io/FSNumen-Class2-HTML/class2)
 
 
 
@@ -36,7 +36,7 @@ I just practice with the HTML semantic tags, tables, iframe and multi media tags
 
 I tried to copy this contact from from: [https://www.omadahealth.com/contact](https://www.omadahealth.com/contact)
 
-:tv: You can see the practise [HERE](https://eugenia1984.github.io/FSNumen-Class3-HTML-CSS/)
+:tv: [You can see the practise here](https://eugenia1984.github.io/FSNumen-Class3-HTML-CSS/class3)
 
 
 
@@ -55,7 +55,7 @@ Using as a guide [this article](https://www.indeed.com/career-advice/interviewin
 
 With **scroll-snap** I made a scroll effect, so you just need to scroll a bit with the mouse and the next text will be there.
 
-📺 You can see the practise [HERE](https://eugenia1984.github.io/FSNumen-Class4-HTML-CSS-/). 
+📺 [You can see the practise here](https://eugenia1984.github.io/FSNumen-Class4-HTML-CSS-/class4). 
 
 ---
 
@@ -96,7 +96,7 @@ Debía:
 
 - Tener: la etiqueta title acorde al contenido, y las etiquetas: ```<header>```,  ```<p>``` y ```<ul>```.
 
-:tv: Podes ver la práctica [ACA](https://eugenia1984.github.io/Full-Stack-Numen/class1)
+:tv: [Podes ver la práctica acá](https://eugenia1984.github.io/Full-Stack-Numen/class1)
 
 
 ### :book: Full Stack Numen - Clase 2 - HTML y CSS
@@ -105,7 +105,7 @@ Una simple práctica con las etiquetas semánticas de **HTML5**.. Pero... como n
 
 Debía: crear la estructura básica de HTML, con las etiquetas semánticas y tener las etiquetas: multimedia como: ```<audio>``` and ```<video>```, al menos una ```<iframe>```, una ```<table>``` y una  ```<a>``` que me lleve a Google.
 
-:tv: Podes ver la práctica [ACA](https://eugenia1984.github.io/FSNumen-Class2-HTML/)
+:tv: [Podes ver la práctica acá](https://eugenia1984.github.io/FSNumen-Class2-HTML/class2)
 
 
 ### :book: Full Stack Numen - Clase 3 - HTML y CSS
@@ -116,7 +116,7 @@ Debía: agregar un archivo de css, nombrarlo como estilos.css y vincularlo a htm
 
 Trate de imitar el formulario de contacto de [https://www.omadahealth.com/contact](https://www.omadahealth.com/contact)
 
-:tv: Podes ver la práctica [ACA](https://eugenia1984.github.io/FSNumen-Class3-HTML-CSS/)
+:tv: [Podes ver la práctica acá](https://eugenia1984.github.io/FSNumen-Class3-HTML-CSS/class3)
 
 
 ### :book: Full Stack Numen - Clase 4 - HTML y CSS
@@ -133,7 +133,7 @@ Usando como guía [este articulo](https://www.indeed.com/career-advice/interview
 
 Aplique el efecto de **scroll-snap** para generar un efecto como de diapositiva, con el minimo movimiento de scroll dle mouse vas a poder ver el proximo tip.
 
-📺 Podes ver la práctica [ACA](https://eugenia1984.github.io/FSNumen-Class4-HTML-CSS-/). 
+📺 [Podes ver la práctica acá](https://eugenia1984.github.io/FSNumen-Class4-HTML-CSS-/class4). 
 
 
 ---

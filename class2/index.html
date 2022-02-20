@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interior</title>
+  <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
+  <!--MI CSS-->
+  <link rel="stylesheet" href="./css/style.css">
+   <!--FONT AWESOME-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <!-- ETIQUETAS META PARA SEO-->
+  <meta name="description"
+  content="The second practice for Full Stack Numen Course. I worked with the HTML5 semantic tags, form, video and iframe with a bit of CSS3. I created a little landing page for an Interior Design shop.">
+  <link rel="icon" href="./assets/favicon.png" type="image/x-icon">
+  <meta name="theme-color" content="##284e74"/>
+  <meta property="og:title" content="Interior design"/>
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://eugenia1984.github.io/FSNumen-Class2-HTML/class2">
+</head>
+<body>
+  <!------HEADER------>
+  <header class="topnav" id="myTopnav">
+    <a href="#home" class="active"><img src="./assets/logo.png" alt="logo de interior" width="60" height="24"></a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#proyects">Proyects</a>
+    <a href="#team">Team</a>
+    <a href="#contact">Contact</a>
+    <!--Boton de menu hamburguesa-->
+    <a href="javascript:void(0);" class="icon" onclick="clickMenu()" alt="boton de menu para pantallas chicas">
+      <i class="fa fa-bars"></i>
+    </a>
+  </header>
+  <!------MAIN------>  
+  <main>
+    <section id="home">
+      <section class="hero-image">
+        <a href="#contact" class="hero-btn">
+            <h1>Interior</h1>
+            <p>Design Partner for Home or Office</p> 
+            <p>Get a free quote</p>
+        </a>
+      </section>
+    </section>
+    <!------SECTION ABOUT------>
+    <section id="about">
+      <h2>About us</h2>
+      <h3>Reasons to choose us</h3>
+      <p><i class="fa fa-check-circle" aria-hidden="true"></i> We are a consolidated team, with more than 20 years of experience in design.</p>
+      <p><i class="fa fa-check-circle" aria-hidden="true"></i> We have options for all budgets</p>
+      <video class="about-video" src="./assets/baby_room.mp4" preload="auto" controls>
+        <source src="assets/baby_room.mp4" type="video/mp4" preload="auto" controls>
+        Your browser does not support multimedia tag.
+      </video>
+
+    </section>
+    <!------SECTION SERVICES------>
+    <section id="services">
+      <h2>Our services</h2>
+      <h3>What we do ?</h3>
+      <!-- table width the services -->
+      <table border="1">
+        <tbody>
+          <tr>
+            <th>
+              <i class="fa fa-window-maximize" aria-hidden="true"></i>
+              <br>
+              Interior Design
+            </th>
+            <th>
+              <i class="fa fa-desktop" aria-hidden="true"></i>
+              <br>
+              Design Consultancy
+            </th>
+            <th>
+              <i class="fa fa-home" aria-hidden="true"></i>
+              <br>
+              Residential Design
+            </th>
+          </tr>
+          <tr>
+            <th>
+              <i class="fa fa-suitcase" aria-hidden="true"></i>
+              <br>
+              Comercial design
+            </th>
+            <th>
+              <i class="fa fa-handshake-o" aria-hidden="true"></i>
+              <br> Hospitality Design
+            </th>
+            <th>
+              <i class="fa fa-building" aria-hidden="true"></i>
+              <br>
+              Co-working Design
+            </th>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <!------SECTION PROYECTS------>
+    <section id="proyects">
+      <h2>Proyects you may love</h2>
+      <!-- Container para la galeria de imagenes -->
+      <div class="container">
+        <!--Slide 1-->
+        <div class="mySlides">
+          <div class="numbertext">1 / 6</div>
+          <img src="./assets/cafe-bar-hotel-loft-style.jpg" alt="Coffe Bar"  width="100%">
+        </div>
+        <!--Slide 2-->
+        <div class="mySlides">
+          <div class="numbertext">2 / 6</div>
+          <img src="./assets/child-room-with-rustic-interior-design.jpg" alt="Child's room"  width="100%">
+        </div>
+        <!--Slide 3-->
+        <div class="mySlides">
+          <div class="numbertext">3 / 6</div>
+          <img src="./assets/luxurious-house-dining-room.jpg" alt="Dinning room" width="100%">
+        </div>
+        <!--Slide 4-->  
+        <div class="mySlides">
+          <div class="numbertext">4 / 6</div>
+          <img src="./assets/modern-bathroom-interior-design-white-wall.jpg"  alt="Modern Bathroom"  width="100%">
+        </div>
+        <!--Slide 5-->
+        <div class="mySlides">
+          <div class="numbertext">5 / 6</div>
+          <img src="./assets/modern-studio-apartment-with-bedroom-living-space.jpg" alt="Modern studio apartment"  width="100%">
+        </div>
+        <!--Slide 6-->  
+        <div class="mySlides">
+          <div class="numbertext">6 / 6</div>
+          <img src="./assets/scandinavian-kitchen-long-wooden-counters-shelves.jpg" alt="Scandinavian kitchen"  width="100%">
+        </div>
+          
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+
+        <div class="caption-container">
+          <p id="caption"></p>
+        </div>
+
+        <div class="row">
+          <!--Slide 1-->
+          <div class="column">
+            <img class="demo cursor" src="./assets/cafe-bar-hotel-loft-style.jpg"  alt="Coffe bar hotel loft"  width="63" height="42"  onclick="currentSlide(1)">
+          </div>
+          <!--Slide 2-->
+          <div class="column">
+            <img class="demo cursor" src="./assets/child-room-with-rustic-interior-design.jpg" alt="Child room with rustic interior design" width="63" height="42"  onclick="currentSlide(2)">
+          </div>
+          <!--Slide 3-->
+          <div class="column">
+            <img class="demo cursor" src="./assets/luxurious-house-dining-room.jpg" alt="Luxurious dinning room"  width="63" height="42" onclick="currentSlide(3)">
+          </div>
+          <!--Slide 4-->
+          <div class="column">
+            <img class="demo cursor" src="./assets/modern-bathroom-interior-design-white-wall.jpg"  width="63" height="42" onclick="currentSlide(4)" alt="Modern bathroom interior design">
+          </div>
+          <!--Slide 5-->
+          <div class="column">
+            <img class="demo cursor" src="./assets/modern-studio-apartment-with-bedroom-living-space.jpg"  onclick="currentSlide(5)"  width="63" height="42"  alt="Studio apartment with bedroom living space">
+          </div> 
+          <!--Slide 6-->   
+          <div class="column">
+            <img class="demo cursor" src="./assets/scandinavian-kitchen-long-wooden-counters-shelves.jpg"  width="63" height="42"  onclick="currentSlide(6)" alt="Scandinavian kitchen width long wooden counters shelves">
+          </div>
+        </div>
+      </div>
+
+    </section>
+  <!------SECTION TEAM------>
+    <section id="team">
+      <h2>Meet the team</h2>
+      <h3>Our expert designers</h3>
+      <!-- Photo Grid -->
+      <div class="row"> 
+        <div class="column">
+          <img src="./assets/carl.jpg" alt="Carl" width="236" height="157">
+          <p>Carl</p>
+        </div>
+        <div class="column">
+          <img src="./assets/mary.jpg" alt="Mary" width="236" height="157">
+          <p>Mary</p>
+        </div>  
+        <div class="column">
+          <img src="./assets/john.jpg" alt="John" width="236" height="157">
+          <p>John</p>
+        </div>
+      </div>
+
+    </section>
+    <!------SECTION CONTACT------>
+    <section id="contact">
+      <h2>Contact us</h2>
+      <h3>Get in touch</h3>
+      <!--Contact form-->
+      <form action="https://formsubmit.co/costamariaeugenia1@gmail.com" method="post">
+        <label for="name"><p>Name:</p></label>
+        <input type="text" id="name" name="name" placeholder="Your name here" pattern="[A-Za-zÑnÁáÉéÍíÓóÚú]" title="Only letters" required> 
+        <label for="email"><p>E-mail:</p></label>
+        <input type="email" id="email" name="email" placeholder="Your e-mail here" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+        <label for="subject"><p>Subject:</p></label>
+        <input type="text" id="subject" name="subject" placeholder="The subject here" required>
+        <label for="telephone"><p>Telephone:</p></label>
+        <input type="tel" id="telephone" name="telephone" placeholder="You telephone here" required pattern="[0-9]" title="Only numbers">
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="You message here" required></textarea>
+        <button type="submit"> Enviar</button>
+      </form>
+    </section>
+
+  </main>
+  <!------FOOTER------>
+  <footer>
+    <section class="footer">
+      <section class="footer-contactos">
+        <img src="./assets/logo.png" alt="logo de Interior" width="150" height="60">
+        <ul>
+          <li><a href="#"><i class="fa fa-phone-square" aria-hidden="true"></i> + 1 880 111 111 1111</a></li>
+          <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i> contact@yourmail.com</a></li>
+          <li><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i> 175W Broadway, New York 10013, <br> United States</a></li> 
+        </ul>
+        <!--iframe with map-->
+        <div class="mapouter">
+          <div class="gmap_canvas">
+            <iframe title="175W Broadway, New York 10013, United States" width="300" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=175W%20Broadway,%20New%20York%2010013,%20United%20States&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+          </div>
+        </div>
+      </section>
+      <section class="footer-site-links">
+        <h2>Essential Links</h2>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#proyects">Proyects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </section>
+      <section class="footer-services">
+        <h2>Services</h2>
+        <ul>
+          <li><a href="#">Product Design</a></li>
+          <li><a href="#">Research</a></li>
+          <li><a href="#">Office Managment</a></li>
+        </ul>
+      </section>
+    </section>
+    <section class="legal">
+      <p>Copyright 2021 by <a href="https://www.linkedin.com/in/maríeugeniacosta/" target="_blank" rel="noopener"> María Eugenia Costa</a></p>
+    </section>
+    <section class="up">
+      <a href="#myTopnav"><i class="fa fa-hand-pointer-o" aria-hidden="true" alt="icono de mano señalando hacia arriba para ir al menu principal"></i></a>
+    </section>
+
+  </footer>
+  
+<script src="./js/funcionalidades.js"></script>  
+</body>
+</html>
