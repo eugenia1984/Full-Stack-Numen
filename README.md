@@ -17,7 +17,7 @@ I created a little landing page with an recipe of CLASSIC LEMON CRANBERRY SCONES
 
 Task: Create a basic HTML structure with the semantic tags. It must have this tags: a ```<title>``` according the content and :  ```<header>```,  ```<p>``` & ```<ul>```.
 
-:tv: [You can see the web here](https://eugenia1984.github.io/FSNumen-Class1-HTML/)
+:tv: [You can see the web here](https://eugenia1984.github.io/Full-Stack-Numen/class1)
 
 
 ###  :book: Full Stack Numen - Class 2 - HTML & CSS
@@ -96,7 +96,7 @@ Debía:
 
 - Tener: la etiqueta title acorde al contenido, y las etiquetas: ```<header>```,  ```<p>``` y ```<ul>```.
 
-:tv: Podes ver la práctica [ACA](https://eugenia1984.github.io/FSNumen-Class1-HTML/)
+:tv: Podes ver la práctica [ACA](https://eugenia1984.github.io/Full-Stack-Numen/class1)
 
 
 ### :book: Full Stack Numen - Clase 2 - HTML y CSS
