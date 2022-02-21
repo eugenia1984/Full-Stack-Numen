@@ -7,6 +7,7 @@
   --fifth-color:  #f0e343;
   --sixth-color: #a3c20f;
   --white-color: #fff;
+  --gray: 333;
   --dongle: 'Dongle', sans-serif;
 }
 
@@ -46,7 +47,7 @@ main{
   justify-content: center;
   align-self: center;
   min-height: 100vh;
-  background: #222;
+  background: var(--primary-color);
 }
 
 .container{
@@ -61,24 +62,29 @@ main{
 }
 
 .container .box{
-  background: #333;
+  background: var(--fourth-color);
   padding: 20px;
   display: grid;
   font-size: 20px;
   place-items: center;
   text-align: center;
-  color: #fff;
   transition: 0.5s;
 }
 
+.container .box a {
+  color: var(--primary-color);
+  font-weight: 800;
+  font-size: 1.50rem;
+}
+
 .container .box:hover{
-  background: #e91e63;
+  background: var(--fifth-color);
 }
 
 .container .box img{
   position: relative;
   max-width: 100px;
-  margin-bottom: 10px;
+  margin-bottom: 6px;
 }
 
 .container .box:nth-child(1) {
@@ -110,6 +116,11 @@ main{
     grid-column: unset !important;
     grid-row: unset !important;
   }
+}
+
+.class1 {
+  background-image: url("https://mdn.mozillademos.org/files/6457/mdn_logo_only_color.png");
+  background-color: var(--sixth-color);
 }
 
 /* Footer */
