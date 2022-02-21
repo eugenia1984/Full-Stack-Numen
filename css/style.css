@@ -25,7 +25,7 @@
   box-sizing: inherit;
 }
 
-h1 { font-size: 1.75rem; }
+h1 { font-size: 2.75rem; }
 
 h2 { font-size: 1.25rem; }
 
@@ -71,20 +71,36 @@ main{
   transition: 0.5s;
 }
 
+.container .box a p {
+  background-color: var(--sixth-color);
+  border-radius: 0.25rem;
+  padding: 0.10rem 0.50rem;
+  text-align: center;
+  -webkit-border-radius: 0.25rem;
+  -moz-border-radius: 0.25rem;
+  -ms-border-radius: 0.25rem;
+  -o-border-radius: 0.25rem;
+}
+
 .container .box a {
   color: var(--primary-color);
   font-weight: 800;
-  font-size: 1.50rem;
+  font-size: 1.75rem;
+  text-decoration: none;
 }
 
 .container .box:hover{
   background: var(--fifth-color);
 }
 
+.container .box a p:hover {
+  background-color: var(--fourth-color);
+}
+
 .container .box img{
   position: relative;
-  max-width: 100px;
-  margin-bottom: 6px;
+  max-width: 150px;
+  margin-bottom: 3px;
 }
 
 .container .box:nth-child(1) {
@@ -107,8 +123,9 @@ main{
   grid-row: span 1;
 }
 
-@media (max-width: 911px){
+@media (max-width: 578px){
   .container {
+    width: 90%;
     grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
     grid-template-rows: minmax(auto, auto);
   }
@@ -117,6 +134,19 @@ main{
     grid-row: unset !important;
   }
 }
+
+@media (min-width: 579px) and (max-width: 911px){
+  .container {
+    width: 95%;
+    grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+    grid-template-rows: minmax(auto, auto);
+  }
+  .container .box{
+    grid-column: unset !important;
+    grid-row: unset !important;
+  }
+}
+
 
 .class1 {
   background-image: url("https://mdn.mozillademos.org/files/6457/mdn_logo_only_color.png");
