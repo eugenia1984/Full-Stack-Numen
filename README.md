@@ -29,6 +29,7 @@ Task: Must have this tags: multimedia tags like: ```<audio>``` and ```<video>```
 :tv: [You can see the web here](https://eugenia1984.github.io/Full-Stack-Numen/class2)
 
 
+---
 
 ###  :book: Full Stack Numen - Class 3 - HTML & CSS
 
@@ -39,11 +40,9 @@ I tried to copy this contact from from: [https://www.omadahealth.com/contact](ht
 :tv: [You can see the practise here](https://eugenia1984.github.io/Full-Stack-Numen/class3)
 
 
-
+---
 
 ### :book: Full Stack Numen Class 4 HTML & CSS
-
-The fourth practice for Full Stack Numen Course, practising HTML5 and CSS3.
 
 I Created a basic HTML structure with the semantic tags, applied some of the CSS properties that we had seen in class, like: heigth, width, colors, background, gradients and font-size; and add a css file, name it as styles.css and link it to html. 
 
@@ -56,6 +55,19 @@ Using as a guide [this article](https://www.indeed.com/career-advice/interviewin
 With **scroll-snap** I made a scroll effect, so you just need to scroll a bit with the mouse and the next text will be there.
 
 📺 [You can see the practise here](https://eugenia1984.github.io/Full-Stack-Numen/class4). 
+
+---
+
+### :book: Full Stack Numen Class 8 HTML & CSS
+
+As we saw **Bootstrap**, for homework we had a free theme to apply it.
+
+## What I did ?
+
+I based [in this Bootstrap template](https://github.com/StartBootstrap/startbootstrap-agency) and [https://lussorealty.com/](https://lussorealty.com/) real state to personalized a landing page.
+
+
+:tv: [You can see the practise here](https://eugenia1984.github.io/Full-Stack-Numen/class8)
 
 ---
 
@@ -99,6 +111,8 @@ Debía:
 :tv: [Podes ver la práctica acá](https://eugenia1984.github.io/Full-Stack-Numen/class1)
 
 
+---
+
 ### :book: Full Stack Numen - Clase 2 - HTML y CSS
 
 Una simple práctica con las etiquetas semánticas de **HTML5**.. Pero... como no podía verlo con HTML5 solo, le aplique un poco de **CSS3**. Creé una pequeña landing page.
@@ -107,6 +121,8 @@ Debía: crear la estructura básica de HTML, con las etiquetas semánticas y ten
 
 :tv: [Podes ver la práctica acá](https://eugenia1984.github.io/Full-Stack-Numen/class2)
 
+
+---
 
 ### :book: Full Stack Numen - Clase 3 - HTML y CSS
 
@@ -119,9 +135,9 @@ Trate de imitar el formulario de contacto de [https://www.omadahealth.com/contac
 :tv: [Podes ver la práctica acá](https://eugenia1984.github.io/Full-Stack-Numen/class3)
 
 
-### :book: Full Stack Numen - Clase 4 - HTML y CSS
+---
 
-La cuarta práctica del curso de Academia Numen de Full Stack (REact & Node), utilizando HTML5 and CSS3.
+### :book: Full Stack Numen - Clase 4 - HTML y CSS
 
 Creé una estructura básica de HTML con las etiquetas semánticas, apliqué algunas de las propiedades de CSS vistas, como:  heigth, width, colors, background, gradients and font-size. Nombrar un archivo de CSS como  styles.css y linkearlo al archivo html. 
 
@@ -135,6 +151,22 @@ Aplique el efecto de **scroll-snap** para generar un efecto como de diapositiva,
 
 📺 [Podes ver la práctica acá](https://eugenia1984.github.io/Full-Stack-Numen/class4). 
 
+
+---
+
+### :book: Full Stack Numen - Clase 8 - HTML y CSS
+
+## ¿ Qué tenía que hacer ?
+
+Como vimos **Bootstrap**, de tarea teníamos tema libre para aplicarlo.
+
+## ¿ Qué hice ?
+
+
+Me base en [este template ya armado de Bootstrap](https://github.com/StartBootstrap/startbootstrap-agency) y con [https://lussorealty.com/](https://lussorealty.com/) bienes realices personalice una landing page.
+
+
+:tv: [Podes ver la práctica aca](https://eugenia1984.github.io/Full-Stack-Numen/class8)
 
 ---
 

@@ -6,9 +6,9 @@ ENGLISH
 
 In the eighth class of the **Numen Academy Full Stack** course we saw **Bootstrap**, for homework we had a free theme to apply Bootstrap.
 
-# What I did ?
+## What I did ?
 
-
+I based [in this Bootstrap template](https://github.com/StartBootstrap/startbootstrap-agency) and [https://lussorealty.com/](https://lussorealty.com/) real state to personalized a landing page.
 
 ---
 
@@ -49,6 +49,7 @@ En la octava clase del curso **Full Stack de Academia Numen** vimos **Bootstrap*
 # ¿ Qué hice ?
 
 
+Me base en [este template ya armado de Bootstrap](https://github.com/StartBootstrap/startbootstrap-agency) y con [https://lussorealty.com/](https://lussorealty.com/) bienes realices personalice una landing page.
 
 ## Stack teconológico 🛠️
 
