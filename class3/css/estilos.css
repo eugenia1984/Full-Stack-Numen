@@ -307,6 +307,7 @@ footer {   color: var(--gray); }
   #custom-footer {
     background-color: var(--white);
     padding: 40px 0;
+    max-width: 100%;
   }
 }
 
