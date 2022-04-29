@@ -980,4 +980,68 @@ Así como existen las etiquetas de formato común, tales como ```<h1>```, ```<h2
 ---
 ---
 
+## :star:  Etiquetas de Código
+
+Vamos a estudiar algunos aspectos que tienen que ver con las etiquetas usadas para representar códigos.
+
+ 
+
+Existen etiquetas especiales cuando queremos representar código fuente en nuestro HTML
+
+ 
+
+- La etiqueta ```<code> ```se emplea para representar un código fuente  usando  un tipo y tamaño de letra, para proporcionar un formato adecuado a una pieza de programa de computación.
+ 
+
+- La etiqueta``` <pre>``` se usa para que todos los (espacios, saltos, tabulaciones) que estén dentro de ella sean interpretados literalmente.
+ 
+
+- La etiqueta ```<var>``` se emplea para definir variables.
+ 
+
+- La etiqueta ```<samp>``` se usa para definir la salida de un programa.
+ 
+
+- La etiqueta``` <kbd>``` define una combinación de teclas.
+ 
+
+- La etiqueta ```<template>``` es usada para colocar código HTML y no interpretar las etiquetas
+
+
+
+---
+---
+
+## :star:  Etiquetas de Diagramación
+
+En lo que sigue vamos a estudiar dos etiquetas adicionales de HTML: <span> y <div>.
+
+ 
+
+Existen dos etiquetas muy utilizadas en HTML que sirven como contenedores genéricos de una parte de nuestra página: ```<div>``` y ```<span>```. Usualmente estos contenedores no tienen un aspecto físico bien definido, pero son utilizados por los programadores para proporcionar un estilo específico a dicha parte usando CSS.
+
+ 
+
+La etiqueta ```<div> ```representa agrupa un bloque de código HTML e inserta saltos de línea antes y después su contenido.
+
+ 
+
+La etiqueta <span> agrupa una porción de una línea de código HTML.
+
+ 
+
+A continuación usaremos el atributo style que permite definir un color de fondo con CSS, para ilustrar el comportamiento de la dos etiquetas:
+
+```html
+<p>
+    Ejemplo de uso de la etiqueta <span style="background-color:lightblue">span</span> para ilustrar su uso.
+</p>
+<p>
+    Ejemplo de uso de la etiqueta <div style="background-color:lightgreen">div</div> para ilustrar su uso.
+</p>
+```
+
+---
+---
+
 ## :star: 
