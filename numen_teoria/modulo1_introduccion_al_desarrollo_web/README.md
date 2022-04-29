@@ -1,10 +1,95 @@
 # :book: Módulo 1 | Introducción al Desarrollo Web
 
+Temas:
+
+- Intro al desarrollo web (Antes de iniciar):
+
+
+Orígenes de la programación : ¿Qué es la programación? , ¿Qué es un lenguaje de Programación?
+
+- Debugging
+
+¿De dónde surgieron los términos bug y debug? , ¿Para qué sirve el debug?, ¿Cuál es la importancia del Debug? 
+
+- Glosario desarrollo web
+
+- ¿Cuál es la importancia del Debug?
+
+- Unidad 1 : Intro al desarrollo web
+
+Entorno
+
+Internet, Web y Cliente - Servidor
+
+Front-end
+
+Sitios web estáticos y dinámicos
+
+Aplicaciones web
+
+Desarrollo
+
+Programación
+
+Lenguajes de la web
+
+Programación lógica
+
+Maquetado
+
+Estilado
+
+Herramientas de desarrollo
+
+
+- Unidad 2: Metodologías de desarrollo
+
+ Repositorios
+
+ Cloud
+
+ Uso de Github
+
+ Metodologías de trabajo ágiles
+
+ Metodología Scrum
+
+ Plataformas de planificación y seguimiento
+
+
+-  Unidad 3: Conceptos de desarrollo Web
+
+Prototipados y conceptos de HTML
+
+Box modeling (posicionamiento y visualización)
+
+FlexBox
+
+Grids y Mobile First
+
+Animaciones
+
+Primeros pasos al HTML
+
+CSS (Multimedia, bases del scc y atributos)
+
+Sintaxis CSS
+
+Integración CSS con HTML
+
+Intro a Pre-procesadores (SASS)
+
+Subida de sitios al servidor
+
+Dominios
+
+Hosting
+---
 ---
 
-# :star:Intro al desarrollo web (Antes de iniciar)
+# :book: Intro al desarrollo web (Antes de iniciar)
 
-## Orígenes de la programación
+## :star: Orígenes de la programación
 
 ### ¿Qué es la programación? 
 
@@ -40,16 +125,17 @@ También la palabra programación se define como el proceso de **creación de un
 5- Desarrollo de la *documentación*.
 
 ---
+---
 
-## Debugging 
+## :star: Debugging 
 
 Si trabajas con programación web, debes saber que los **bugs** son inevitables. Estos pueden  ocurrir debido a *errores de sintaxis*, como un *código incomplet*o o *errores en la lógica*. 
 
-## Pero, ¿cómo es posible identificar los bugs en medio de muchos códigos y líneas para  poder ajustarlos? Es aquí donde comienza el trabajo de debug. 
+### Pero, ¿cómo es posible identificar los bugs en medio de muchos códigos y líneas para  poder ajustarlos? Es aquí donde comienza el trabajo de debug. 
 
 También llamado como **debugging** (o en español depuración), es el nombre que se le da  al proceso de encontrar y eliminar los errores que pueden cometer softwares y  hardwares.  
 
-## ¿De dónde surgieron los términos bug y debug? 
+### ¿De dónde surgieron los términos bug y debug? 
 
 Muchas personas afirman que el término bug fue creado por **Grace Hopper**, una famosa  desarrolladora de la marina estadounidense que creó el lenguaje de programación  conocido como **Flow-Matic**. Aunque este lenguaje no haya sido muy utilizado, *sirvió como  base para COBOL*. 
 
@@ -57,7 +143,7 @@ Esta versión de la historia cuenta que Grace *estaba intentando encontrar el pr
 
 La segunda versión es más antigua, y tiene una conexión con **Thomas Edison**, inventor de  la lámpara eléctrica. Ella cuenta que, en el año de *1878*, Edison buscaba el origen de un  problema en la lectura de su fonógrafo, y finalmente encontró que era un *insecto*. 
 
-## ¿Para qué sirve el debug? 
+### ¿Para qué sirve el debug? 
 
 Su objetivo es **encontrar errores que pueden impedir que los códigos funcionen de forma  adecuada**. Con éste, es posible determinar lo que está ocurriendo dentro del código  fuente y obtener sugerencias de acciones para mejoras. 
 
@@ -65,7 +151,7 @@ Cada instrumento de desarrollo web tiene su propia herramienta para debugar un c
 
 También puedes acompañar el contenido de una determinada variable. Todo esto sirve  para facilitar el agotador trabajo de encontrar un bug en un sistema.
 
-## ¿Cuál es la importancia del Debug? 
+### ¿Cuál es la importancia del Debug? 
 
 El debug mejora la gestión del tiempo y productividad del profesional. Pues, corregir bugs  manualmente puede llegar a ser una tarea demorada y frustrante. 
 
@@ -74,8 +160,9 @@ Cuando este tipo de actividad es hecho por una herramienta, tienes tiempo.  Prin
 Además de esto, como los errores son detectados en el inicio, es posible evitar que  grandes proyectos tengan que ser ajustados o incluso eliminados para volver a empezar  desde cero. Cuando el estado del trabajo se encuentra en un nivel avanzado, es más difícil  encontrar la causa raíz del problema y solucionarla.
 
 ---
+---
 
-## GLOSARIO DESARROLLO WEB
+## :star: GLOSARIO DESARROLLO WEB
  
 
 **Controlador de versiones**: es un sistema que registra los cambios realizados en un archivo o conjunto de archivos a lo largo del tiempo, permitiéndote recuperar versiones específicas más adelante.
@@ -118,6 +205,7 @@ computadora.
 **Enlaces**: también conocidos como links o anchors, se utilizan para relacionar partes del mismo documento. Por defecto, se visualizan azules y subrayados
 
 ---
+---
 
 
 # :star: Unidad 1: Intro al desarrollo
@@ -148,8 +236,9 @@ Temas:
 
 - Herramientas de desarrollo.
 
+---
 
-## ¿ Como funciona la web ?
+## :star: ¿ Como funciona la web ?
 
 
 ### ¿ Qué es una página web (Webpage) ? 
@@ -161,12 +250,15 @@ El código le va diciendo al navegador qué partes son *texto*, qué partes son 
 Si tienes curiosidad, puedes pulsar botón derecho en tu navegador y usar la opción de **Inspeccionar** o **Ver código** (según el navegador). Con esto podrás ver y hacerte una idea de cómo son realmente las *tripas* de una página web.
 
 
+---
 
 ## Sitio web: El término adecuado
 
 Realmente, lo que normalmente llamamos en castellano *Página web* debería llamarse un *sitio web* (del inglés Website).
 
 Una página sería en realidad sólo una parte de tu sitio. Igual que un libro tiene distintas páginas, un sitio web también. Pero yo también suelo utilizar el concepto página, porque es como se le suele decir más a menudo. Si te empiezo a hablar de sitios web igual te lío un poco.
+
+---
 
 ## ¿ Qué es el código de la página web ?
 
@@ -175,6 +267,8 @@ Las páginas web se componen de una serie de código, como ya te comentaba antes
 El código incluye tanto los contenidos, como la información necesaria para que el navegador sepa cómo deben verse (de qué color, en qué orden, en qué ubicación…).
 
 Puedes observar la imagen que puse más arriba, y verás que hay códigos muy distintos.
+
+---
 
 ## Tipos de código que forman una página web
 
@@ -256,8 +350,9 @@ las aplicaciones webs.
 **TSP/IP** : mensaje 200 ok, porque se aprobo el envio del paquete, el servidor envia los archivos en pequeños paquetes de datos y el navegador armará el sitio web completo.
 
 ---
+---
 
-## Funcionamiento de los navegadores
+## :star: Funcionamiento de los navegadores
 
 ### ¿Qué son los navegadores?
 
@@ -333,8 +428,9 @@ Como todos los navegadores tienen esencialmente las mismas funciones, no es posi
 **Opera**: especialmente popular en los dispositivos móviles.
 
 ---
+---
 
-## Bases de la Web
+## :star: Bases de la Web
 
 La web tiene tres pilares básicos y más relevantes sobre los que se soporta la arquitectura lógica de la Web.
 
@@ -384,6 +480,7 @@ También existe **Gecko**, un motor de renderizado usado por muchas aplicaciones
 
 Es importante saber que debido a los distintos motores de renderizado, y a pesar de tener un estandar, es posible que un motor interprete un código de una manera diferente a otro, por ello es importante probar tu código en distintos navegadores.
 
+---
 ---
 
 # :star:  Unidad 2: Metodologías de desarrollo
