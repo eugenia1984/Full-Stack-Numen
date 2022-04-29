@@ -1293,4 +1293,52 @@ En este ejemplo, los visitantes de la página serán redirigidos al sitio Onpage
 ---
 ---
 
+## :star:  Etiquetas semánticas
+
+Te presentamos otras etiquetas semánticas de gran utilidad.
+
+ 
+
+Existen más etiquetas semánticas que se han incorporado para darle significado a las partes de tu documento HTML, las cuales describimos a continuación.
+
+ 
+
+La etiqueta ```<main> ```especifica la parte principal del documento
+
+ 
+
+Las etiqueta  ```<summary> ```se utiliza para mostrar un extracto de la información, que al darle click se expande con el contenido dentro de <details>. Para ilustrar el uso de estas etiquetas te presentamos un ejemplo:
+
+ 
+
+```
+<details>  
+   <summary>Academia Numen</summary> 
+   <p>Escritor</p> 
+   <p>más información</p>
+</details>
+```
+ 
+
+El cual despliega lo siguiente:
+
+ 
+>Academia Numen
+ 
+
+ 
+
+La etiqueta ```<time>``` se utiliza para indicar tiempo o fechas.
+
+ 
+
+La etiqueta ```<mark>``` sirve para resaltar una palabra o frase.
+
+
+
+
+
+---
+---
+
 ## :star: 
