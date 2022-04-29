@@ -1287,4 +1287,29 @@ En éste ejemplo, el navegador intentará reproducir el archivo de audio den for
 ---
 ---
 
+## :star: ¿Qué es un SVG?
+
+Los Gráficos Vectoriales Redimensionables o más conocidos por sus siglas en inglés SVG (Scalable Vector Graphics), son una especificación recomendada por el World Wide Web Consortium (W3C) desde septiembre de 2001 como estándar para describir gráficas de dos dimensiones en formato XML. Este estándar surge a partir de la idea de generar un formato de archivo para describir elementos gráficos vectoriales. Varias empresas como Microsoft con el VML (Vector Markup Language) y Adobe en coordinación con IBM, Netscape y SUN con su PGML (Precision Graphics Markup Language), participaron en las versiones previas de lo que luego se convertiría en SVG.
+
+Entre las ventajas que tienen las imágenes SVG, se encuentran las siguientes: 
+
+- generar archivos que ocupen poco espacio en la memoria y puedan comprimirse de manera óptima
+
+- permitir que las imágenes puedan escalarse a cualquier tamaño sin perder nitidez (exceptuando tamaños muy pequeños)
+
+- facilitar la creación de gráficas tanto estáticas como animadas la cuales pueden ser de los siguientes tipos: figuras vectoriales (por ejemplo: trazos que consisten en líneas rectas y curvas), imágenes y textos.
+
+Las imágenes en formato SVG pueden agruparse, estilizarse, transformarse y componerse de objetos previamente renderizados. Dentro de sus características principales se encuentran las transformaciones anidadas, trazos recortados, capas de transparencia, efectos de filtro y objetos de plantilla.
+
+ 
+
+Los dibujos SVG pueden ser interactivos y dinámicos; sus animaciones se definen e inician de manera declarativa (incrustando elementos SVG animados dentro del contenido) o utilizando lenguajes de script (por ejemplo JavaScript). Pueden desarrollarse aplicaciones sofisticadas utilizando lenguajes de script avanzados para manipular los archivos SVG a partir del Document Object Model (DOM).
+
+
+
+
+
+---
+---
+
 ## :star:
