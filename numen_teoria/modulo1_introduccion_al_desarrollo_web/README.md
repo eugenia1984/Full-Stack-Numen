@@ -143,7 +143,7 @@ computadora.
 ---
 
 
-# :star: Unidad 1: Intro al desarrollo
+# :book: Unidad 1: Intro al desarrollo
 
 Temas:
 
@@ -171,6 +171,7 @@ Temas:
 
 - Herramientas de desarrollo.
 
+---
 ---
 
 ## :star: ¿ Como funciona la web ?
@@ -251,13 +252,17 @@ Luego, que lo que hizo fue separar el diseño de la página (colores, fuentes, e
 
 De esta forma, se puede crear un fichero adicional que sólo tenga el estilo o diseño de la página.
 
+
+---
 ---
 
-## Internet
+
+## :star: Internet
 
 Gran red de computadores conetados globalmente
 
-## Web 
+
+### Web 
 
 Solo una de las maneras en que puede fuir la información. La web está contruida sobre internet.  
 
@@ -284,8 +289,10 @@ las aplicaciones webs.
 
 **TSP/IP** : mensaje 200 ok, porque se aprobo el envio del paquete, el servidor envia los archivos en pequeños paquetes de datos y el navegador armará el sitio web completo.
 
+
 ---
 ---
+
 
 ## :star: Funcionamiento de los navegadores
 
@@ -379,7 +386,7 @@ La web tiene tres pilares básicos y más relevantes sobre los que se soporta la
 
 ---
 
-## Motores de Renderizado
+## :star: Motores de Renderizado
 
 
 Los navegadores Web o browsers son programas o aplicaciones complejas encargadas de hacer peticiones a los servidores y de mostrar o renderizar los archivos recibidos. Para llevar a cabo este proceso, los browsers están estructurados a partir de varios componentes, donde el motor de renderización es tal vez el más importante.
@@ -418,7 +425,8 @@ Es importante saber que debido a los distintos motores de renderizado, y a pesar
 ---
 ---
 
-# :star:  Unidad 2: Metodologías de desarrollo
+# :book:  Unidad 2: Metodologías de desarrollo
+
 
 Temas:
 
@@ -434,9 +442,13 @@ Temas:
 
 - Plataformas de planificación y seguimiento
 
+
+---
 ---
 
-# :star:  Unidad 3: Conceptos de desarrollo Web
+
+# :book:  Unidad 3: Conceptos de desarrollo Web
+
 
 Temas:
 
@@ -466,5 +478,8 @@ Temas:
 
 - Hosting
 
+
+
+---
 ---
 
