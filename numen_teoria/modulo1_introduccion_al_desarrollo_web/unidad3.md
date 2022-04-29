@@ -1208,4 +1208,83 @@ De ésta manera tenemos soporte completo para todo tipo de dispositivos.
 ---
 ---
 
-## :star: 
+## :star: Etiqueta audio
+
+Al igual que la etiqueta video, es posible insertar audio a nuestras páginas web. 
+
+En éste caso utilizaremos la etiqueta <audio> que funciona exactamente igual que  ```<video>```, pero en relación a archivos de audio. 
+
+Ésta etiqueta tiene varios atributos que podemos utilizar: 
+
+- ```src=”direccion_url”```: Audio que va a reproducirse. 
+
+
+- ```preload=”auto | metadata | none”```: Indica como realizar la precarga del audio. ∙ mediagroup=”nombre”: Establece un nombre para un grupo de contenidos  multimedia. 
+
+
+-``` autoplay=”boolean”```: Comienza a reproducir el audio automáticamente. ∙ muted=”boolean”: Muestra los controles de reproducción.  
+
+
+-``` controls=”boolean”```: Muestra los controles de reproducción 
+
+
+-``` loop=”boolean”```: Vuelve a iniciar el audio cuando finaliza su reproducción. Ejemplo de cómo utilizar la etiqueta audio: 
+
+```<audio src=“audio.mp3”></audio> ```
+
+Sin embargo aún no va reproducir ningún sonido. Podemos agregarle el atributo controls para que muestre los controles y el usuario pueda darle play. 
+
+Otros ejemplos básicos: 
+
+```
+<audio src=“audio.mp3″ preload=”none” controls ></audio> 
+<audio src=”audio.ogg” autoplay loop ></audio> 
+```
+En el primer ejemplo, cargamos un audio en formato MP3, pero indicamos que no  precargue nada. Empezará a descargarse solo cuando el usuario pulse en los controles de  reproducción. Este escenario puede ser interesante para evitar consumo de ancho de  banda de archivos que es probable que el usuario no escuche o en dispositivos móviles  donde las tarifas de datos son costosas. 
+
+Por otro lado, el segundo ejemplo, carga un archivo de audio en formato OGG y lo  reproduce automáticamente y en bucle, de modo que vuelve a empezar cuando termina.
+
+### Formatos de audio 
+
+Los archivos de audio están codificados mediante un codec específico, y es importante  conocer estos detalles para saber que formatos están soportados por los diferentes  navegadores. 
+
+Éste es un listado de los formatos o codecs de audio más conocidos y utilizados: 
+
+- MP3 (MPEG Layer-3) tiene buena calidad y soporte. 
+
+- ACC (Advanced Audio Coding) Mejora el MP3. Usado como audio en MP4, tiene  buen soporte. 
+
+- OGG (Ogg Vorbis) Buena calidad. Alternativa a MP3, soporte medio. ∙ Opus (Opus) Buena calidad. Alternativa a MP3, soporte medio. 
+
+- FLAC (FLAC Audio Lossless) Compresión sin pérdidas. Alto tamaño. Buen soporte. ∙ WAV (Wave sound) Formato de Microsoft. Está soportado pero es muy pesado. 
+
+
+### Audio (Avanzado) 
+
+También la etiqueta <audio> puede activar como etiqueta contenedora e incluir varias etiquetas HTML para tener capacidades adicionales. 
+
+- ```<source>``` Tiene los atributos src y type. Establece un archivo de audio o lo añade  como alternativa 
+
+- ```<track> ```Tiene los atributos src, srclang, label, kind, default. Establece un archivo de  subtítulos o lo añade como alternativa. 
+
+De esta forma, pasamos de un esquema donde solo usabamos una etiqueta ```<audio> ```a  otro un poco más avanzado, donde <audio> contiene múltiples etiquetas que actúan  sobre ese audio en cuestión.
+
+### Audio Alternativo (fallback) 
+
+Si utilizamos la etiqueta ```<audio> ```como etiqueta contenedora, podemos incluir etiquetas  <source> en su interior para proporcionar formatos alternativos y tener mayor  compatibilidad con otros navegadores y navegadores antiguos que no soporten HTML5. 
+
+```
+<audio> 
+ <source src=”audio.opus” /> 
+ <source src=”audio.ogg” /> 
+ <source src=”audio.mp3″ /> 
+</audio> 
+```
+
+En éste ejemplo, el navegador intentará reproducir el archivo de audio den formato Opus,  en caso de no estar soportado por el navegador, intentará reproducir el formato Ogg  Vorbis, y en caso de tampoco soportarlo, reproducirá el formato MP3.
+
+
+---
+---
+
+## :star:
