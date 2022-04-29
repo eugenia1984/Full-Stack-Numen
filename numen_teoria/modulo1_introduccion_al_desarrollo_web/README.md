@@ -991,4 +991,56 @@ La prioridad principal del motor es mostrar los resultados de la manera más rá
 ---
 ---
 
+## :star: Estructura de un Documento Base
+
+
+¡Hola! Aprenderemos la estructura básica de un documento HTML.
+
+Un HTML debe tener:
+
+El identificador del documento.
+
+La etiqueta ```<html>``` que encierra a dos partes ```<head>``` y ```<body>```.
+
+Comencemos con un ejemplo básico e iremos explicando cada parte:
+
+```
+1.<!DOCTYPE html>
+2.   <html>
+3.     <head>
+4.     <meta charset="UTF-8">
+5.     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+6.     <title>Ejemplo</title>
+7.    </head>
+8.    <body>
+9.      ¡Bienvenido!
+10.   </body>
+11.  </html>
+``` 
+
+Comenzamos con la **línea 1** que indica que lo que sigue es un documento HTML.
+
+Luego viene la etiqueta ```<html>``` que abre en la **línea 2** y cierra en **la línea 11**.
+
+Dentro de ```<html>``` se tiene una estructura básica compuesta por dos partes; de un lado está el **head o cabecera**, y de otro, el **body o cuerpo**.
+
+Con la etiqueta ```<head>``` agregamos información para los navegadores, y con la etiqueta  <body> escribimos el contenido del documento HTML que será nuestra página web.
+
+En la cabecera se utilizan etiquetas tipo meta, las cuales profundizaremos más adelante. Por ahora, utilizaremos dos etiquetas que harán parte de la estructura básica.
+
+Para que los caracteres especiales que existen en los diferentes idiomas sean renderizados de una manera estandar por el navegador, usamos el conjunto de caracteres: UTF-8 y eso lo indicamos con la **línea 4**.
+
+Para adaptar visualmente nuestra página a cualquier dispositivo, utilizamos la etiqueta <meta> con viewport indicada por la **línea 5**. El *viewport* es el área de la página Web visible para el usuario.  Cuando escribimos ```width=device-width``` le decimos al viewport que sea igual al ancho de la pantalla del dispositivo donde se está cargando el archivo.
+
+Utilizamos la etiqueta ```<title>``` para asignar el título que aparecerá en la pestaña del navegador.  Indicado en la **línea 6**.
+
+Ya hemos construido el encabezado del nuestro documento base. Ahora, vamos a ocuparnos del cuerpo. Entre el ```<body>``` y ```</body>``` agregaremos todas las etiquetas necesarias, de acuerdo a las necesidades de la página que estamos construyendo.
+
+Para el documento base colocamos como contenido lo que está en la **línea 9**.
+
+
+
+---
+---
+
 ## :star:
