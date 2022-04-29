@@ -122,4 +122,6 @@ Temas:
 
 - Páginas de GitHub
 
+[aca se puede ver la teoria](https://github.com/eugenia1984/Full-Stack-Numen/blob/main/numen_teoria/modulo2_html_css_bootstrap_sass_git/unidad6_git.md)
+
 ---

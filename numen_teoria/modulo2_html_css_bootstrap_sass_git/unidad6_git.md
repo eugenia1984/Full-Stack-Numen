@@ -1,4 +1,4 @@
-## :star: Unidad 6: GIT
+## :book:  Unidad 6: GIT
 
 Temas:
 
@@ -14,11 +14,12 @@ Temas:
 
 ---
 
-# Qué es GitHub?
+# :star:  Qué es GitHub?
 
 Es una **red para almacenar tus repositorios**, sería **un repositorio de repositorios**. Es uno de los tantos disponibles en internet, y el más popular. GitHub **NO es lo mismo que Git**, aunque funcionen muy bien juntos. Github es **un lugar donde puedes compartir tu codigós** o **encontrar otros proyectos**. También actúa como **portfolio** para cualquier código en el que hayas trabajado.
 
-## Comenzando
+
+## :star: Comenzando
 
 Para comenzar debes crearte una cuenta en  [https://github.com/](https://github.com/)
 
@@ -50,3 +51,5 @@ El botón verde que dice **Code** es importante, si clickean ahí van a poder **
 Arriba a la derecha tienen tres botones:
 
 El primero de ellos **Watch** nos permite seguir un repositorio y con **Star** podemos marcar como favorito un repo que nos guste.
+
+---
