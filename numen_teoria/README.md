@@ -6,7 +6,7 @@
 - [**Módulo 2 |  HTML, CSS, Bootstrap SASS y GIT**](https://github.com/eugenia1984/Full-Stack-Numen/tree/main/numen_teoria/modulo2_html_css_bootstrap_sass_git) : En este módulo, aprenderás a estructurar un sitio web mediante HTML y a aplicar los estilos y capas visuales mediante CSS.
 
 
-- [**Módulo 3 | Javascript**[(https://github.com/eugenia1984/Full-Stack-Numen/tree/main/numen_teoria/modulo3_javascript) : El front-end de un sitio web es la parte donde los usuarios interactúan. Los desarrolladores front-end son responsables por crear la interfaz visual sobre la cuál los usuarios experimentan un producto. Principalmente lo hacen a través de HTML (para definir la estructura de los elementos), CSS
+- [**Módulo 3 | Javascript**](https://github.com/eugenia1984/Full-Stack-Numen/tree/main/numen_teoria/modulo3_javascript) : El front-end de un sitio web es la parte donde los usuarios interactúan. Los desarrolladores front-end son responsables por crear la interfaz visual sobre la cuál los usuarios experimentan un producto. Principalmente lo hacen a través de HTML (para definir la estructura de los elementos), CSS
 (para definir los estilos) y Javascript (para crear interacción y lógica).
 
 
