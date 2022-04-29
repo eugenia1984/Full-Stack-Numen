@@ -1364,19 +1364,19 @@ Te mostramos algunas entidades HTML útiles. Como puedes observar en la tabla si
 
 | Caracter | Código de la Entidad | Nombre de la Entidad |
 | -------- | -------------------- | -------------------- |
-| á |	&#224; | &aacute; |
-| é |	&#233; |	&eacute; |
-| í |	&#237; | &iacute; |
-| ó |	&#243; |	&oacute; |
-| ú |	&#250; |	&uacute; |
-| < |	&#60; |	&lt; |
-| > |	&#62; |	&gt; |
-| @ |	&#64; |	 |
-| & |	&#38; |	&amp; |
-| $ |	&#36; | 	 |
-| € |	&#8364; |	&euro; |
-| “ |	&#34; |	&quot; |
-| Π |	&#928; |	&Pi; |
+| á |	 ```&#224; ``` |  ```&aacute; ``` |
+| é |	 ```&#233; ``` |	 ```&eacute; ``` |
+| í |	 ```&#237; ``` |  ```&iacute; ``` |
+| ó |	 ```&#243; ``` |	 ```&oacute;  ```|
+| ú |	 ```&#250; ``` |	 ```&uacute;  ```|
+| < |	 ```&#60; ``` |	 ```&lt; ``` |
+| > |	 ```&#62; ``` |	 ```&gt; ``` |
+| @ |	 ```&#64; ``` |	- |
+| & |	 ```&#38 ```; |	 ```&amp; ``` |
+| $ |	 ```&#36; ``` | -	 |
+| € |	 ```&#8364; ``` |	 ```&euro; ``` |
+| “ |	 ```&#34; ``` |	 ```&quot; ``` |
+| Π |	 ```&#928; ``` |	 ```&Pi; ``` |
  
 
 El siguiente código HTML es un ejemplo del uso de las entidades HTML:
