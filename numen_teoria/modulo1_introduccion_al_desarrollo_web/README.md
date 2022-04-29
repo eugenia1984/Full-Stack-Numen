@@ -1341,4 +1341,61 @@ La etiqueta ```<mark>``` sirve para resaltar una palabra o frase.
 ---
 ---
 
+## :star:  Entidades HTML
+
+La representación de los símbolos especiales es un problema en muchos lenguajes de programación. Un símbolo especial puede ser un arroba (@), usado en los correos electrónico o un símbolo de dólar ($), empleado para distinguir una moneda específica, entre muchos tantos ejemplos.  En el caso de HTML, existen las **entidades** las cuales son estructuras que proporcionan una forma de representar estos símbolos.
+
+ 
+
+Hay **dos maneras de codificar una entidad HTML**:
+
+- La primera es a través del uso del  ampersand(&) seguido del código o nombre de la entidad y terminado en un punto y coma. 
+
+- La segunda es usando el ampersand (&), a continuación el numeral (#) y seguidamente el código o nombre de la entidad y terminado en punto y coma. En resumen, una entidad se estructura usando cualquiera de las siguientes formas:
+
+ ```&nombre_entidad; ```
+
+ ```&#número_entidad; ```
+ 
+
+Te mostramos algunas entidades HTML útiles. Como puedes observar en la tabla siguiente se puede utilizar el número de la entidad (código de la entidad) o el nombre de la entidad.
+
+ 
+
+| Caracter | Código de la Entidad | Nombre de la Entidad |
+| -------- | -------------------- | -------------------- |
+| á |	&#224; | &aacute; |
+| é |	&#233; |	&eacute; |
+| í |	&#237; | &iacute; |
+| ó |	&#243; |	&oacute; |
+| ú |	&#250; |	&uacute; |
+| < |	&#60; |	&lt; |
+| > |	&#62; |	&gt; |
+| @ |	&#64; |	 |
+| & |	&#38; |	&amp; |
+| $ |	&#36; | 	 |
+| € |	&#8364; |	&euro; |
+| “ |	&#34; |	&quot; |
+| Π |	&#928; |	&Pi; |
+ 
+
+El siguiente código HTML es un ejemplo del uso de las entidades HTML:
+ ```
+<p>Esta bicicleta tiene un costo de &dolar;40</p>
+<p>Nuestro corres electr&oacute;nico:test&#64;test.com</p>
+ ```
+Que se desplegará como:
+
+ ```
+Esta bicicleta tiene un costo de $40
+Este es mi correo electrónico: test@test.com
+ ```
+
+ 
+
+
+---
+---
+
 ## :star: 
+
