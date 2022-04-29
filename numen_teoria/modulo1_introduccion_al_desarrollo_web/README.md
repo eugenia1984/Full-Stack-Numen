@@ -751,3 +751,244 @@ Ejemplo de código CSS para poner de color rojo el elemento que está dentro del
 ---
 ---
 
+
+## :star: Dominio y Hosting
+
+
+## Concepto básico 
+
+Hosting es el espacio de almacenamiento donde se alojan los archivos que componen tu sitio web, y el dominio es el nombre con el que tus visitantes accederán a él. 
+
+Ejemplo: www.google.com.ar 
+
+
+## ¿Qué es un nombre de dominio? 
+
+El nombre de dominio es la dirección de tu sitio web, que las personas escriben en la barra de direcciones del navegador para visitar tu sitio web. 
+
+Internet es una red gigante de computadoras, servidores y dispositivos conectados entre sí a través de cables y redes inalámbricas, y para identificarlos fácilmente, a cada dispositivo se le asigna una serie de números llamados direcciones IP. 
+
+Esta dirección IP, es una combinación de números separados por puntos, o por doble punto (depende de la tecnología utilizada por tu proveedor de Internet) y por lo general lucen de esta manera: 
+
+● 80.51.40 si se trata de una dirección IPV4. 
+
+● 2001:0DB8::1428:57AB si se trata de una dirección IPV6. 
+
+Las computadoras, servidores y los dispositivos electrónicos no tienen problemas para identificar, recordar y guardar estos números, pero sería casi imposible para un humano retener en su mente y usar estos números para conectarse a cada sitio en Internet. 
+
+Para resolver este problema, se inventaron los nombres de dominio, de forma de ponerle un nombre amigable y recordable a cada página web. 
+
+Su funcionamiento se basa en traducir el nombre ingresado a una dirección IP para visitar un sitio web almacenado en tal o cual servidor.
+
+
+## ¿Qué es un servicio de hosting? 
+
+El hosting, web hosting o el alojamiento web es el lugar donde viven todos los archivos y contenidos que componen tu página web. 
+
+Cuando alguien ingresa tu dirección web en un navegador, el nombre de dominio se traduce a la dirección IP del servidor de la empresa de hosting o alojamiento web donde el sitio está almacenado. Este servidor (o supercomputadora) contiene los archivos de tu sitio web y los envía a los navegadores de los usuarios cuando estos acceden. 
+
+Las empresas de hosting o alojamiento web se especializan en almacenar y servir sitios web. Ofrecen diferentes tipos de hosting y planes de alojamiento a sus clientes. 
+
+
+## ¿Cómo se relacionan los nombres de dominio y el hosting o alojamiento web? 
+
+Los nombres de dominio y el alojamiento web son dos servicios diferentes, pero uno no puede vivir sin el otro y trabajan juntos para hacer posible un sitio web. Un sitio web no existe sin un nombre de dominio, ni tampoco sin un servicio de hosting. 
+
+¿Cómo sabe el dominio que debe ir a buscar tales o cuáles archivos de un sitio web a un servidor de hosting en particular? Aquí entra en juego lo que se llama DNS: el encargado de informar al dominio dónde ir a buscar la información. 
+
+
+## ¿Cómo funciona el hosting o alojamiento web? 
+
+El hosting o alojamiento de páginas web entra en juego cuando los archivos que componen un sitio web se cargan desde el servidor al pedir una página web por navegador. Los recursos del servidor (procesador, memoria RAM, espacio en su disco duro y ancho de banda) se asignan a los sitios web que lo utilizan de acuerdo a lo incluido en tu paquete de hosting. La división de los recursos del servidor varía según el tipo de plan de alojamiento elegido. Para elegir el plan de alojamiento apropiado, primero debes diferenciar entre los planes y tipo disponibles en tu proveedor.
+
+
+## Tipos de hosting web 
+
+Si tu sitio web es el de una pequeña o mediana empresa, normalmente basta un hosting compartido o un hosting especializado en el CMS que vas a utilizar. Si en cambio prevés muchos miles de visitas diarias, un sitio con muchas páginas o vas a usar una aplicación web muy compleja, mejor opta por otro tipo de hosting más exclusivo. 
+
+Para delimitar el tipo de hosting que necesitas, primero piensa cómo de grande quieres que sea tu proyecto web, y cuáles son tus conocimientos técnicos para enfrentarte a cuestiones como su administración. Dependiendo de estos dos aspectos, puedes elegir el hosting más adecuado a tus necesidades y a tu presupuesto económico. 
+
+
+## ¿Cómo elegir un buen hosting o alojamiento web? 
+
+Para escoger al mejor proveedor de hosting debes tener en cuenta tus necesidades y analizar qué ofrecen las compañías de alojamiento web. Recuerda que en muchas ocasiones “lo barato sale caro”, por lo que la mejor opción será realizar una comparativa de lo que ofrecen las empresas por el mismo servicio. 
+
+Algunas de las variables que debes tener en cuenta son las siguientes: 
+
+● Comentarios y reviews positivas: Las opiniones públicas positivas de los clientes de un servicio de hosting son las que aportan mayor credibilidad y es una manera fiable de comprobar si el proveedor cumple o no sus promesas. 
+
+● Servicio de atención al cliente en tu idioma: La atención al cliente debe ser 24/7, es decir, veinticuatro horas durante los siete días de la semana. Trata de buscar un proveedor que te atienda en español, y que tenga atención telefónica para dudas urgentes. 
+
+● Métodos de pago: Si vas a pagar por tu servicio de hosting, pues que sea cómodo para ti. Fíjate bien en los métodos de pago disponibles y comprueba que se ajusten a tu ubicación geográfica. Recuerda que en algunos países de América latina en ocasiones hay problemas con las tarjetas de crédito como pasarelas de pago si es que el proveedor no tiene bien dominado este asunto. 
+
+● Precios: Los precios son muy importantes y es fundamental que elijas un proveedor que ofrezca una buena relación calidad-precio, pero también ten en cuenta que la calidad tiene su precio.
+
+
+
+---
+---
+
+## :star: Intro pre-procesadores (SASS)
+
+
+## ¿Qué es un preprocesador? 
+
+En pocas palabras, un preprocesador te permite escribir CSS en un idioma alternativo (es muy parecido al CSS nativo) y ofrece algunas características avanzadas como variables, funciones y la posibilidad de incluir archivos. En resumen, te ayudan a escribir de manera más simple para organizar mejor tu código, evitando al mismo tiempo las repeticiones. Una vez que el código CSS esté escrito en este nuevo idioma, se compilará para volver a transformarse en CSS nativo, el único que los navegadores web pueden entender. Esta característica de los preprocesadores es clave: aportan nuevas formas de escribir código a través de un idioma alternativo pero, en última instancia, el código enviado al navegador sigue siendo CSS nativo. Los preprocesadores no aportan nuevas funciones a CSS, pero lo hacen más eficiente. 
+
+
+
+## ¿Qué es SASS? 
+
+Sass (Syntactically Awesome StyleSheets) es una extensión de CSS que agrega potencia y elegancia al lenguaje básico, como lo describe Sass en su documentación. Se trata de un procesador de hojas de estilos dinámico e introductorio a conceptos de la programación como las variables, funciones, iteradores, bucles, condicionales, entre otros. 
+
+Sass trabaja escribiendo sus estilos en archivos .scss (o .sass), donde se compila en un archivo CSS normal. El archivo CSS recién compilado es lo que se carga en el navegador para darle un nuevo estilo a su sitio web. 
+
+
+## ¿Qué se puede hacer con SASS? 
+
+
+**Variables**: Tal y como se hace en muchos lenguajes de programación, podemos almacenar información en una variable. Posteriormente, podemos reutilizar esta información a través de las diferentes hojas de estilos. 
+
+Dentro de esta variable podemos almacenar valores hexadecimal, números, pixeles, cadena de caracteres, booleanos, listas, mapas, entre otros. Esta es una ventaja, ya que asignamos el valor de un color en una variable al principio de un archivo y luego usamos esta variable cuando configuramos el color de nuestros elementos. Esto permite cambiar rápidamente los colores sin tener que modificar cada línea.
+
+
+**Anidado**: Nos permite anidar los selectores CSS imitando la jerarquía visual de HTML. Además, nos permite agrupar los estilos en componentes y asegurarnos de que sea mucho más fácil de leer. También, nos ayuda a reducir la cantidad de código que necesitamos escribir y mejorar la legibilidad. 
+
+
+**Parciales**: Nos permite tener trozos de códigos para luego incluirlos en otros archivos sass. Los archivos parciales están considerados por sass con solo añadir un subrayado al comienzo de su nombre. Por ejemplo: _reseter.scss o _variables.scss. 
+
+
+**Importaciones**: El uso de @import nos permite importar archivos parciales en el archivo actual construyendo un único archivo CSS. El @import es diferente en sass que en CSS, ya que en una hoja de estilos CSS, se realiza una nueva llamada al servidor para cargar otra hoja de estilo y esperar a que se cargue para aplicar los nuevos estilos. En sass es diferente, ya que la importación en un archivo .scss o .sass se produce durante la compilación. Además, no tenemos por qué poner la extensión del archivo. 
+
+
+**Mixins**: Un Mixin es un bloque de código que nos permite agrupar las declaraciones de CSS que podemos reutilizar en nuestro sitio. La gran ventaja de los mixins está en que podemos pasar argumentos, los cuales se declaran como una lista de variables dentro de un paréntesis. A cada una de estas variables se le asigna un valor cada vez que se usa el mixin. De esta forma, no se genera un código repetido cada vez que lo usemos, ya que gracias a los argumentos podemos obtener un código singular para cada caso. 
+
+
+**Herencia / Extend**: Se trata de una característica que permite que los selectores puedan heredar los estilos de otros selectores. De esa forma, no tenemos que repetir códigos, haciendo el trabajo más rápido, eficiente y fácil de mantener. Se pueden compartir las propiedades de un selector a otro usando @extend. 
+
+
+**Operadores**: Sass nos permite crear rápidamente cálculos matemáticos en nuestra hoja de estilos, donde por ejemplo, podremos convertir valores pixel a porcentajes. Podemos usar los operadores más comunes como suma, resta, multiplicación y división.
+
+
+---
+---
+
+## :star: Renderización de HMTL
+
+
+### ¿Cómo se renderiza el HTML?
+ 
+
+El renderizado de un documento HTML es el proceso que realiza el **motor de render** de los navegadores Web.
+
+Antes de explicarte cómo funciona este proceso en el navegador, debemos saber:
+
+ 
+
+### ¿Qué es el DOM? y ¿Qué es el DOCTYPE?
+
+Entonces **¿Qué es el DOM?**
+
+Sus siglas se refieren a **Document Object Model**, que traduce, **Modelo de Objetos del Documento**.
+
+El **DOM** es la representación de los elementos HTML en el navegador que tiene características y funcionalidades propias de HTML5 para cada etiqueta. Su estructura es tipo árbol y cada uno de los elementos representa un nodo.
+
+A través del DOM y el conjunto de funciones que provienen de HTML5, podemos manipular una página Web a nuestro gusto.
+
+ 
+```
+                         <hmtl>
+                        |      |
+                    <head>     <body>
+                   |     |      |    
+             <title> <link>     <p>
+              |                 | |
+            Titulo       Texto en <b>
+                                   |
+                                  negrita
+```
+
+
+ 
+
+Siempre que vamos a crear un documento HTML debemos saber que existen un conjunto de etiquetas obligatorias para la creación de una página Web.
+
+ 
+
+**DOCTYPE**, es la primera etiqueta obligatoria que da inicio a un documento HTML indicando al navegador la versión HTML que vamos a utilizar para la creación de nuestra página Web.
+
+Esta etiqueta se utiliza luego de la aparición de la versión 2.0 como un recurso para que el motor de render identifique el tipo de versión que debe capturar durante el proceso.
+
+DOCTYPE ha evolucionado en la forma como se declara en cada versión. Veamos:
+
+ 
+
+**HTML5**: ```<! DOCTYPE html>```
+
+ 
+
+**HTML4**: ```<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">```
+
+ 
+
+**HTML3**: ```<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">```
+
+ 
+
+**HTML2**: ```<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">```
+
+ 
+
+Recuerda que la versión de HTML que vamos a usar en este curso es HTML5, por lo tanto el único DOCTYPE válido es:
+
+ 
+
+**HTML5**: ```<! DOCTYPE html>```
+ 
+
+Ahora, retomemos el proceso que realiza el motor del navegador para renderizar el documento HTML.
+
+Para comenzar, este proceso se realiza de forma incremental, es decir el motor comienza a leer el documento en línea iniciando en la parte superior hacia la inferior.
+
+```HTML
+<!DOCTYPE html>
+<html>
+   <head>
+     <meta charset="utf-8">
+     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+     <title> Mi primera página Web</title>
+   </head>
+   <body>
+     <h1>¡Hola Mundo!, esto es HTML</h1>
+   </body>
+</html>
+```
+
+
+```
+              HTML
+             |   |
+          HEAD   BODY
+         |   |      |
+     TITLE  META    H1
+            |  |
+     viewport charset
+```
+
+La primera etiqueta que encuentra es el DOCTYPE que indica al motor el tipo de versión del documento HTML.
+
+A continuación siguen las etiquetas semánticas que representan los elementos del documento. Este proceso se conoce como Parsear el HTML a Nodos DOM. En el mundo de la informática, parsear se refiere a la conversión de un elemento de un tipo a otro.  En el contexto del HTML significa convertir una marca o etiqueta a un nodo tipo DOM.
+
+Cuando el motor de render se encuentra con el símbolo de apertura de una etiqueta, es decir, menor que (<), comprende que el paso siguiente es leer la etiqueta específica, y luego, el símbolo de cierre barra inclinada mayor que (/>). Una vez lee la etiqueta  completa procede a Parsear y agregar el nodo al Árbol DOM.
+
+Los símbolos de apertura y cierre son las etiquetas obligatorias que indican al motor del navegador qué elementos son HTML y cuáles no. Aquellos que no son parte del lenguaje HTML son ignorados por el motor.
+
+La prioridad principal del motor es mostrar los resultados de la manera más rápida posible. Así funciona el proceso que realiza el navegador al momento de interpretar nuestro documento HTML, y entregarnos el resultado final: nuestra página Web.
+
+
+
+
+---
+---
+
+## :star:
