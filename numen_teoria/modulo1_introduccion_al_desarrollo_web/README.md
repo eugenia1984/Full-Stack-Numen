@@ -2,88 +2,23 @@
 
 Temas:
 
-- Intro al desarrollo web (Antes de iniciar):
+- Intro al desarrollo web (Antes de iniciar): Orígenes de la programación : ¿Qué es la programación? , ¿Qué es un lenguaje de Programación?
 
-
-Orígenes de la programación : ¿Qué es la programación? , ¿Qué es un lenguaje de Programación?
-
-- Debugging
-
-¿De dónde surgieron los términos bug y debug? , ¿Para qué sirve el debug?, ¿Cuál es la importancia del Debug? 
+- Debugging: ¿De dónde surgieron los términos bug y debug? , ¿Para qué sirve el debug?, ¿Cuál es la importancia del Debug? 
 
 - Glosario desarrollo web
 
 - ¿Cuál es la importancia del Debug?
 
-- Unidad 1 : Intro al desarrollo web
-
-Entorno
-
-Internet, Web y Cliente - Servidor
-
-Front-end
-
-Sitios web estáticos y dinámicos
-
-Aplicaciones web
-
-Desarrollo
-
-Programación
-
-Lenguajes de la web
-
-Programación lógica
-
-Maquetado
-
-Estilado
-
-Herramientas de desarrollo
+- Unidad 1 : Intro al desarrollo web: Entorno, Internet, Web y Cliente - Servidor, Front-end, Sitios web estáticos y dinámicos, Aplicaciones web, 
+Desarrollo, Programación, Lenguajes de la web, Programación lógica, Maquetado, Estilado, Herramientas de desarrollo
 
 
-- Unidad 2: Metodologías de desarrollo
-
- Repositorios
-
- Cloud
-
- Uso de Github
-
- Metodologías de trabajo ágiles
-
- Metodología Scrum
-
- Plataformas de planificación y seguimiento
+- Unidad 2: Metodologías de desarrollo:  Repositorios,  Cloud,  Uso de Github,  Metodologías de trabajo ágiles,  Metodología Scrum,  Plataformas de planificación y seguimiento
 
 
--  Unidad 3: Conceptos de desarrollo Web
+-  Unidad 3: Conceptos de desarrollo Web: Prototipados y conceptos de HTML, Box modeling (posicionamiento y visualización), FlexBox, Grids y Mobile First, Animaciones, Primeros pasos al HTML, CSS (Multimedia, bases del scc y atributos), Sintaxis CSS, Integración CSS con HTML, Intro a Pre-procesadores (SASS), Subida de sitios al servidor, Dominios, Hosting
 
-Prototipados y conceptos de HTML
-
-Box modeling (posicionamiento y visualización)
-
-FlexBox
-
-Grids y Mobile First
-
-Animaciones
-
-Primeros pasos al HTML
-
-CSS (Multimedia, bases del scc y atributos)
-
-Sintaxis CSS
-
-Integración CSS con HTML
-
-Intro a Pre-procesadores (SASS)
-
-Subida de sitios al servidor
-
-Dominios
-
-Hosting
 ---
 ---
 
