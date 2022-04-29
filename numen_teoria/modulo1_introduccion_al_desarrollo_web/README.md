@@ -479,6 +479,274 @@ Temas:
 - Hosting
 
 
+## :star: Bases de CSS
+
+
+### ¿Qué significa CSS? 
+
+CSS, por sus siglas en inglés (**Cascading Style Sheets**) “hojas de estilo en cascada” es el lenguaje que define el estilo de los elementos en un documento HTML, por lo tanto es la manera con la cual vamos a manipular el diseño de nuestra página. 
+
+El término cascada hace referencia a la manera en la que CSS trabaja, porque aplica los estilos sobre otros. 
+
+Con CSS seleccionaremos el elemento HTML que queremos maquetar o darle estilo, luego escribiremos las instrucciones o declaraciones para definir las propiedades, características o estilos de dicho elemento, estas propiedades lo definiremos mediante un valor. 
+
+Ejemplo: imaginemos que queremos dar un color de fondo verde a un elemento de párrafo. Para eso tenemos que hacer lo siguiente: 
+
+- Seleccionamos el párrafo. 
+
+- Definimos la propiedad, en este caso el color de fondo (background-color). ● Definimos el valor para la propiedad especificada, en este caso el valor será el color verde (green). 
+
+La sintaxis se vería de la siguiente manera: 
+
+```CSS
+p { 
+
+   background-color: green; 
+
+} 
+```
+
+
+Nótese la sintaxis, las **llaves**, los **dos puntos**, el **punto y coma** son signos importantes ya que forman parte de la sintaxis o forma de escribir código CSS. 
+
+Existen muchas propiedades como: color, alineación, tamaño, tipo de letra, bordes, tipos de borde, márgenes, etc. 
+
+También están los valores para dichas propiedades como por ejemplo para alineación puede ser a la izquierda, al centro, a la derecha, para tipo de letra puede ser: Helvética, Verdana, Lato, etc.
+
+
+### Integración de CSS con HTML 
+
+
+#### ¿Cómo se puede utilizar CSS? 
+
+Existen tres formas bastante conocidas de emplear CSS para maquetar una página HTML y son las siguientes: 
+
+- Aplicar CSS en línea HTML mediante atributos. 
+
+- Incrustar el código CSS en una etiqueta <style> dentro del documento HTML. ● Crear un documento CSS externo. 
+
+- CSS en línea empleando un atributo 
+
+Esta forma de utilizar CSS es la más básica y muy conocida, básicamente consiste en indicar los estilos de un elemento HTML dentro de su etiqueta de apertura. 
+
+Ejemplo: 
+
+```<p style=”color: red;”> Academia Numen – Introducción a CSS </p> ```
+
+Y se vería de la siguiente manera: 
+
+
+De esta manera se aplica un estilo determinado sólo al elemento de la etiqueta, en este caso color de letra para el párrafo será rojo. 
+
+### CSS incrustado en el documento HTML 
+
+Ésta es otra de las maneras de usar CSS, simplemente insertamos el código dentro del documento HTML de tal manera que los estilos que deseamos aplicar afectarán no solo a un elemento, sino que afectará a toda la página entera. 
+
+```
+<style> 
+
+/* Aquí irá todo el código CSS*/ 
+
+</style> 
+```
+
+La etiqueta <style> contiene el código CSS que se desea aplicar al documento HTML. <style> Debe ser insertado dentro de la etiqueta <head> del documento para que funcione correctamente.
+
+Ejemplo de un código CSS insertado en el documento HTML: 
+
+```HTML
+<html> 
+   <head> 
+       <title>Numen CSS</title> 
+       <style> 
+           p { color: red; } 
+       </style> 
+   </head> 
+   <body> 
+       <p>Párrafo de prueba</p> 
+   </body> 
+</html> 
+```
+
+
+## CSS en un documento CSS externo 
+
+Ésta es la forma más recomendable de aplicar estilos CSS a nuestro documento HTML. Consiste en crear un archivo de CSS además de nuestro archivo .html y guardarlo con la extensión .css, por ejemplo: estilos.css 
+
+- En el archivo estilos.css se encuentran todos los códigos CSS que determinarán el estilo de todos los elementos HTML que se desean. 
+
+- Desde un documento HTML llamaremos al archivo estilos.css para que se haga presente y aplique los estilos que hemos escrito en dicho archivo CSS. 
+
+- Para realizar la invocación, emplearemos la etiqueta <link> dentro de la etiqueta <head> del documento HTML y mediante el atributo rel y href invocamos al documento CSS mediante su nombre. 
+
+
+```HTML
+<html> 
+  <head> 
+    <title>Numen CSS</title> 
+    <link rel=”stylesheet” href=”estilos.css”> 
+  </head> 
+  <body> 
+  </body> 
+</html>
+```
+
+
+
+El atributo **REL** define la relación entre el documento HTML y el documento CSS invocado, el valor StyleSheet indica que es un estilo preferido. 
+
+El atributo **href** es el que invoca al documento CSS, si el archivo se encuentra guardado en la misma carpeta que el documento HTML entonces bastaría con colocar el nombre del documento con su respectiva extensión como en el ejemplo href=“estilos.css”. 
+
+Si el archivo CSS se encuentra guardado en otra carpeta, entonces hay que especificar la dirección URL donde está ubicada.
+
+---
+
+## Sintaxis CSS 
+
+
+
+### ¿Qué es la sintaxis CSS? 
+
+Cuando utilizamos estilos en un elemento HTML se deben establecer algunas reglas de estilos las cuales van a aplicarse a dicho elemento. En un documento HTML existen distintos tipos de elementos como textos, multimedia, formularios, links, listas, etc. Todos éstos elementos pueden poseer un estilo. 
+
+Se considera sintaxis al orden y relación de los elementos que componen una correcta instrucción CSS así como las funciones que cumplen. Un documento CSS contiene todas las reglas establecidas para cada elemento HTML. 
+
+
+### ¿Qué es una regla CSS? 
+
+Una regla CSS es la forma correcta de escribir instrucciones de código CSS, es decir, la manera en la que se debe escribir código CSS para que éste sea interpretado y aplicado correctamente en el navegador web. 
+
+Principalmente una regla CSS está formada por un sector y una declaración, dentro de la declaración se encuentran las propiedades con su respectivo valor. 
+
+- **Selector**: El selector es quien indica a qué elemento HTML se aplica el estilo. 
+
+- **Propiedad**: Es la característica que se desea definir, por ejemplo: el color. 
+
+- **Valor**: Es el valor que tomará la propiedad, por ejemplo: background: red; 
+
+- **Punto y coma (;)**: Una declaración siempre se debe terminar con un punto y coma. 
+
+
+
+Ejemplo de una regla CSS: 
+
+```CSS
+h1 { 
+color: red; 
+} 
+```
+
+
+En el ejemplo se puede identificar: 
+
+- El selector apunta a un elemento HTML, en éste caso un <h1> 
+
+- La declaración siempre está dentro de llaves y contienen la propiedad y su valor seguido por un punto y coma, en éste caso es color: red;
+
+
+### Selectores de CSS 
+
+La sintaxis siempre tiene la siguiente forma: el selector, seguido del grupo de declaraciones encerradas en llaves. 
+
+```
+Selector { 
+  grupo de declaraciones 
+} 
+```
+
+Las declaraciones tienen la siguiente forma: están formadas por la propiedad, seguido de dos puntos para continuar con un valor y cerrado con un punto y coma. 
+
+**propiedad: valor;** 
+
+
+### Ejemplo de cómo se utiliza la sintaxis CSS: 
+
+Imaginen que deseamos ponerle un color verde al subtítulo de nuestro documento HTML. La sintaxis adecuada sería: 
+
+```CSS
+h2 { 
+   color: green; 
+} 
+```
+
+- El selector siempre va antes que las declaraciones. 
+
+- Las declaraciones van dentro de llaves y se separan con un “;”
+
+
+
+### Selectores de tipo 
+
+Los selectores de tipo en CSS se refieren a los selectores que apuntan a un tipo de elemento HTML como puede ser: 
+
+- Los títulos: ```<h1> ```
+
+- Los subtítulos: ```<h2>``` , ```<h2>```, ```<h3>```, ```<h4>```, ```<h5>```, ```<h6>```
+
+- Párrafos:``` <p>``` 
+
+- Los enlaces: ```<a> ```
+
+- Tablas: ```<table> ```
+
+Por poner un ejemplo, imaginen que deseamos poner de color azul, todos los párrafos de la página. El código adecuado sería: 
+
+```css
+p { 
+  color: blue; 
+} 
+```
+
+
+## Selectores de ID y Clase 
+
+Este tipo de selectores en CSS apuntan a un elemento HTML identificado, es decir, a un elemento HTML que tenga el atributo id o class. 
+
+Ejemplo de código HTML: 
+
+```HTML
+<div id=“numen”> 
+  <h2>Academia Numen</h2> 
+  <p>Desarrollo Web</p> 
+</div> 
+```
+
+Código CSS para ponerle letras azules y un fondo de color rojo al elemento con un id: 
+
+```CSS
+#numen { 
+  color: blue; 
+  background-color: red; 
+} 
+```
+
+Tanto el selector de tipo id y class funcionan de la misma manera, la única diferencia es que para los selectores de tipo id se le escribe un signo numeral (#) y a los tipo class, un punto (.)
+
+
+### Selectores descendientes 
+
+Los selectores descendientes en CSS se utilizan para apuntar elementos que se encuentran dentro de otros elementos. De ésta manera se puede colocar un estilo específico a un item de un elemento padre (el que lo contiene) 
+
+Por ejemplo, si tenemos un elemento <span> dentro de un párrafo <p> y éste párrafo a la vez está dentro de otro <div> podríamos aplicar CSS de la siguiente manera: 
+
+Ejemplo de código HTML: 
+
+```HTML
+<div id=”contenedor“> 
+  <p class=”item“>Éste es un <span>párrafo de ejemplo</span></p> 
+  <p>Otro párrafo de ejemplo</p> 
+</div> 
+```
+
+Ejemplo de código CSS para poner de color rojo el elemento que está dentro del <span> y un fondo de color azul: 
+
+
+```CSS
+#contenedor .item span { 
+  color: red; 
+  background-color: blue; 
+}
+```
 
 ---
 ---
