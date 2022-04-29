@@ -1186,5 +1186,111 @@ Editor de código Atom: https://atom.io/
 ---
 ---
 
-## :star:
+## :star:  Etiquetas Meta
 
+Las **meta etiquetas** (también llamadas: **meta tags**) se utilizan al crear páginas en HTML o XHTML. Estas etiquetas pueden describir el contenido de un sitio web con precisión. Este elemento te permite transmitir metadatos estructurados a través de la página web. Los metadatos pueden variar dependiendo de la descripción de los atributos deseados. Las meta etiquetas se pueden utilizar para describir una página con más detalle.
+
+Un meta elemento puede utilizarse para imitar la respuesta HTTP de un encabezado o para anclar meta información adicional en el documento HTML, como el autor de un texto con una etiqueta de autor, o la forma en que los caracteres se mostrarán a través de la etiqueta de tipo de contenido.
+
+En HTML5 hay un total de **cinco atributos válidos** que están disponibles para la etiqueta meta: charset, http-equiv, nombre, esquema y contenido. El http-equiv se usa para imitar la respuesta HTTP del encabezado.
+
+Los meta tags pueden ser declarados en la cabecera del documento HTML o XHTML.
+
+
+```HTML
+<!DOCTYPE html>
+  <head> 
+    <title> Tipos de meta</title>
+    <meta charset="utf-8"/>
+    <meta name="author" content="FRancesc Ricart"/>
+    <meta name="description" content="Contenido relevante del usuario"/>
+    <meta name="keywords" content="meta obsoleto, pero no para meta etiquetas html/>
+    <meta nmae="generator" content="prestashop"/>
+    <meta name="robots" content="noindex, follow/>
+  </head>
+  <body>
+     <p>Este documento lleva informacion sobro los META </p>
+  </body>
+</html>
+
+```
+
+### Ejemplos:
+
+Las meta etiquetas se codifican generalmente en la cabecera de un documento HTML. El siguiente ejemplo muestra una meta etiqueta declarada con la descripción de los atributos, las **palabras clave** y el **contenido** con la descripción correspondiente:
+
+ ```<meta name ="description" content = "This is the description. It should be about 155 characters long.">```
+
+El motor de búsqueda recibe la descripción de esta página: “Esta es la descripción. Debe tener unos 155 caracteres”.
+
+Otro ejemplo es el contenido del atributo con el valor refresh y el contenido del atributo con el valor en segundos. Tendría el siguiente aspecto:
+
+```<meta http-equiv=”refresh” content=”100”> ```
+
+La meta etiqueta pasa la información al navegador, que recargará la página actual cada 100 segundos.
+
+
+### Atributos de meta etiqueta relevantes para los motores de búsqueda
+
+Las meta etiquetas proporcionan información valiosa sobre la página web, principalmente para ayudar a los motores de búsqueda a clasificarlas correctamente. Para los usuarios, los Meta-tags normalmente no son visibles, aunque la descripción y el título pueden ser visibles para el usuario en los SERPs.
+
+En los años 90, la tecnología de los motores de búsqueda no estaba tan avanzada como lo está hoy en día. En ese momento, los motores de búsqueda eran más dependientes de la meta información y esto fue considerado como uno de los factores de posicionamiento más influyentes. En ese momento, muchos webmasters eran fácilmente capaces de influir o incluso manipular deliberadamente los resultados de búsqueda utilizando meta tags.
+
+Debido al continuo desarrollo de los motores de búsqueda, los meta tags están perdiendo cada vez más importancia. Sin embargo, algunas de las meta etiquetas siguen siendo importantes y no deben descuidarse (como la etiqueta robots, la etiqueta title).
+
+### El valor del título en el contenido del atributo
+
+```<meta name=”title” content=”OnPage SEO”>```
+
+La etiqueta meta título es polémica. Tiene la misma función que la etiqueta título. Es por eso que los expertos no están de acuerdo si es realmente relevante para la optimización de motores de búsqueda. Algunos están convencidos de que es beneficioso utilizarlos, mientras que otros lo discuten. En el ejemplo anterior, se especificó el siguiente encabezamiento:
+
+**“SEO OnPage”**
+
+En la práctica, la etiqueta Meta título se equiparará al título del documento HTML. Aunque la meta etiqueta es en realidad superflua, el título es un elemento relevante para el posicionamiento de un sitio web, que además se muestra en los SERPs.
+
+El valor de la descripción en el contenido del atributo
+ ```<meta name=”description” content=”You are on the ryte.com website and this description should be about 155 characters long.”>```
+En este ejemplo, el motor de búsqueda vería la siguiente descripción de la página:
+
+“Estás en el sitio ryte.com y esta descripción debe tener unos 155 caracteres.” La mayoría de los motores de búsqueda soportan la descripción de atributos como Bing. Google, sin embargo, sólo accederá a la información de la meta etiqueta si la información se solicita a través de la página.
+
+La descripción del atributo proporciona una descripción precisa de los contenidos del sitio web. Esto permite a los autores de la web describir el contenido con mayor precisión. La descripción aparecerá a menudo, pero no siempre, en los resultados de la búsqueda, por lo tanto, es un factor que influye en el hecho de que se haga clic o no en una página. No se especifica el tiempo que puede durar esta descripción, pero se recomienda no sobrepasar los 175 caracteres.
+
+Las etiquetas nombradas con la Meta Descripción son elementos importantes para aumentar el CTR en los resultados de búsqueda. Junto con el título, se pueden utilizar para featured snippets.
+
+### El valor de las palabras clave en el contenido del 
+
+```<meta name=”keywords” content=”Meta, Attribute, Keywords”>```
+
+Como se muestra arriba, puedes indicar al motor de búsqueda qué palabras son relevantes para el contenido. El atributo palabras clave se hizo muy popular en 1995. Un factor decisivo para ello fueron los antiguos buscadores Infoseek y AltaVista.
+
+Su popularidad creció tan rápidamente que este atributo fue usado muy comúnmente. Pero a finales de 1997 quedó claro que las palabras clave de las metaetiquetas podían desviar la búsqueda y resultó obvio para los operadores de los motores de búsqueda que esto debía corregirse. Por lo tanto, la prioridad de las palabras clave del atributo cayó abruptamente en el algoritmo de los motores de búsqueda. En 2009, los principales motores de búsqueda habían abandonado la compatibilidad con las palabras clave de atributo. Sin embargo, en septiembre de 2012, Google anunció que las palabras clave de las metaetiquetas volverían a ser relevantes para los editores de noticias. A diferencia de las palabras clave meta tag no relevantes, las nuevas keywords son ahora de importancia para los motores de búsqueda.
+
+### El valor del idioma en el contenido del atributo
+
+```<meta http-equiv=”language” content=”de”>```
+
+El atributo “idioma” indica al motor de búsqueda en qué idioma está escrita la página (por ejemplo, francés, español o alemán). Por lo general, el idioma se especifica como etiqueta de idioma IETF (es decir, “de” para el alemán o “fr-ca” para el francés en Quebec). Esto es de especial interés para los operadores de páginas web, que están escritos en varios idiomas. Utilizando la etiqueta de idioma, puedes indicar al motor de búsqueda qué idiomas se utilizan en qué páginas.
+
+
+### El valor robots en el contenido del atributo
+
+```<meta name=”robots” content=”nofollow”>  ```
+
+El atributo robots es compatible con los motores de búsqueda correspondientes. La etiqueta le dice a los crawlers (o arañas) de los motores de búsqueda qué información debe y qué información no debe ser tomada en cuenta. En el ejemplo anterior, se indica a los crawlers del motor de búsqueda que no sigan los enlaces de la página. Para quitar la web del índice del motor de búsqueda, puedes añadir el valor nofollow, noindex, para que esta página no aparezca en los resultados del motor de búsqueda. Otros valores útiles serían noarchive y nosnipped, donde el primero indica al motor de búsqueda que no guarde la página en el archivo y el segundo especifica no listar la página en los resultados de búsqueda. Otra forma de bloquear el rastreador del motor de búsqueda o rechazar una acción es robots.txt.
+
+
+### Redirecciones
+
+El atributo “refresh” no sólo se puede utilizar para recargar la página, sino también para dirigir a los visitantes a otra página.
+
+```<meta http-equiv=”refresh” content=”10;url=http://www.academianumen.com” >```
+
+En este ejemplo, los visitantes de la página serán redirigidos al sitio Onpage después de 10 segundos. Los navegadores Internet Explorer y Mozilla Firefox tienen la opción de deshabilitar la redirección a través de una metaetiqueta. Como algunos navegadores tienen problemas con el botón Atrás en este tipo de redirección, apenas se utiliza.
+
+
+
+---
+---
+
+## :star: 
