@@ -1044,4 +1044,28 @@ A continuación usaremos el atributo style que permite definir un color de fondo
 ---
 ---
 
+## :star:  Etiqueta Figure
+
+Vamos a estudiar algunos aspectos que tienen que ver con la etiqueta de HTML ```<figure>```.
+
+La etiqueta ```<figure>``` representa un elemento autocontenido perteneciente al contenedor principal.
+
+Es usada para encerrar imágenes, tablas, código entre otros. Un ejemplo de cómo podemos emplear esta etiqueta se muestra seguidamente:
+```
+<figure>
+    <img src="https://free-images.com/sm/cede/lion_head_male_lion.jpg" alt="León">
+</figure>
+```
+Esta etiqueta se usa en conjunto con la etiqueta ```<figcaption> ```para colocarle un título al contenido de <figure>, en este caso, una imagen, tal como se ilustra a continuación:
+
+```
+<figure>
+     <img src="https://free-images.com/sm/cede/lion_head_male_lion.jpg" alt="León">
+       <figcaption>Imagen 1.1: León</figcaption>
+</figure>
+```
+
+---
+---
+
 ## :star: 
