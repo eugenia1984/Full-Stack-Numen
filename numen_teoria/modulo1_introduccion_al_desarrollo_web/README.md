@@ -1129,4 +1129,62 @@ En cuanto al código también tenemos algunas recomendaciones:
 ---
 ---
 
+## :star: Editores de códigos
+
+El editor de código es la herramienta fundamental para hacer una web. Hay muchos editores de código, como Dreamweaver, SublimeText, Atom, Brackets… algunos de ellos, gratuitos
+
+Los editores te brindan algunas ventajas como:
+
+- Resaltado de código con colores.
+
+- Autocompletado de etiquetas y atributos.
+
+- Plantillas para la creación de tablas, formularios, etc.
+
+Para trabajar con un código HTML es necesario tener una buena herramienta de edición. Hoy en día existen varios editores que son muy poderosos y nos brindan todo lo necesario para trabajar con HTML.
+
+ 
+
+A continuación te mostramos tres opciones muy populares en el mercado:
+
+ 
+
+### Sublime Text
+
+http://www.sublimetext.com/
+
+Es un editor de texto muy poderoso y ligero, programado en C++ y Python. Es multiplataforma y cuenta con distintos plugins que extienden su funcionalidad. Tiene un producto asociado llamado Sublime Merge (https://www.sublimemerge.com/), el cual  permite visualizar los cambios de software en un manejador de versiones.
+
+ 
+
+### Atom
+
+https://atom.io/ 
+
+Atom es un editor libre de código fuente desarrollado por Github y está basado en tecnologías Web. Sus extensiones se escriben con NodeJS y tiene muchos plugins. Entre sus características más resaltantes se tienen que tiene integrado ambos una funcionalidad para editar de forma colaborativa y un manejador de versiones.
+
+
+### VSCode
+
+https://code.visualstudio.com/
+
+VSCode es un editor libre liderado por Microsoft. Entre sus características más resaltantes se destaca que es muy ligero y tiene integrado un manejador de versiones. Además es multiplataforma y soporta extensiones.
+
+
+
+Actualmente, los editores de textos proporcionan muchas funcionalidades, que vienen embebidas con el producto o se integran a través de alguna extensión o plugin. Te invitamos a descargar algunos de estos editores de texto, investigar sus extensiones / plugins  y practicar creando tu propio código HTML.
+
+Recomendamos utilizar los siguientes para realizar las prácticas
+
+Editor de código Brackets: http://brackets.io/
+
+Editor de código Atom: https://atom.io/
+
+ 
+
+
+---
+---
+
 ## :star:
+
