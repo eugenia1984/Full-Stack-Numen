@@ -860,7 +860,7 @@ La etiqueta ```<main> ```especifica la parte principal del documento
 
  
 
-Las etiqueta  ```<summary> ```se utiliza para mostrar un extracto de la información, que al darle click se expande con el contenido dentro de <details>. Para ilustrar el uso de estas etiquetas te presentamos un ejemplo:
+Las etiqueta  ```<summary> ```se utiliza para mostrar un extracto de la información, que al darle click se expande con el contenido dentro de ```<details>```. Para ilustrar el uso de estas etiquetas te presentamos un ejemplo:
 
  
 
@@ -950,7 +950,30 @@ Este es mi correo electrónico: test@test.com
 ---
 ---
 
-## :star: 
+## :star:  Etiquetas de Formato Adicionales
+
+
+A continuación vamos a estudiar algunas etiquetas de formato adicionales.
+
+ 
+
+Así como existen las etiquetas de formato común, tales como <h1>, <h2>, <p>, etc, existen muchas otras que indican un formato específico.  A continuación varias de las etiquetas que debes tomar en cuenta:
+
+| Etiqueta | Descripción |
+| -------- | ----------- |
+| ```<abbr>``` |	Para abreviaciones |
+| ```<b>```	| En negrita |
+| ```<blockquote>``` |	Referencia de un texto |
+| ```<cite>``` |	Cita |
+| ```<del>```	| Texto eliminado (tachado) |
+| ```<em>```	| Énfasis |
+| ```<ins>```	| Texto insertado |
+| ```<meter>```	| Medida |
+|``` <q>``` | - |
+|``` <small>``` | Cita corta |
+| ```<strong>```	 | Texto importante |
+|``` <sub>```	| Subíndice |
+| ```<sup>``` | Supraíndice |
 
 
 
