@@ -1068,4 +1068,68 @@ Esta etiqueta se usa en conjunto con la etiqueta ```<figcaption> ```para colocar
 ---
 ---
 
+## :star:  Etiqueta Iframe
+
+
+El elemento iframe representa un contexto de navegación anidado, lo que es básicamente  un documento anidado en el documento actual. La dirección desde la cual el navegador  debería recuperar el documento incrustado puede ser provista en el atributo src y  últimamente, desde la llegada de HTML5, este documento también puede incluirse  completamente como contenido del atributo srcdoc. 
+
+El comportamiento de la etiqueta iframe es parecido al de la etiqueta image respecto de  su posición en la página. Ambas son etiquetas en línea y admiten el atributo align para su  posicionamiento, o pueden ser posicionadas de la misma manera mediante el código CSS. 
+
+para su correcto funcionamiento la etiqueta iframe debe tener su correspondiente  etiqueta de cierre, aunque entre estas dos etiquetas no se escriba nada: 
+
+```
+<iframe ….></iframe> 
+```
+Los atributos de la etiqueta iframe son: 
+
+- ```src=”ruta_de_la_página”```: atributo obligatorio para indicar la página que se debe  cargar en esta ventana. 
+
+- ```height=”altura”```: altura en píxeles de la ventana donde se muestra el iframe. ∙ width=”anchura”: anchura en píxeles de la ventana donde se muestra el iframe. El  valor puede ponerse también en tantos por ciento. Si no se ponen los atributos de  anchura y altura, el documento se mostrará en una pequeña ventana cuyas  medidas pueden variar dependiendo del navegador. También podemos definir la  anchura y la altura mediante el código CSS. 
+
+- ```scrolling = “yes | no | auto”```: Barras de desplazamiento. El valor yes las muestra  siempre, el valor no nunca las muestra, y el valor auto las muestra sólo si son  necesarias. El valor por defecto es auto. 
+
+- ```name=”nombre”``` Este atributo da un nombre a la etiqueta, y es imprescindible, si  queremos direccionar los enlaces hacia la ventana del iframe. Para ello se utiliza el  mismo mecanismo que para los frames (atributo target=”nombre” en el enlace, y  atributo name=”nombre” en el iframe).
+
+### Ejemplo de etiqueta iframe 
+
+Veamos cómo insertar un iframe en esta misma página que nos muestre la página  principal de la wikipedia. el código que hemos insertado es el siguiente: 
+```
+<iframe src=”https://es.wikipedia.org” width=”400″ height=”300″  name=”ventana”></iframe> 
+```
+
+---
+---
+
+## :star:  Etiquetas script y link
+
+### Etiquetas
+
+Ahora analizando las etiquetas para integrar CSS y código JavaScript en nuestro código.
+
+HTML se usa conjuntamente con otras tecnologías con la ayuda de ciertas etiquetas y atributos. A continuación veremos las etiquetas para integrar CSS (Cascade Stylesheets) y JavaScript
+
+### Para enlazar CSS
+
+- Etiqueta ```<style>```: se emplea para insertar código CSS. Cabe mencionar que esta etiqueta debe ubicarse dentro del ```<head>```.
+
+
+- Etiqueta ```<link>```:  se emplea dentro de la etiqueta ```<head>``` y permite enlazar un archivo con un CSS externo. Por ejemplo, el siguiente código: ```<link rel="stylesheet" type="text/css" href="estilo.css"> ```enlaza el archivo CSS estilo.css.
+
+
+- Estilo en línea: podemos agregar el atributo style y asignarle como valor los estilos CSS que deseemos.
+
+
+### Para enlazar JavaScript
+
+- Etiqueta ```<script>```: se emplea para insertar código escrito en JavaScript.
+
+- Etiqueta ```<script>``` con atributo src:  permite que enlacemos un archivo con código JavaScript externo. Por ejemplo, el siguiente código: ```<script src="funciones.js"></script>```, enlaza el archivo JavaScript,  funciones.js.
+
+- JavaScript en etiquetas: podemos asociar código JavaScript que responda  a ciertos eventos. Por ejemplo, se emplea cuando deseamos ejecutar un código JavaScript al hacer click en un enlace. El siguiente código ilustra lo antes dicho: ```<a onclick="alert(1)">Presiona</a>. ```Este muestra un enlace que al darle click ejecuta alert(1) que despliega una ventana con el contenido “1”.
+
+
+
+---
+---
+
 ## :star: 
