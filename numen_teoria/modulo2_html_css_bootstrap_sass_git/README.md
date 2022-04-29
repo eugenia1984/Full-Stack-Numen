@@ -20,6 +20,8 @@ Temas:
 
 - Buenas prácticas.
 
+[aca podes ver toda la teoria de la unidad 1](https://github.com/eugenia1984/Full-Stack-Numen/blob/main/numen_teoria/modulo2_html_css_bootstrap_sass_git/unidad1.md)
+
 ---
 
 ## :star: Unidad 2: CSS
