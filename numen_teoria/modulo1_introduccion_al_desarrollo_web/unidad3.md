@@ -1312,4 +1312,55 @@ Los dibujos SVG pueden ser interactivos y dinámicos; sus animaciones se definen
 ---
 ---
 
+## :star: Canvas
+
+En esta oportunidad te mostraremos cómo trabajar con Canvas.
+
+```<canvas>``` es una etiqueta que permite definir un lienzo para dibujar imágenes usando algún lenguaje de script. En general se usa JavaScript para dibujar en este lienzo. Y JavaScript tiene un conjunto de instrucciones para dibujar:
+
+ 
+```
+Figuras (círculos rectångulos, etc)
+Texto
+Imágenes
+Colores de fondo
+etc
+```
+
+Canvas es una alternativa a SVG y generalmente se utiliza para generar gráficos dinámicos en el momento. Un ejemplo que ilustra cómo utilizar la etiqueta ```<canvas>``` se muestra a continuación:
+
+ 
+```
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Ejemplo</title>
+</head>
+<body>
+   <h1>Ejemplo</h1>
+   <canvas id="miCanvas" width="200" height="100"></canvas>
+   <script>
+       var c = document.getElementById("miCanvas");
+       var ctx = c.getContext("2d");
+       ctx.moveTo(0, 100);
+       ctx.lineTo(200, 0);
+       ctx.stroke();
+   </script>
+</body>
+</html>
+```
+
+En este ejemplo se crea un lienzo de 200 de ancho por 100 de alto y se dibuja una línea desde la esquina inferior izquierda a la superior derecha.
+
+Canvas también es usado para dibujar en 3D con una tecnología que se llama WebGL.
+
+
+
+
+---
+---
+
 ## :star:
