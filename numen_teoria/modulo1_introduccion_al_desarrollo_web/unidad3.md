@@ -957,7 +957,7 @@ A continuación vamos a estudiar algunas etiquetas de formato adicionales.
 
  
 
-Así como existen las etiquetas de formato común, tales como <h1>, <h2>, <p>, etc, existen muchas otras que indican un formato específico.  A continuación varias de las etiquetas que debes tomar en cuenta:
+Así como existen las etiquetas de formato común, tales como ```<h1>```, ```<h2>```,``` <p>```, etc, existen muchas otras que indican un formato específico.  A continuación varias de las etiquetas que debes tomar en cuenta:
 
 | Etiqueta | Descripción |
 | -------- | ----------- |
