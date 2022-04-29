@@ -170,6 +170,13 @@ Me base en [este template ya armado de Bootstrap](https://github.com/StartBootst
 
 ---
 
+
+### :book: Full Stack Numen - Teoria
+
+[En esta carpta **numen teoria** podes encontrar toda la teoria vista]((https://eugenia1984.github.io/Full-Stack-Numen/numen_teoria))
+
+---
+
 ## Por favor: 🎁
 
 - Compartí este contenido con otros 📢
@@ -180,4 +187,4 @@ Me base en [este template ya armado de Bootstrap](https://github.com/StartBootst
 
 ## Notas: 
 
-Aprecio tu interés por este repositorio ⌨️ con ❤️ de [María Eugenia Cost](https://github.com/eugenia1984)  😊 y seguime en [LinkedIn](https://www.linkedin.com/in/mar%C3%ADaeugeniacosta/)
+Aprecio tu interés por este repositorio ⌨️ con ❤️ de [María Eugenia Costa](https://github.com/eugenia1984)  😊 y seguime en [LinkedIn](https://www.linkedin.com/in/mar%C3%ADaeugeniacosta/)
