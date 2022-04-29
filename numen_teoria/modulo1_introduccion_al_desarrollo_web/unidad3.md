@@ -1132,4 +1132,80 @@ HTML se usa conjuntamente con otras tecnologías con la ayuda de ciertas etiquet
 ---
 ---
 
+## :star:  Etiqueta de Video
+
+En HTML5 se introduce la interesante posibilidad de mostrar videos directamente desde  nuestro navegador. De hecho, si arrastramos un video a la ventana del navegador,  veremos que comienza a reproducirse en él. Para poder insertar videos en nuestras  páginas HTML tenemos que utilizar la etiqueta ```<video>```, que junto a la  etiqueta``` <source> ```podremos utilizar estas capacidades multimedia de HTML5. 
+
+La etiqueta ```<video>``` tiene varios atributos a nuestra disposición: 
+
+
+- ```src=”direccion_url”```: Video que va a reproducir. 
+
+
+- ``` poster=”direccion_url”```: Muestra una imágen a modo de presentación.
+
+
+- ``` preload=”auto | metadata | none”```: Indica como realizar la precarga del video. 
+
+
+- ```mediagroup=”nombre”```: Establece un nombre para un grupo de contenidos  multimedia. 
+
+
+-``` autoplay=”boolean”```: Comienza a reproducir el video automáticamente. 
+
+
+-```muted=”boolean”```: Muestra los controles de reproducción.  
+
+
+-``` controls=”boolean”```: Muestra los controles de reproducción 
+
+
+-``` width=”tamaño”```: Indica el tamaño de ancho del video 
+
+
+-``` height=”tamaño”```: Indica el tamaño de alto del video 
+
+Código de ejemplo: 
+
+```<video src=”numen.mp4″ width=”1920″ height=”1080″></video> ```
+
+Ésto mostrará el primer fotograma del video con un tamaño de 1920×1080, pero se verá  como una imágen ya que no muestra los controles del video y tampoco tiene la  reproducción automática activada. Se podría solucionar agregando los atributos controls o  autoplay.
+
+### Formatos de video 
+
+En primer lugar, debemos saber que un archivo de video tiene dos partes principales:  el formato contenedor, que es el formato del video en sí, mientras que en su interior  puede tener múltiples componentes codificados con diferentes codecs. 
+
+Un video básico suele tener, como mínimo, un componente de video y otro de audio, pero  puede tener muchos más (subtítulos, imágenes, etc…). Estos detalles son muy  importantes, ya que dependiendo del formato y/o codec de un video, puede que sea  factible utilizarlo para web o no, así que hay que conocer un poco sobre estos conceptos. 
+
+La etiqueta ```<source> ```puede tener los atributos src, type y establece un archivo de video o  lo añade como alternativa. 
+
+La etiqueta ```<track>``` tiene los atributos src, srclang, label, kind, default y establece un  archivo de subtítulos o lo añade como alternativa. 
+
+Si utilizamos la etiqueta <video> como etiqueta contenedora, podemos incluir  etiquetas <source> en su interior para proporcionar formatos alternativos y tener mayor  compatibilidad con otros navegadores y navegadores antiguos que no soporten HTML5: 
+
+```html
+<video width=“640” height=”480″ > 
+ <source src=”video.mp4″ type=”video/mp4″ /> 
+ <source src=”video.webm” type=”video/webm” /> 
+ <source src=”image.png” alt=”Video no soportado” /> 
+ Su navegador no soporta contenido multimedia 
+</video> 
+```
+
+Los navegadores no mostrarán todos los contenidos a la vez, sino que seguirán el  siguiente procedimiento: 
+
+- Intenta mostrar el primer formato (MP4). Si el navegador no soporta este formato,  salta al siguiente. 
+
+- Intenta mostrar el segundo formato (WEBM). Si el navegador no soporta este  formato, salta al siguiente. 
+
+- Intenta mostrar el tercer formato (OGV). Si el navegador no soporta este formato,  salta al siguiente. 
+
+- Si se trata de un navegador que no soporta HTML5, intentará mostrar la imágen. ∙ Si se trata de un navegador de terminal de texto (o sin capacidades gráficas),  mostrará el texto “Su navegador no soporta contenido multimedia” 
+
+De ésta manera tenemos soporte completo para todo tipo de dispositivos.
+
+
+---
+---
+
 ## :star: 
