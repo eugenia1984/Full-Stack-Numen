@@ -1044,3 +1044,89 @@ Para el documento base colocamos como contenido lo que está en la **línea 9**.
 ---
 
 ## :star:
+
+
+### Estructura de las Carpetas y de los Nombres de los Archivos
+
+Cuando se tiene un proyecto es importante estar organizados por lo cual debemos seguir ciertas reglas relacionadas con:
+
+- La estructura de las carpetas.
+
+- El nombre de las carpetas.
+
+- El nombre de los archivos.
+
+- El código.
+
+Es importante tomar en cuenta que nuestro proyecto debe ser compatible en distintos sistemas operativos, para lo cual recomendamos seguir todas indicaciones siguientes.
+
+
+## Estructura de las carpetas
+
+Te recomendamos seguir las siguientes sugerencias cuando estés estructurando las carpetas de tu proyecto HTML:
+
+- Genera carpetas para cada tipo de recurso.
+
+- Crea la página predeterminada como index.html.
+
+La estructura puede ser la siguiente:
+
+```
+site
+  audios
+  images
+  scripts
+  styles
+  videos
+  index.html
+```
+
+ 
+
+Podemos colocar los nombres en español, pero recordemos tener cuidado con los caracteres con acentos y similares.
+
+ 
+
+### Nombre de las carpetas
+
+
+Para nombrar las carpetas sugerimos que respetes los puntos a continuación:
+
+ 
+
+- Usar minúsculas.
+
+- No usar espacios.
+
+- No usar caracteres con acento o tilde, etc.
+
+- Definir un separador de palabras usualmente guión bajo _ o  guión -.
+ 
+
+### Nombre de los archivos
+
+Al igual que para las carpetas, debemos respetar los siguientes puntos al nombrar los archivos:
+
+- Usar minúsculas.
+
+- No usar espacios.
+
+- No usar caracteres con acento o tilde, etc.
+
+- Definir un solo tipo de separador de palabras, usualmente guión bajo _ o  guión -.
+
+- Usar extensiones de archivos consistentes, es decir, los archivos JPEG deben usar una de las siguientes extensiones .jpg o .jpeg, pero una vez que hemos definido qué extensión usaremos debemos mantenerla en nuestro proyecto. De la misma forma se recomienda usar .html en vez de .htm.
+
+
+### Código
+
+En cuanto al código también tenemos algunas recomendaciones:
+
+- La codificación de archivos: es el conjunto de caracteres que se utilizan para escribir el código. Por ejemplo, si deseamos que  los archivos .html acepten distintos tipos de caracteres (acentos, asiáticos, etc.) y sea estándar en distintos lenguajes es recomendable usar UTF-8. Cabe destacar, que esta opción se configura en nuestro editor.
+
+- Usar indentaciones: el código indentado es más legible, por lo cual se recomienda usar tabuladores o espacios; sin embargo, debemos seleccionar cual de los mecanismos emplearemos y trabajar siempre de esa manera. Recuerda que muchos editores tienen una opción para arreglar el formato tu código e indentarlo automáticamente.
+
+---
+---
+
+## :star:
