@@ -2153,11 +2153,14 @@ Ahora, nosotros debemos referenciar la variable yeison para que esta sea this.
 
 ```call() ```
 
+
 ```hablar.call(yeison, lenguajes[0],lenguajes[1],lenguajes[2]); ```
+
 
 El método call nos permite definir a que va a hacer referencia this, en su primer  parámetro, los parámetros siguientes son los parámetros que recibe la función. 
 
 ```apply()``` 
+
 
 ```hablar.apply(yeison, lenguajes); ```
 
@@ -2175,6 +2178,7 @@ Estos tres métodos nos permite hacer una referencia explícita, y tener claro e
 ### Asignación con new 
 
 Otro caso, es cuando invocamos this en un constructor , como el siguiente ejemplo: 
+
 ```
 let Animal = function(color, nombre, tipo) { 
 
@@ -2186,6 +2190,8 @@ let Animal = function(color, nombre, tipo) {
 
 } 
 ```
+
+
 ```
 const bipa = new Animal(‘gris’, ‘Bipa’, ‘Felino’); 
 ```
