@@ -2042,13 +2042,13 @@ Asignación implícita
 Caso 1 
 
 En el primer caso this está siendo invocado dentro de un método. 
-```
+
+```JavaScript
 let yo = { 
  nombre: ‘yeison’, 
  edad: 22, 
  hablar: function () { 
  console.log(this.nombre); 
-
  } 
 }; 
 
@@ -2062,7 +2062,7 @@ Caso 2
 
 En este caso, existe una función que recibe un objeto como parámetro, y le agrega el  método hablar, luego, se ejecuta la función sobre dos objetos. 
 
-```
+```JavaScript
 let decirNombre = function(obj) { 
  obj.hablar = function() { 
  console.log(this.nombre); 
@@ -2081,12 +2081,10 @@ const juan = {
 }; 
 
 decirNombre(juan); 
-
 decirNombre(Mateo); 
-
 juan.hablar(); // Juan 
-
-Mateo.hablar(); // Mateo ```
+Mateo.hablar(); // Mateo 
+```
 
 
 This en este caso hace referencia al objeto que se añade este método.
@@ -2095,7 +2093,7 @@ Caso 3
 
 En este caso tenemos una función que retorna un objeto, que contiene un método hablar,  que invoca this. 
 
-```
+```JavaScript
 let Persona = function (nombre, edad, madre) { 
 
  return { 
@@ -2116,9 +2114,7 @@ let Persona = function (nombre, edad, madre) {
 }; 
 
 const ana = Persona(‘Ana’, 30, ‘Clara’); 
-
 ana.hablar(); // Ana 
-
 ana.madre.hablar(); // Clara 
 ```
 
@@ -2129,21 +2125,15 @@ This en este caso hace referencia al objeto que contiene el método donde se inv
 
 En el caso de asignación implícita, this hace referencia al objeto, que contenía el método  donde se invoca this, pero si tenemos una función y deseamos explícitamente asignarle a  que va a hacer referencia this, desde ES5 contamos con los métodos call(), apply() y bind(). Vamos a tener una función, que reciba unos parámetros y muestre en consola, con la  propiedad nombre a la que haga referencia this, y los parámetros que recibe. 
 
-```
+```JavaScript
 const hablar = function(l1, l2, l3) { 
-
  console.log(`Hola mi nombre es ${this.nombre} 
-
  y se programar en ${l1}, ${l2}, ${l3}.`); 
-
 }; 
 
 const yeison = { 
-
  nombre: ‘Yeison’, 
-
  edad: 22 
-
 }; 
 
 const lenguajes = [‘JavaScript’, ‘Python’, ‘C’] 
@@ -2179,20 +2169,16 @@ Estos tres métodos nos permite hacer una referencia explícita, y tener claro e
 
 Otro caso, es cuando invocamos this en un constructor , como el siguiente ejemplo: 
 
-```
+```JavaScript
 let Animal = function(color, nombre, tipo) { 
-
  this.color = color; 
-
  this.nombre = nombre; 
-
  this.tipo = tipo; 
-
 } 
 ```
 
 
-```
+```JavaScript
 const bipa = new Animal(‘gris’, ‘Bipa’, ‘Felino’); 
 ```
 
