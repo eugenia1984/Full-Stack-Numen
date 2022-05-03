@@ -1,14 +1,14 @@
-# : Modulo 4 - React
+# :book: Modulo 4 - React
 
 ---
 
-## Unidad 1 - configuracion de entorno
+## :star: Unidad 1 - configuracion de entorno
 
 ---
 ---
 
 
-##  Create React App
+##  :star: Create React App
 
 ¿Cómo iniciar un nuevo proyecto de React? 
 
@@ -254,7 +254,7 @@ Adicionalmente, podemos corroborar si también se nos ha instalado correctamente
 Nos debería aparecer también en este caso la versión del Node Package Manager.
 
 
-###  Node Package Manager (NPM) 
+### :star:  Node Package Manager (NPM) 
 
 Node Package Manager o simplemente npm es un gestor de paquetes, el cual hará más fáciles nuestras vidas al momento de trabajar con Node, ya que gracias a él podremos tener cualquier librería disponible con solo una línea de código, npm nos ayudará a administrar nuestros módulos, distribuir paquetes y agregar dependencias de una manera sencilla. Cuando instalamos nuevos paquetes lo que hace npm es instalarlo de manera local en nuestro proyecto dentro de la carpeta node_modules, pero nosotros podemos decirle que lo instale de manera global de ser necesario. 
 
