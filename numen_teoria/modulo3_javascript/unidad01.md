@@ -395,7 +395,7 @@ mensajeVacio = !mensaje; // mensajeVacio = false
 ```
 
 
-# ### AND (&&) 
+### AND (&&) 
 
 La operación lógica AND obtiene su resultado combinando dos valores booleanos. El  operador se indica mediante el símbolo && y su resultado solamente es true si los dos  operandos son true: 
 
@@ -418,7 +418,7 @@ resultado = valor1 && valor2; // resultado = true
 ```
 
 
-#### OR (||) 
+### OR (||) 
 
 La operación lógica OR también combina dos valores booleanos. El operador se indica  mediante el símbolo || y su resultado es true si alguno de los dos operandos es true: 
 
@@ -620,7 +620,7 @@ La condición que controla el if() puede combinar los diferentes operadores lóg
 var mostrado = false;
 
 if(!mostrado) { 
- alert(“Es la primera vez que se muestra el mensaje”); 
+   alert(“Es la primera vez que se muestra el mensaje”); 
 } 
 ```
 
@@ -633,7 +633,7 @@ var mostrado = false;
 var usuarioPermiteMensajes = true; 
 
 if(!mostrado && usuarioPermiteMensajes) { 
- alert(“Es la primera vez que se muestra el mensaje”); 
+   alert(“Es la primera vez que se muestra el mensaje”); 
 } 
 ```
 
@@ -650,9 +650,9 @@ estructura if llamada if…else. Su definición formal es la siguiente:
 
 ```
 if(condicion) { 
- … 
+   … 
 } else { 
- … 
+   … 
 } 
 ```
 
@@ -681,9 +681,9 @@ El siguiente ejemplo compara variables de tipo cadena de texto:
 var nombre = “”; 
 
 if(nombre == “”) { 
- alert(“Aún no nos has dicho tu nombre”); 
+   alert(“Aún no nos has dicho tu nombre”); 
 } else { 
- alert(“Hemos guardado tu nombre”); 
+   alert(“Hemos guardado tu nombre”); 
 }
 ```
 
@@ -699,13 +699,15 @@ if(edad < 12) {
 }  else if(edad < 19) { 
  alert(“Eres un adolescente”); 
 } else if(edad < 35) { 
- alert(“Aun sigues siendo joven”); 
+   alert(“Aun sigues siendo joven”); 
 } else { 
- alert(“Piensa en cuidarte un poco más”); 
+   alert(“Piensa en cuidarte un poco más”); 
 } 
 ```
 
 No es obligatorio que la combinación de estructuras if…else acabe con la instrucción else,  ya que puede terminar con una instrucción de tipo else if().
+
+
 
 #### Estructura for 
 
@@ -716,8 +718,8 @@ Las estructuras if y if…else no son muy eficientes cuando se desea ejecutar de
 var veces = 0; 
 
 if(veces < 4) { 
- alert(“Mensaje”); 
- veces++; 
+   alert(“Mensaje”); 
+   veces++; 
 } 
 ```
 
@@ -729,7 +731,7 @@ La estructura for permite realizar este tipo de repeticiones (también llamadas 
 
 ```
 for(inicializacion; condicion; actualizacion) { 
- … 
+   … 
 }
 ```
 
@@ -747,7 +749,7 @@ La idea del funcionamiento de un bucle for es la siguiente: “mientras la condi
 var mensaje = “Hola, estoy dentro de un bucle”; 
 
 for(var i = 0; i < 5; i++) { 
- alert(mensaje); 
+   alert(mensaje); 
 } 
 ```
 
@@ -782,7 +784,7 @@ El ejemplo anterior que mostraba los días de la semana contenidos en un array s
 var dias = [“Lunes”, “Martes”, “Miércoles”, “Jueves”, “Viernes”, “Sábado”, “Domingo”]; 
 
 for(var i=0; i<7; i++) { 
- alert(dias[i]); 
+   alert(dias[i]); 
 }
 ```
 
@@ -794,7 +796,7 @@ Una estructura de control derivada de for es la estructura for…in. Su definici
 
 ```
 for(indice in array) { 
- … 
+    … 
 } 
 ```
 
@@ -805,13 +807,15 @@ Si se quieren recorrer todos los elementos que forman un array, la estructura fo
 var dias = [“Lunes”, “Martes”, “Miércoles”, “Jueves”, “Viernes”, “Sábado”, “Domingo”]; 
 
 for(i in dias) { 
- alert(dias[i]); 
+   alert(dias[i]); 
 } 
 ```
 
 La variable que se indica como indice es la que se puede utilizar dentro del  bucle for…in para acceder a los elementos del array. De esta forma, en la primera  repetición del bucle la variable i vale 0 y en la última vale 6. 
 
 Esta estructura de control es la más adecuada para recorrer arrays (y objetos), ya que  evita tener que indicar la inicialización y las condiciones del bucle for simple y funciona  correctamente cualquiera que sea la longitud del array. De hecho, sigue funcionando igual  aunque varíe el número de elementos del array.
+
+
 
 #### Propiedades de JavaScript 
 
@@ -960,8 +964,9 @@ var palabra = “Hola”;
 var letras = palabra.split(“”); // letras = [“H”, “o”, “l”, “a”]
 ```
 
+---
 
-#### Funciones útiles para Arrays 
+### Funciones útiles para Arrays 
 
 A continuación se muestran algunas de las funciones más útiles para el manejo de arrays: 
 
@@ -1040,8 +1045,9 @@ array.reverse();
 // ahora array = [3, 2, 1]
 ```
 
+---
 
-#### Funciones útiles para Números 
+### Funciones útiles para Números 
 
 A continuación se muestran algunas de las funciones y propiedades más útiles para el  manejo de números. 
 
@@ -1061,9 +1067,9 @@ alert(numero1/numero2); // se muestra el valor NaN
 var numero2 = 0; 
 
 if(isNaN(numero1/numero2)) { 
- alert(“La división no está definida para los números indicados”); 
+   alert(“La división no está definida para los números indicados”); 
 } else { 
- alert(“La división es igual a => ” + numero1/numero2); 
+   alert(“La división es igual a => ” + numero1/numero2); 
 }
 ```
 
@@ -1086,8 +1092,9 @@ numero1.toFixed(6); // 4564.345670
 numero1.toFixed(); // 4564
 ```
 
+---
 
-#### Sentencia break/continue y otras estructuras de control 
+### Sentencia break/continue y otras estructuras de control 
 
 La estructura de control for es muy sencilla de utilizar, pero tiene el inconveniente de que  el número de repeticiones que se realizan sólo se pueden controlar mediante las variables  definidas en la zona de actualización del bucle. 
 
@@ -1104,11 +1111,11 @@ var letras = cadena.split(“”);
 var resultado = “”; 
 
 for(i in letras) { 
- if(letras[i] == ‘a’) { 
- break; 
-}  else { 
- resultado += letras[i]; 
- } 
+  if(letras[i] == ‘a’) { 
+     break; 
+  } else { 
+    resultado += letras[i]; 
+  } 
 } 
 
 alert(resultado); // muestra “En un lug”
@@ -1128,11 +1135,11 @@ var letras = cadena.split(“”);
 var resultado = “”; 
 
 for(i in letras) { 
- if(letras[i] == ‘a’) { 
- continue; 
-}  else { 
- resultado += letras[i]; 
- } 
+   if(letras[i] == ‘a’) { 
+      continue; 
+   }  else { 
+     resultado += letras[i]; 
+   } 
 } 
 
 alert(resultado); // muestra “En un lugr de l Mnch de cuyo nombre no quiero cordrme…”
@@ -1143,6 +1150,7 @@ En este caso, cuando se encuentra una letra “a” no se termina el bucle, sino
 La utilidad de continue es que permite utilizar el bucle for para filtrar los resultados en  función de algunas condiciones o cuando el valor de alguna variable coincide con un valor  determinado. 
 
 
+---
 
 #### Bucles 
 
@@ -1155,7 +1163,7 @@ La estructura while permite crear bucles que se ejecutan ninguna o más veces,  
 
 ```
 while(condicion) { 
- … 
+   … 
 } 
 ```
 
@@ -1174,8 +1182,8 @@ var numero = 100;
 var i = 0; 
 
 while(i <= numero) { 
- resultado += i; 
- i++; 
+  resultado += i; 
+  i++; 
 } 
 
 alert(resultado); 
@@ -1197,7 +1205,7 @@ El bucle de tipo do…while es muy similar al bucle while, salvo que en este cas
 
 ```
 do { 
- … 
+   … 
 } while(condicion); 
 ```
 
@@ -1212,8 +1220,8 @@ var resultado = 1;
 var numero = 5; 
 
 do { 
- resultado *= numero; // resultado = resultado * numero 
- numero–; 
+   resultado *= numero; // resultado = resultado * numero 
+   numero–; 
 } while(numero > 0); 
 
 alert(resultado);
@@ -1232,11 +1240,11 @@ La estructura if…else se puede utilizar para realizar comprobaciones múltiple
 
 ```
 if(numero == 5) { 
- … 
-}  else if(numero == 8) { 
- … 
-}  else if(numero == 20) { 
- … 
+   … 
+} else if(numero == 8) { 
+   … 
+} else if(numero == 20) { 
+   … 
 } …
 ```
 
@@ -1383,12 +1391,12 @@ Después de declarar una variable, es posible hacer referencia a ésta (utilizar
 
 Código
 
+```JavaSCript
+var valor1 = 5;
+var valor2 = 7;
+console.log(valor1 + valor2);  // 12
 ```
->var valor1 = 5;
->var valor2 = 7;
->valor1 + valor2;
-```
-Resultado: 12
+
 
 En el ejemplo anterior se declararon dos variables (valor1) y (valor2) que luego son utilizadas en una suma; al sumar las dos variables, el resultado es 12.
 
@@ -1400,13 +1408,11 @@ Después de declarar variables ( var ) podemos re-asignar nuevos valores o datos
 
 Código
 ```
->var nombre = "carlos";
->nombre = "pedro";
->nombre;```
-
-Resultado
-
-pedro
+var nombre = "carlos";
+nombre = "pedro";
+nombre;```
+```
+Resultado -> pedro
 
 En JavaScript, otra manera de declarar variables se puede lograr usando los comandos let y const, palabras reservadas para el lenguaje, definidas en el estándar ECMAScript 6. Con el comando let declaramos variables limitando su uso a un bloque de código determinado, mientras que con el comando const definimos constantes o variables que tendrán un valor que no podrá modificarse posteriormente.
 
@@ -1450,7 +1456,7 @@ Definición de una función sin parámetros (no requiere información):
 // Comentario descriptivo de qué hace la función 
 
 function nombreDeLaFunción () {  
- // Código de la función 
+   // Código de la función 
 } 
 ```
 
@@ -1478,10 +1484,10 @@ Veamos un ejemplo:
 
 ```JavaScript
 function mostrarImporteConImpuestos(importeSinImpuestos) { 
-   var importeConImpuestos; 
-   importeConImpuestos = importeSinImpuestos * 1.21;  
-   msg = ‘Importe antes de impuestos: ‘+ importeSinImpuestos + ‘\n\n’; 
-   alert(msg + ‘Importe con impuestos: ‘+ importeConImpuestos + ‘\n\n’); 
+    var importeConImpuestos; 
+    importeConImpuestos = importeSinImpuestos * 1.21;  
+    msg = ‘Importe antes de impuestos: ‘+ importeSinImpuestos + ‘\n\n’; 
+    alert(msg + ‘Importe con impuestos: ‘+ importeConImpuestos + ‘\n\n’); 
 }
 ``` 
 
