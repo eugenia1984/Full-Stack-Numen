@@ -14,7 +14,7 @@ EXPRESS
 Server con Express
 Contenido Static
 ```
-[Y aca aclracion de la teoria](https://github.com/eugenia1984/Full-Stack-Numen/tree/main/node/node01)
+[Y aca aclaracion de la teoria](https://github.com/eugenia1984/Full-Stack-Numen/tree/main/node/node01)
 
 
 - [clase 2](https://view.genial.ly/6123d2ad86fcda0d1a305d4b/presentation-continuacion-unidad-4)
@@ -28,4 +28,4 @@ Flujo del Server
 Linea del tiempo
 ```
 
-[Y aca aclracion de la teoria](https://github.com/eugenia1984/Full-Stack-Numen/tree/main/node/node02)
+[Y aca aclaracion de la teoria](https://github.com/eugenia1984/Full-Stack-Numen/tree/main/node/node02)
