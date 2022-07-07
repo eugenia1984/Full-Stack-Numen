@@ -2,19 +2,13 @@
 
 ---
 
-##  Express basado en clases
-
-## Linea del tiempo
-
----
-
-## Rest Server
+## REST SERVER
 
 REST es un tipo de arquitectura de servicios que proporciona estándares entre sistemas informáticos para establecer como se van a comunicar entre esi
 
 ---
 
-##  Rest Server API
+##  REST SERVER API
 
 Cuando se envía una solicitud del cliente a través de una API de RESTful, esta transfiere una representación del estado del recurso requerido a quien lo haya solicitado o al extremo. La información, o representación, se entrega por medio de HTTP en uno de estos formatos: JSON (JavaScript Object Notation), HTML, XLT, Python, PHP o texto sin formato.
 
@@ -111,7 +105,7 @@ datos Los modelos no se comunican de forma directa con las vistas.
 
 ---
 
-## Flujo dle servere
+## FLUJO DEL SERVER
 
 **01** -> **app.js**
 
@@ -126,3 +120,14 @@ datos Los modelos no se comunican de forma directa con las vistas.
 **03** : **routes**:
 
 -> Carpeta con nuestras rutas -> En esta carpeta pondremos todas las rutas de nuestro server: get | post | put | delete
+
+
+**04**: **controllers**
+
+-> EN UNA CARPETA TENDREMOS TODOS LOS CONTROLLERS ->  Cada ruta esta asociada con un controlador, en éste se aloja toda la logica de dicha ruta
+
+---
+
+##  EXPRESS BASADO EN CALSES
+
+## LINEA DEL TIEMPO
