@@ -16,6 +16,16 @@ Contenido Static
 ```
 [Y aca aclaracion de la teoria](https://github.com/eugenia1984/Full-Stack-Numen/tree/main/node/node01)
 
+Tarea:
+
+- Generar un backend con express-generator 
+
+- Hacer una ruta con query que me devuelva un texto presentadose por su nombre y diciendo de donde es 
+
+- Hacer una ruta que divida dos números 
+
+- Usar método Number ejemplo ( let num1= Number(req.params.num1) ,  esto hará que el parametro pase de formato string a number 
+
 
 - [clase 2](https://view.genial.ly/6123d2ad86fcda0d1a305d4b/presentation-continuacion-unidad-4)
 ```
