@@ -113,6 +113,23 @@ REDIRECTION
 CLIENT ERROR
 | CODE  | NAME | NOTES |
 | ----- | ---- | ----- |
+| 400 | BAD REQUEST | SERVER DON´T UNDERSTAND THE URL YOU GAVE IT |
+| 401 | UNAUTHORIZED | MUST BE AUTHENTICATED |
+| 402 | PAYMENT REQUIRED | NOT USED REALLY |
+| 403 | FORBIDDEN | SERVER REFUSES TO GIVE YOU A FILE, AUTHENTICTATION WON´T HELP |
+| 404 | NOT FOUND | A FILE DOESN`T EXIST AT THAT ADDRESS |
+| 405 | MTHOD NOT ALLOWED | - |
+| 406 | NOT ACEPTABLE | - |
+| 407 | PROXY AUTHENTICATION REQUIRED | - |
+| 408 | REQUEST TIMEOUT | BROWSER TOOK TOO LONG TO REQUEST SOMETHING |
+| 409 | CONFLICT | - |
+| 410 | GONE | - |
+| 411 | LENGHT REQUIRED | - |
+| 412 | PRECONDTION DAILED | - |
+| 413 | REQUEST ENTITY TOO LARGE | - |
+| 415 | UNSUPPORTED MEDIA TYPE | - |
+| 416 | REQUEST RANGE NOT SATISFIABLE | - |
+| 147 | EXPECTATION FAILED | - |
 
 SERVER ERROR
 | CODE  | NAME | NOTES |
@@ -165,13 +182,92 @@ datos Los modelos no se comunican de forma directa con las vistas.
 
 -> Nota: en este archivo no hay mucho codigo, solo la instancia del server y el metodo listen
 
+
+app.js
+```JavaScript
+require('dotenv').config();
+
+const Server = require('./models/server');
+const server = new Server();
+
+server.listen();
+```
+
 **02** : **server.js**:
 
--> Nuestra clase server -> En una carpeta models creamos el archivo server.js que contendra nuestro molde del server . tiene la siguiente estructura: constructor | middlewares | routes | listen
+-> Nuestra clase server -> En una carpeta models creamos el archivo server.js que contendra nuestro molde del server . tiene la siguiente estructura: constructor | middlewares | routes | listen.
+
+server.js
+```javaScript
+const express = require('express');
+const cars = require('cars');
+
+class Server {
+
+ constructor() {
+  this.app = express();
+  this.port = process.env.PORT;
+  this.usuariosPath = '/api/usuarios';
+  
+  //middlewares
+  this.middlewares();
+  
+  //Rutas de mi aplicacion
+  this.routes();
+ }
+ 
+ middleware() {
+  //CORS
+  this.app.use( cors() );
+  
+  //Lectura y parseo del body
+  this.app( express.json() );
+  
+  //Directorio publico
+  this.app.use( express.static('public'));
+ }
+ 
+ routes() {
+ this.app.use( this.usuariosPath, require('../routes/usuarios'))};
+ }
+ 
+ listen() {
+  this.app.listen( this.port, () => {
+   console.log(`servidor corriendo en el puerto ${this.port}`)
+  });
+ }
+}
+
+module.exports = Server;
+```
 
 **03** : **routes**:
 
 -> Carpeta con nuestras rutas -> En esta carpeta pondremos todas las rutas de nuestro server: get | post | put | delete
+
+```JavaScript
+const { Router } = require('express');
+
+const { usuariosGet,
+        usuariosPut,
+        usuariosPost,
+        usuariosDelete,
+        usuariosPatch } = require('../controllers/usuarios');
+        
+const router = Router();
+
+router.get('/', usuariosGet );
+
+router.put('/:id', usuariosPut );
+
+router.post( '/', usuariosPost );
+
+router.delete( '/', usuariosDelete );
+
+router.patch( '', usuariosPatch );
+
+module.exports = router;
+```
 
 
 **04**: **controllers**
