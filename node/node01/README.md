@@ -292,19 +292,19 @@ const app = express(;
 - PASO 5: hacemos la ruta que queramos y luego lo ponemos a escuchar.
 
 
-1ro: generamos una nueva carpeta
+**1ro**: generamos una nueva carpeta
 
-2do: abrimos el VSC con esa carpeta
+**2do**: abrimos el VSC con esa carpeta
 
-3ro: para ver si tengo Node.js correctaemnte instalado, desde terminal ```node -v``` y me debe decir la versión instalada.
+**3ro**: para ver si tengo Node.js correctaemnte instalado, desde terminal ```node -v``` y me debe decir la versión instalada.
 
-4to: creo la app.js y escribo un ```console.log('probando')``` y lo debo ejecutar por consola ```$ node app.js``` y voy a ver ```probando```, el console.log.
+**4to**: creo la app.js y escribo un ```console.log('probando')``` y lo debo ejecutar por consola ```$ node app.js``` y voy a ver ```probando```, el console.log.
 
-5to: ```npm init``` para iniciar el proyecto y le voy a ir dando el nombre al proyecto, el numero de la version, la descripcion, entry point(lo dejamos vacio), comandos para test(lo dejamos vacio), git repositorio, keywords, autor, licencia(IS, MIT). Veo un objeto con la informacion que puse, le doy a ok. Y veo el **package,json**, el objeto que va a tener las dependencias instaladas
+**5to**: ```npm init``` para iniciar el proyecto y le voy a ir dando el nombre al proyecto, el numero de la version, la descripcion, entry point(lo dejamos vacio), comandos para test(lo dejamos vacio), git repositorio, keywords, autor, licencia(IS, MIT). Veo un objeto con la informacion que puse, le doy a ok. Y veo el **package,json**, el objeto que va a tener las dependencias instaladas
 
-6to: instalo **express** con: ```npm install express``` o ```npm i express```, y voy a ver la carpeta **node_modules**, el archivo **package-lock.json** y en package.json veo la dependencia.
+**6to**: instalo **express** con: ```npm install express``` o ```npm i express```, y voy a ver la carpeta **node_modules**, el archivo **package-lock.json** y en package.json veo la dependencia.
 
-7mo: vamos a [expressjs.com](http://expressjs.com) y veo en su documentacion que tengo el ejemplo de como crear el servidor 
+**7mo**: vamos a [expressjs.com](http://expressjs.com) y veo en su documentacion que tengo el ejemplo de como crear el servidor 
 
 ```JavaScript
 const express = require('express');
@@ -331,6 +331,6 @@ app.listen(port, () => {
 
 -> hasta no tener nodemon cada vez que hacemos un cambio hay que guardarlo, para el servidor con **Ctrl+C** y volver a correrlo
 
-8vo: ```node app.js``` por la consola y desde mi navegador voy a **localhost:3000**
+**8vo**: ```node app.js``` por la consola y desde mi navegador voy a **localhost:3000**
 
 ---
