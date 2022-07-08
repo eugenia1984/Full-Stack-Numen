@@ -326,6 +326,75 @@ module.exports = {
 
 ---
 
-##  EXPRESS BASADO EN CALSES
+##  EXPRESS BASADO EN CLASES
+
+Servidor normal de forma FUNCIONAL:
+
+
+```JavaScript
+const express = requiere('express');
+
+const app = express();
+const PORT = 8080;
+
+app.get('/'), (req, res) => {
+ res.send('Pagina de inicio')
+}
+
+app.get('/primer-server', (req, res) => {
+ res.send('Nuestro primer server con express')
+})
+
+app.listen(POSRT, () => {
+ consolelog(`Servidor corriendo en el puerto ${PORT}`)
+})
+```
+
+Servidor express basado en Clases
+
+```JavaScript
+const express = require('express');
+
+class Server{
+
+ constructor() {
+  this.app = express();
+  this.port = process.env.PORT;
+  
+  this.routers();
+ }
+ 
+ routers() {
+  this.app.get('/', (req, res) => {
+   res.send('Hola mundo')
+  })
+ }
+ 
+ listen() {
+  this.app.listen( this.port, () => {
+    console.log(`Servidor corriendo en puerto ${this.port}`)
+  })
+ }
+ 
+}
+
+```
+
+
+app.js
+
+```JavaScript
+require('dotenv').config();
+
+const Server = require('/models/Server');
+
+const server = new Server();
+
+server.listen();
+
+```
+
+---
+```
 
 ## LINEA DEL TIEMPO
