@@ -304,6 +304,18 @@ const app = express(;
 
 7mo: vamos a [expressjs.com](http://expressjs.com) y veo en su documentacion que tengo el ejemplo de como crear el servidor 
 
+```JavaScript
+const express = require('express');
+const app = express();
+const port = 3000; // el puerto de la conexion para el local host
 
+app.get('/', (req, res) => {
+ res.send('Hola mundo')
+})
+
+app.listen(port, () => {
+ console.log(`Ejemplo app escuchando desde el puerto ${port}`)
+})
+```
 
 ---
