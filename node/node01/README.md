@@ -225,13 +225,18 @@ server.listen(8080); // 8080 es el puerto
 
 console.log('Servidor en puerto 8080');
 ```
-Esta forma de hacer servidores es vieja y obsoleta, en la actualidad para hacer servidores usamos.......
+
+-->> Esta forma de hacer servidores es vieja y obsoleta, en la actualidad para hacer servidores usamos.......
 
 ---
 
 ## EXPRESS
 
 #### Características:
+
+- Es una librería pero se lo considera un framework
+
+- Está construido con el protocolo HTTP, y los servidores son más intuitivos, más fáciles, y tiene muchas herramientas internas.
 
 - Enrutamiento robusto
 
@@ -283,6 +288,21 @@ const app = express(;
 - PASO 4: creamos una constante donde guardamos express
 
 - PASO 5: hacemos la ruta que queramos y luego lo ponemos a escuchar.
+
+
+1ro: generamos una nueva carpeta
+
+2do: abrimos el VSC con esa carpeta
+
+3ro: para ver si tengo Node.js correctaemnte instalado, desde terminal ```node -v``` y me debe decir la versión instalada.
+
+4to: creo la app.js y escribo un ```console.log('probando')``` y lo debo ejecutar por consola ```$ node app.js``` y voy a ver ```probando```, el console.log.
+
+5to: ```npm init``` para iniciar el proyecto y le voy a ir dando el nombre al proyecto, el numero de la version, la descripcion, entry point(lo dejamos vacio), comandos para test(lo dejamos vacio), git repositorio, keywords, autor, licencia(IS, MIT). Veo un objeto con la informacion que puse, le doy a ok. Y veo el **package,json**, el objeto que va a tener las dependencias instaladas
+
+6to: instalo **express** con: ```npm install express``` o ```npm i express```, y voy a ver la carpeta **node_modules**, el archivo **package-lock.json** y en package.json veo la dependencia.
+
+7mo: vamos a [expressjs.com](http://expressjs.com) y veo en su documentacion que tengo el ejemplo de como crear el servidor 
 
 
 
