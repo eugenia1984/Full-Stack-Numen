@@ -395,6 +395,24 @@ server.listen();
 ```
 
 ---
-```
+---
 
 ## LINEA DEL TIEMPO
+
+- PASO 1: creacion de un server con HTTP
+
+- PASO 2: creacion de un server con Express
+
+- PASO 3: Server basico en clases
+
+- PASO 4: rutas GET-POST-PUT-DELETE
+
+- PASO 5: conectar nuestro CRUD con mongoDB, mongoose y poner logica en los conrtrollers
+
+- PASO 6: login, tokens, JWT
+
+- PASO 7: google sign in
+
+- PASO 8: agregar productos y categorias
+
+---
