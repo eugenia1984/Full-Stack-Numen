@@ -2,9 +2,11 @@
 
 ---
 
-### Aca estarán los links de los sliders de las clases:
+### Aca estarán los links de los sliders de las clases, junto a la teoría y ejercicios de práctica:
 
-- [clase 1](https://view.genial.ly/6122cab2a45f7d0d19d713c2/presentation-unidad-3-4-curso-backend): 
+---
+
+- [**clase 1**](https://view.genial.ly/6122cab2a45f7d0d19d713c2/presentation-unidad-3-4-curso-backend): 
 ```
 arquitectura cliente-servidor
 Introduccion a NodeJS
@@ -27,7 +29,9 @@ Tarea:
 - Usar método Number ejemplo ( let num1= Number(req.params.num1) ,  esto hará que el parametro pase de formato string a number 
 
 
-- [clase 2](https://view.genial.ly/6123d2ad86fcda0d1a305d4b/presentation-continuacion-unidad-4)
+---
+
+- [**clase 2**](https://view.genial.ly/6123d2ad86fcda0d1a305d4b/presentation-continuacion-unidad-4)
 ```
 Rest Server
 Rest Server API
