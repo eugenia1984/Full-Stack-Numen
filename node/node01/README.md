@@ -214,6 +214,7 @@ Una URI (identificador de recursos uniformes) es un bloque de texto que se escri
 ```JavaScript
 const http = require('http');
 
+// defino la URL
 const server = http.createServer( (req, res) => {
  if(req.url == '/') {
   res.write('Hola, este es nuestro primer server en node con http')
@@ -221,7 +222,8 @@ const server = http.createServer( (req, res) => {
  }
 });
 
-server.listen(8080); // 8080 es el puerto
+// levanto el servidor en el puerto 8080
+server.listen(8080); 
 
 console.log('Servidor en puerto 8080');
 ```
@@ -309,13 +311,26 @@ const express = require('express');
 const app = express();
 const port = 3000; // el puerto de la conexion para el local host
 
+// URN
+// req == REQUEST
+// res == RESPONSE
+// debemos tener 3 partes: METODO (get), EXPRESION DE LA RUTA (URN), CALLBACK(con el request y response)
 app.get('/', (req, res) => {
- res.send('Hola mundo')
+ res.send('Hola mundo')  //res.send() es para texto plano, mando un texto plano para mostrar en pantalla
 })
 
+app.get('/juan', (req, res) => {
+ res.send('Hola Juan')
+})
+
+// levanto el puerto
 app.listen(port, () => {
  console.log(`Ejemplo app escuchando desde el puerto ${port}`)
 })
 ```
+
+-> hasta no tener nodemon cada vez que hacemos un cambio hay que guardarlo, para el servidor con **Ctrl+C** y volver a correrlo
+
+8vo: ```node app.js``` por la consola y desde mi navegador voy a **localhost:3000**
 
 ---
