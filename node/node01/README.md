@@ -4,39 +4,61 @@
 
 ## :star:  ARQUITECTURA CLIENTE - SERVIDOR
 
-Dentro del contexto de un desarrollo web, esta arquitectura hace refernecia a un modelo de comunicación que vincula a varios dispositivos con un servidor a través de internet
+Dentro del contexto de un desarrollo web, esta arquitectura hace refernecia a un modelo de comunicación que vincula a varios dispositivos con un servidor a través de internet.
 
-- **CLIENTE**: Son los dispositivos que hacen peticiones de servicios o recursos a un servidor. Pueden ser: una computadora, un teléfono celular, una tablet, una consola de video juegos o cualquier implemento que tenga la capacidad de conectarse a una red. Dentro de Internet, el cliente suele acceder a estos servicios y recursos a través de un navegador web.
+También se lo conoce como INPUT/OUTPUT (ENTRADA/SALIDA) de la información.
 
-- **SERVIDOR**: Es el equipo que brinda los servicios y recursos a los que acceden los clientes. Es importante tener en cuenta que la misma computadora puede ser el cliente y el servidor al mismo tiempo. De hecho es lo más normal en el entorno de desarrollo de un sitio o aplicación web.
+- **CLIENTE**: Son los dispositivos que hacen **peticiones de servicios o recursos a un servidor**. 
+
+Pueden ser: una computadora, un teléfono celular, una tablet, una consola de video juegos o cualquier implemento que tenga la capacidad de conectarse a una red. 
+
+Dentro de Internet, el cliente suele acceder a estos servicios y recursos a través de un navegador web.
+
+- **SERVIDOR**: Es el equipo que brinda los servicios y recursos a los que acceden los clientes. 
+
+Es importante tener en cuenta que la misma computadora puede ser el cliente y el servidor al mismo tiempo. De hecho es lo más normal en el entorno de desarrollo de un sitio o aplicación web.
 
 
 ### FLUJO CLIENTE - SERVIDOR
 
-- **REQUEST** : Es la solicitud que hacemos a través del navegador (el cliente) a un servidor, en este ejemplo, la página de Facebook que está almacenada
-en sus servidores.
+- **REQUEST** : Es la **solicitud que hacemos a través del navegador (el cliente) a un servidor**, en este ejemplo, la página de Facebook que está almacenada en sus servidores.
 
-- **RESPONSE**: El servidor recibe nuestra solicitud, la procesa, y envía como resultado una respuesta al cliente (navegador), en este ejemplo devolverá la
-página principal del sitio.
+
+- **RESPONSE**: El **servidor recibe nuestra solicitud, la procesa, y envía como resultado una respuesta al cliente (navegador)**, en este ejemplo devolverá la página principal del sitio.
+
+
+Coexisten en el Back End con las solicitudes (REQUEST) y la respuesta (RESPONSE).
+
+Al escuchar la solicitud -> REQUEST -> no se cort la ejecución.
+
+Con el RESPONSE -> si cortamos la ejecución.
 
 ---
 
 ## :star: NODE.JS
 
-Existe la posibilidad de correr JS del lado del servidor permitiendo programar en un mismo lenguaje tanto en front como en back, logrando que el proceso de desarrollo sea mas fluido
+Existe la posibilidad de correr JS del lado del **servidor** permitiendo programar en un mismo lenguaje tanto en front como en back, logrando que el proceso de desarrollo sea mas fluido.
+
+JavaScrit es un lenguaje nativo para el Front End (navegadores webs) y con Node.js se puede correr también en el Back End.
 
 
-### ¿Qué es Nodejs?
+### ¿ Qué es Nodejs ?
 
-- Es un entorno de ejecución de Codigo de JavaScript.
+- Es un **entorno de ejecución** de Codigo de **JavaScript**.
 
-- Basado en el motor de Javascript V8 desarrollado por Google.
+- Basado en el motor de Javascript **V8** desarrollado por Google (construido en C+, V8 es un intérprete de código, interpreta el código Front End, el código JavaScript). V8 inerpreta el código JavaScript como CODIGO ASEMBLER / CODIGO MAQUINA y la máquina(todo lo que posea un procesador) si lo va a interpretar.
 
-- El uso mas comun es la creacion de servicos para el back-end como:
+- El uso más común es la creación de servicos para el back-end como:
 
--API(Aplication Programing Interface).
+-API (Aplication Programing Interface).
 
--Crear aplicacions del lado del servidor, altamente escalables, con uso intensive de datos en tiempo rea
+-Crear aplicacions del lado del servidor, altamente escalables, con uso intensive de datos en tiempo real.
+
+-Se pueden crear aplicaicones de escritorio.
+
+-Se pueden hacer chat box.
+
+- React también corre en un submotor que corre en Node.js
 
 
 ### Descarga de Nodejs
@@ -69,13 +91,17 @@ NPM es el gestor de paquetes de Node y nos permite descargar e instalar librerí
 
 Son bloques de código que nos permiten abordar soluciones específicas dentro de la aplicación que estemos desarrollando.
 
-En un entorno de desarrollo web, hay situaciones que se repiten una y otra vez. Las librerías llegan para facilitar esas problemáticas que sabemos que nos vamos a cruzar mientras desarrollamos nuestra aplicación. Manejar la subida de archivos, validar un formulario, o restringir el acceso a un usuario que no está registrado son algunas de ellas.
+En un entorno de desarrollo web, hay situaciones que se repiten una y otra vez. 
+
+Las librerías llegan para facilitar esas problemáticas que sabemos que nos vamos a cruzar mientras desarrollamos nuestra aplicación. 
+
+Manejar la subida de archivos, validar un formulario, o restringir el acceso a un usuario que no está registrado son algunas de ellas.
 
 
 
-Cuando se instala Node, se genera un comando para usar en la terminal.
+-->> Cuando se instala Node, se genera un comando para usar en la terminal.
 
-Lo primero que hay que hacer para usar npm es inicializar nuestro proyecto Node usando el comando . 
+Lo primero que hay que hacer para usar npm es inicializar nuestro proyecto Node usando el comando : ``` nmp install nombre_paquete```
 
 Este comando creará un archivo package.json, dentro del cual se se irán guardando todas las configuraciones del proyecto. 
 
@@ -94,6 +120,21 @@ Dentro de la carpeta **Node Modules** se irán creando las carpetas de las libre
 
 Cada una contendrá los archivos necesarios para poder trabajar con esa librería dentro del proyecto.
 
+#### ¿ Como saber que libreria utilizar ?
+
+- ver si tiene descargar
+
+- si tiene beuna documentacion
+
+- su pagina de git hub
+
+- si tienen dependencias
+
+-->> Hay distintas formas de conectar el front end con el back end ...
+
+... de modo nativo
+
+... por medio de la libreria
 
 ---
 
@@ -106,11 +147,31 @@ Un módulo no es nada más que una unidad de código organizado en archivos o di
 
 ### Tipos de modulos
 
-- **Modulos nativos**: Son los módulos nativos de la API de Node.js. No hace falta que se instalen, ya que vienen incluidos por defecto con Node.js. Algunos ejemplos son los módulos fs o stream. Estos paquetes solo son actualizados si cambias la versión de Node.js.
+- **Modulos nativos**
 
-- **Modulos creados** :  Son los módulos escritos por los desarrolladores y forman en su conjunto gran parte de la aplicación. Como ya has leído, se estructuran así con la finalidad de poder ser un código reutilizable.
+-Son los módulos nativos de la API de Node.js. 
 
-- **Modulos de terceros** : Son, en esencia, los paquetes de terceros distribuidos a través de npm (aunque pueden provenir de otros repositorios). Estos paquetes se instalan como dependencias y, aunque aportan funcionalidad a la aplicación, no deben incluirse en el repositorio ya que no son parte de la misma.
+-No hace falta que se instalen, ya que vienen incluidos por defecto con Node.js. 
+
+-Algunos ejemplos son los módulos **fs** o **stream**. 
+
+-Estos paquetes solo son actualizados si cambias la versión de Node.js.
+
+- **Modulos creados** :  
+
+-Son los módulos escritos por los desarrolladores y forman en su conjunto gran parte de la aplicación. 
+
+-Como ya has leído, se estructuran así con la finalidad de poder ser un código reutilizable.
+
+-Se utilizan en las empresas, de este modo son modulos espcíficos de ellos, y es en modo privado.
+
+- **Modulos de terceros** : 
+
+-Todos los que se pueden instalar desde a página de **npmm**.
+
+-Son, en esencia, los paquetes de terceros distribuidos a través de npm (aunque pueden provenir de otros repositorios). 
+
+-Estos paquetes se instalan como dependencias y, aunque aportan funcionalidad a la aplicación, no deben incluirse en el repositorio ya que no son parte de la misma.
 
 
 ### ¿ Cómo requerir un módulo ?
@@ -121,7 +182,9 @@ modulo.propiedad;
 modulo.funcionalidad();
 ```
 
-- Algunos modulos: HTTP; bcrypt, express, dotenv, mongoose
+con **require** llamo al modulo y lo guardo en una variable, lo utilizo como un objeto, y puedo usar sus propiedades y métodos.
+
+- Algunos modulos: HTTP(es nativo), bcrypt(para encriptar inforamción), express, dotenv(el uso de enviroment), mongoose(para conectar a la base de datos).
  
 ---
 
@@ -147,6 +210,21 @@ Una URI (identificador de recursos uniformes) es un bloque de texto que se escri
 
 - PASO 3 :  elegir el puerto donde se va a escuchar el server
 
+
+```JavaScript
+const http = require('http');
+
+const server = http.createServer( (req, res) => {
+ if(req.url == '/') {
+  res.write('Hola, este es nuestro primer server en node con http')
+  res.end(); // siempre que abo un write tengo que cerrar la conexion con el end
+ }
+});
+
+server.listen(8080); // 8080 es el puerto
+
+console.log('Servidor en puerto 8080');
+```
 Esta forma de hacer servidores es vieja y obsoleta, en la actualidad para hacer servidores usamos.......
 
 ---
