@@ -141,12 +141,56 @@ Una URI (identificador de recursos uniformes) es un bloque de texto que se escri
 
 #### Creación de un servidor con HTTP
 
+- PASO 1 : requerir modulo HTTP
+
+- PASO 2 : crear el server y una ruta
+
+- PASO 3 :  elegir el puerto donde se va a escuchar el server
+
+Esta forma de hacer servidores es vieja y obsoleta, en la actualidad para hacer servidores usamos.......
 
 ---
 
 ## EXPRESS
 
+#### Características:
+
+- Enrutamiento robusto
+
+- Centrarse en el alto rendimiento
+
+- Cobertura de prueba súper alta
+
+- Ayudantes HTTP (redirección, almacenamiento en caché, etc.)
+
+- Ver el sistema que admite más de 14 motores de plantilla
+
+- Negociación de contenido
+
+- Ejecutable para generar aplicaciones rápidamente
+
+#### Instalar
+
+```npm install express --save```
+
+#### Requerir
+
+
+
+
+---
+
 ## Server con Express
+
+- PASO 1: hacer el archivo **package.json** con ``` npm init -y```
+
+- PASO 2:
+
+- PASO 3:
+
+- PASO 4:
+
+- PASO 5:
 
 ## Contenido Static
 
