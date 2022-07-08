@@ -323,6 +323,38 @@ app.get('/juan', (req, res) => {
  res.send('Hola Juan')
 })
 
+app.get('/objeto', (req, res) => {
+ res.json({  // para usar JSON
+   nombre: 'Juan'
+ })
+})
+// si en el broser busco localhost:3000/objeto veo el objeto con la key "nombre" y el value Juan
+
+// para utilizar la response, pasando parametos en la URN
+app.get('/cursada/:curso/alumno/:nombre', (req, res) => {
+ res.json(req.params) // para usar los parametros dinamicos de la ruta
+})
+// si en el broser busco localhost:3000/cursada/fullstack/juan veo el objeto con la key "curso" y el value fullstack  y la otra key "alumno" con el value juan
+
+
+// para utilizar la response, pasando parametos en la URN con el metodo send()
+app.get('/cursada/:curso/alumno/:nombre', (req, res) => {
+ res.send(`Yo soy ${req.params.nombre} y curso ${req.params.curso}`) // para usar los parametros dinamicos de la ruta
+})
+
+// para usar al mismo tiempo tanto los parametros como la query
+app.get('alumno/:nombre', (req, res) => {
+ res.send(`Yo soy ${req.params.nombre} y curso ${req.query.curso}`) // para usar los parametros dinamicos de la ruta
+})
+// en el navegador localhost:3000/alumno/juan?curso=fullstack paso el nombre como parametro y el fullstack por medio de queries
+
+// para recibir datos del cliente por medio de query
+app.get('/curso', (req, res) => {
+ res.json(req.query)
+})
+// en el browser localhost:3000/curso?alumno1=juan&alumno2=claudia
+// y voy a ver un object con la key alumno1 y el value "juan", la key alumno2 y el value "claudia"
+
 // levanto el puerto
 app.listen(port, () => {
  console.log(`Ejemplo app escuchando desde el puerto ${port}`)
@@ -330,6 +362,14 @@ app.listen(port, () => {
 ```
 
 -> hasta no tener nodemon cada vez que hacemos un cambio hay que guardarlo, para el servidor con **Ctrl+C** y volver a correrlo
+
+-> Tenemos tres formas de enviar informacion desde el NAVEGADOR al SERVIDOR...
+
+... **req.params.value**
+
+... **req.query** sierven para métodos SERACH, para buscar, como cuando me conecto a la base de datos, por ejemplo, o como cuando hago una busqueda en google search.
+
+... **req.body**
 
 **8vo**: ```node app.js``` por la consola y desde mi navegador voy a **localhost:3000**
 
