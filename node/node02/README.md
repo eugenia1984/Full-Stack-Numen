@@ -274,6 +274,56 @@ module.exports = router;
 
 -> EN UNA CARPETA TENDREMOS TODOS LOS CONTROLLERS ->  Cada ruta esta asociada con un controlador, en éste se aloja toda la logica de dicha ruta
 
+controllers.j
+```JavaScript
+const { response, request } = require('express');
+
+const usuariosGet = ( req = request , res = response) => {
+ const { q, nombre = 'No name', apikey, page = 1, limit } = req.query;
+ 
+ res.json({
+  msg: 'get API - controlador',
+  qm
+  nombre,
+  apijey,
+  page,
+  limit
+ }) ;
+}
+
+const usuariosPost = ( req, res = response ) => {
+ const { nombre, edad } = req.body;
+ 
+ res.json({
+  msg: 'post API - usuariosPost',
+  nombre,
+  edad
+ });
+}
+
+const usuariosPut = (req, res = response) => {
+ const { id } = req.params;
+ 
+ res.json({
+ msg: 'put API - usuariosPut,
+ id
+ });
+}
+
+const usuariosDelete = (req, res = response) => {
+ res.json({
+  msg: 'delete API - usuariosDelete'
+ });
+}
+
+module.exports = {
+ usuariosGet,
+ usuariosPost,
+ usuariosPut,
+ usuariosDelete
+}
+```
+
 ---
 
 ##  EXPRESS BASADO EN CALSES
