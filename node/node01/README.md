@@ -34,9 +34,9 @@ Existe la posibilidad de correr JS del lado del servidor permitiendo programar e
 
 - El uso mas comun es la creacion de servicos para el back-end como:
 
-API(Aplication Programing Interface).
+-API(Aplication Programing Interface).
 
-Crear aplicacions del lado del servidor, altamente escalables, con uso intensive de datos en tiempo rea
+-Crear aplicacions del lado del servidor, altamente escalables, con uso intensive de datos en tiempo rea
 
 
 ### Descarga de Nodejs
@@ -171,11 +171,25 @@ Esta forma de hacer servidores es vieja y obsoleta, en la actualidad para hacer 
 
 #### Instalar
 
+Lo primero que hay que hacer es instalar la librería en un proyecto de Node ya inicializado, es decir, haber hecho el ```npm init``` y tener creado el archivo vpackage.json```.
+
 ```npm install express --save```
+
+Con el comando ```--save``` estamos **guardando**, en la propiedad ```dependencies``` del archivo ```packege.json``` , una referencia a la libreria que estamos instalando. De esta manera, quien quiera clonar el proyecto, podrá instalar todas las dependencias que el mismo necesite para funcionar haciendo uso de ```npm install```.
 
 #### Requerir
 
+Una vez instalado Express, tendremos que **requerir** el **modulo** en nuestro entry-point ```app.js```:
 
+```JavaScript
+const express = require('express');
+```
+
+Lo que devuelve la librería es una **función** que encapsula todas las funcionalidades de Express y para poder empezar a usarlas, hace falta **ejecutar** esa función. Lo próximo, entonces, sería crear una **variable nueva** y almacenar en ella la **ejecución** de ```express``` y así poder tener tods los métodos de la librería disponible.
+
+```JavaScript
+const app = express(;
+```
 
 
 ---
@@ -184,14 +198,14 @@ Esta forma de hacer servidores es vieja y obsoleta, en la actualidad para hacer 
 
 - PASO 1: hacer el archivo **package.json** con ``` npm init -y```
 
-- PASO 2:
+- PASO 2: instalamos express.
 
-- PASO 3:
+- PASO 3: importamos express con el require.
 
-- PASO 4:
+- PASO 4: creamos una constante donde guardamos express
 
-- PASO 5:
+- PASO 5: hacemos la ruta que queramos y luego lo ponemos a escuchar.
 
-## Contenido Static
+
 
 ---
