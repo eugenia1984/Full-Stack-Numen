@@ -2,13 +2,13 @@
 
 ---
 
-## REST SERVER
+## :star: REST SERVER
 
 REST es un tipo de arquitectura de servicios que proporciona estándares entre sistemas informáticos para establecer como se van a comunicar entre esi
 
 ---
 
-##  REST SERVER API
+## :star:  REST SERVER API
 
 Cuando se envía una solicitud del cliente a través de una API de RESTful, esta transfiere una representación del estado del recurso requerido a quien lo haya solicitado o al extremo. La información, o representación, se entrega por medio de HTTP en uno de estos formatos: JSON (JavaScript Object Notation), HTML, XLT, Python, PHP o texto sin formato.
 
@@ -18,20 +18,23 @@ Asimismo, es necesario tener en cuenta otros aspectos. Los encabezados y los par
 
 ### RECURSOS UNIFORMES
 
-Desde el lado del servidor, una arquitectura REST expone a los clientes a una interfaz uniforme.
+Desde el lado del servidor, una **arquitectura REST** expone a los clientes a una interfaz uniforme.
 
 Todos los recursos del servidor tienen un nombre en forma de URL o hipervínculo.
 
 Toda la info se intercambia a través del protocolo HTTP
 
-A esas URL les llamamos endpoints, es decir, el servidor expone a los clientes un conjunto de endpoints para que este pueda acceder. 
+A esas URL les llamamos **endpoints**, es decir, el servidor expone a los clientes un conjunto de endpoints para que este pueda acceder. 
 
-A esa interfaz uniforme, o sea, al conjunto de endpoints, la llamamos API
+A esa interfaz uniforme, o sea, al conjunto de endpoints, la llamamos **API**
 
-Un endpoint está ligado al recurso que solicitamos, dicho recurso debe tner solamente un id
+Un **endpoint** está ligado al recurso que solicitamos, dicho recurso debe tner solamente un id
 
 ---
-##  API
+##  :star: API
+
+
+### ¿ Qué es?
 
 Una API es un conjunto de definiciones y protocolos que se utiliza para desarrollar e integrar el software de las aplicaciones.Suele considerarse como el contrato entre el proveedor de información y el usuario, donde se establece el contenido que se necesita del consumidor (la llamada) y el que requiere el productor (la respuesta)
 
@@ -39,16 +42,16 @@ En otras palabras, si desea interactuar con una computadora o un sistema para ob
 
 #### PARA QUE UNA API SE CONSIDERE DE RESTFUL, DEBE CUMPLIR LOS SIGUIENTES CRITERIOS:
 
-- Arquitectura cliente-servidor compuesta de clientes, servidores y recursos, con la gestión de solicitudes a través de HTTP.
+- Arquitectura cliente-servidor compuesta de clientes, servidores y recursos, con la gestión de solicitudes a través de **HTTP**.
 
-- Comunicación entre el cliente y el servidor sin estado, lo cual implica que la información del cliente no se almacena entre las solicitudes de GET y que cada una de ellas es independiente y está desconectada del resto.
-Datos que pueden almacenarse en caché y optimizan las interacciones entre el cliente y el servidor.
+- **Comunicación entre el cliente y el servidor** sin estado, lo cual implica que la información del cliente no se almacena entre las solicitudes de GET y que cada una de ellas es independiente y está desconectada del resto.
+Datos que pueden almacenarse en caché y **optimizan las interacciones** entre el cliente y el servidor.
 
-- Una interfaz uniforme entre los elementos, para que la información se transfiera de forma estandarizada. 
+- Una **interfaz uniforme** entre los elementos, para que la información se transfiera de forma estandarizada. 
 
-- Un sistema en capas que organiza en jerarquías invisibles para el cliente cada uno de los servidores que participan en la recuperación de la información solicitada.
+- Un **sistema en capas** que organiza en jerarquías invisibles para el cliente cada uno de los servidores que participan en la recuperación de la información solicitada.
 
-- Código disponible según se solicite (opcional), es decir, la capacidad de enviar códigos ejecutables del servidor al cliente cuando se requiera, lo cual amplía las funciones del cliente. 
+- **Código disponible** según se solicite (opcional), es decir, la capacidad de enviar códigos ejecutables del servidor al cliente cuando se requiera, lo cual amplía las funciones del cliente. 
 
 ---
 
@@ -72,6 +75,55 @@ HTTP METHODS:
 **DELETE** permite indicar al servidor que borre un recurso
 
 ---
+
+
+### Códigos de status
+
+
+| CODE  | NAME | NOTES |
+| ----- | ---- | ----- |
+| 100 | CONTINUE | - |
+| 101 | SWITCHING PROTOCOLS | - |
+
+
+SUCCESSFUL
+| CODE  | NAME | NOTES |
+| ----- | ---- | ----- |
+| 200 | OK | - |
+| 201 | CREATED | - |
+| 202 | ACCEPTED | - |
+| 203 | NON-AUTHORITATIVE INFORMATION | - |
+| 204 | NO CONTENT | - |
+| 205 | RESET CONTENT | - |
+| 206 | PARTIAL CONTENT | - |
+
+REDIRECTION
+| CODE  | NAME | NOTES |
+| ----- | ---- | ----- |
+| 300 | MULTIPLE CHOICES | - |
+| 301 | MOVED PERMANTLY | UPDATE YOUR URL, THIS HAS MOVED FOR GOOD |
+| 302 | FOUND | - |
+| 303 | SEE OTHER | - |
+| 304 | NOT MODIFIED | - |
+| 305 | USE PROXY | - |
+| 306 | UNUSED | - |
+| 307 | TEMPORARY REDIRECT | THIS IS TEMPORARY MOVED, DON´T UPDATE YOU BOOKMARKS |
+
+
+CLIENT ERROR
+| CODE  | NAME | NOTES |
+| ----- | ---- | ----- |
+
+SERVER ERROR
+| CODE  | NAME | NOTES |
+| ----- | ---- | ----- |
+| 500 | INTERNAL SERVER ERROR | SOMETHING ON THE SERVER DIDN´T WORK RIGHT |
+| 501 | NOT IMPLEMENTED | - |
+| 502 | BAD GATEWAY | - |
+| 503 | SERVICE UNAVAILABLE | TOO BUSY TO RESPOND TO A CLIENT | - |
+| 504 | GATEWAY TIMEOUT | - |
+| 505 | HTTP VERSION NOT SUPPORTED | - |
+
 
 ### ¿Qué nos devuelve una URL ?
 
