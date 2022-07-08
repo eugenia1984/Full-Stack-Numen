@@ -106,14 +106,43 @@ Un módulo no es nada más que una unidad de código organizado en archivos o di
 
 ### Tipos de modulos
 
-- Modulos nativos
+- **Modulos nativos**: Son los módulos nativos de la API de Node.js. No hace falta que se instalen, ya que vienen incluidos por defecto con Node.js. Algunos ejemplos son los módulos fs o stream. Estos paquetes solo son actualizados si cambias la versión de Node.js.
 
-- Modulos creados
+- **Modulos creados** :  Son los módulos escritos por los desarrolladores y forman en su conjunto gran parte de la aplicación. Como ya has leído, se estructuran así con la finalidad de poder ser un código reutilizable.
 
-- Modulos de terceros
+- **Modulos de terceros** : Son, en esencia, los paquetes de terceros distribuidos a través de npm (aunque pueden provenir de otros repositorios). Estos paquetes se instalan como dependencias y, aunque aportan funcionalidad a la aplicación, no deben incluirse en el repositorio ya que no son parte de la misma.
+
+
+### ¿ Cómo requerir un módulo ?
+
+```JavaScript
+let modulo = require('nombre_modulo');
+modulo.propiedad;
+modulo.funcionalidad();
+```
+
+- Algunos modulos: HTTP; bcrypt, express, dotenv, mongoose
+ 
 ---
 
-## Modulohttp
+## MODULO HTTP 
+
+#### ¿Qué es una URI ?
+
+El protocolo HTTP permite la transferencia de información en la web a través de direcciones web, técnicamente llamadas URI.
+
+Una URI (identificador de recursos uniformes) es un bloque de texto que se escribe en la barra de direcciones de un navegador web y está compuesto por dos partes: la URL y la URN.
+
+#### Componentes de una URI
+
+- **URL**: Indica donde se encuenta el recurso que deseamos obtener y siempre comienza con un protocolo (http,https)
+
+- **URN**: Es el nombre exacto del recurso uniforme. el nombre del dominio y en ocacsiones el nombre del recurso
+
+#### Creación de un servidor con HTTP
+
+
+---
 
 ## EXPRESS
 
