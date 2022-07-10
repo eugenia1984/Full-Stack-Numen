@@ -333,16 +333,17 @@ app.get('/objeto', (req, res) => {
 // si en el broser busco localhost:3000/objeto veo el objeto con la key "nombre" y el value Juan
 
 // para utilizar la response, pasando parametos en la URN
-app.get('/cursada/:curso/alumno/:nombre', (req, res) => {
+app.get('/cursada/:curso', (req, res) => {
  res.json(req.params) // para usar los parametros dinamicos de la ruta
 })
-// si en el broser busco localhost:3000/cursada/fullstack/juan veo el objeto con la key "curso" y el value fullstack  y la otra key "alumno" con el value juan
+// si en el broWser busco localhost:3000/cursada/fullstack veo el objeto con la key "curso" y el value fullstack 
 
 
 // para utilizar la response, pasando parametos en la URN con el metodo send()
 app.get('/cursada/:curso/alumno/:nombre', (req, res) => {
  res.send(`Yo soy ${req.params.nombre} y curso ${req.params.curso}`) // para usar los parametros dinamicos de la ruta
 })
+// si en el broWser busco localhost:3000/cursada/fullstack/alumno/juan veo el el mensaje Yo soy juan y curso fullstack
 
 // para usar al mismo tiempo tanto los parametros como la query
 app.get('alumno/:nombre', (req, res) => {
