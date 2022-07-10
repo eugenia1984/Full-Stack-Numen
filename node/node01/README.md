@@ -256,7 +256,7 @@ console.log('Servidor en puerto 8080');
 
 #### Instalar
 
-Lo primero que hay que hacer es instalar la librería en un proyecto de Node ya inicializado, es decir, haber hecho el ```npm init``` y tener creado el archivo vpackage.json```.
+Lo primero que hay que hacer es instalar la librería en un proyecto de Node ya inicializado, es decir, haber hecho el ```npm init``` y tener creado el archivo package.json```.
 
 ```npm install express --save```
 
@@ -270,10 +270,12 @@ Una vez instalado Express, tendremos que **requerir** el **modulo** en nuestro e
 const express = require('express');
 ```
 
-Lo que devuelve la librería es una **función** que encapsula todas las funcionalidades de Express y para poder empezar a usarlas, hace falta **ejecutar** esa función. Lo próximo, entonces, sería crear una **variable nueva** y almacenar en ella la **ejecución** de ```express``` y así poder tener tods los métodos de la librería disponible.
+Lo que devuelve la librería es una **función** que encapsula todas las funcionalidades de Express y para poder empezar a usarlas, hace falta **ejecutar** esa función. 
+
+Lo próximo, entonces, sería crear una **variable nueva** y almacenar en ella la **ejecución** de ```express``` y así poder tener tods los métodos de la librería disponible.
 
 ```JavaScript
-const app = express(;
+const app = express();
 ```
 
 
@@ -374,3 +376,18 @@ app.listen(port, () => {
 **8vo**: ```node app.js``` por la consola y desde mi navegador voy a **localhost:3000**
 
 ---
+---
+
+## :star:  TAREA
+
+- Generar un backend con express-generator
+
+- Hacer una ruta con query que me devuelva un texto presentadose por su nombre y diciendo de donde es
+
+- Hacer una ruta que divida dos números
+
+- Usar método Number ejemplo ( let num1= Number(req.params.num1) , esto hará que el parametro pase de formato string a number
+
+[Está dentro de la carpeta **tarea01**](https://github.com/eugenia1984/Full-Stack-Numen/tree/main/node/node01/tarea01)
+
+
