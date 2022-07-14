@@ -72,6 +72,26 @@ En una base de datos relacional dispondremos de la sigueinte tabla:
 | nombre | apellido | edad |
 | ------ | -------- | -----|
 
-Ahora el mismo concepto de Persona(nombre, apellido, edad) en una base de datos MongoDB cada persona sería un objeto y cada propiedad no es un requisito obligatorio, lo puede tener o no, por ejemplo una persona ppuede no tener la clase edad, y al ver esa persona edad ni va a estar.
+Ahora el mismo concepto de Persona(nombre, apellido, edad) en una base de datos MongoDB cada persona sería un objeto y cada propiedad no es un requisito obligatorio, lo puede tener o no, por ejemplo una persona puede no tener la clase edad, y al ver esa persona edad ni va a estar.
 
 ---
+
+## Ventajas y Desventajas
+
+### Ventajas
+
+- La escalabilidad y su caracter
+
+### Desventajas
+
+- Problemas con sentencias SQL ya que no admiten el 100% de las consultas existentes.
+
+- Carece de algo tan fundamental como los Joins
+
+- Falta de estandarización entre diferentes bases de datos NoSQL.
+
+---
+
+## Pasos para conectarnos a una bass de datos
+
+- PASO 1: Entrar a [https://cloud.mongodb.com/v2/6220e379eac5a809ecc713f8#clusters](https://cloud.mongodb.com/v2/6220e379eac5a809ecc713f8#clusters) para crear el CLUSTER, lo ideal es buscar un servidor que proporcione en Sao Pablo (que sea free).
