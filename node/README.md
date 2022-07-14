@@ -54,6 +54,10 @@ Linea del tiempo
 
 ---
 
+- [**clase 3**](https://github.com/eugenia1984/Full-Stack-Numen/tree/main/node/node03) Base de datos
+
+---
+
 ### Proyecto integrador de Back End
 
 - Es individual
