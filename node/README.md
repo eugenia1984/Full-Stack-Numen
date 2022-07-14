@@ -51,3 +51,25 @@ Linea del tiempo
 ```
 
 [Y aca aclaracion de la teoria](https://github.com/eugenia1984/Full-Stack-Numen/tree/main/node/node02)
+
+---
+
+### Proyecto integrador de Back End
+
+El  proyecto  consistirá  en  desarrollar  un  servidor  en  Node  que  utilice  rutas  con  sus respectivos métodos HTTP para la comunicación con la base de datos. Además, tendrá  los siguientes requisitos. 
+
+Requerimientos para el servidor: 
+
+1.  Antes que nada, contar con una base de datos propia y una cuenta en MongoDB Compass (consejo: revisar clase en que se crea el cluster). 
+
+2.  Desarrollar un esquema propio y original.
+
+3.  Que posea al mínimo 4 (cuatro) rutas para conformar un CRUD, de forma de que cree, lea, actualice y elimine datos en la base de datos de MongoDB que generaron en el paso 1.
+
+4.  Validar las rutas que sean necesarias con el uso de express-validator. 
+
+5.  Desarrollar un middleware propio. 
+
+6.  Que contenga una ruta que se comunique a una API externa. 
+
+---
