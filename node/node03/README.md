@@ -95,3 +95,23 @@ Ahora el mismo concepto de Persona(nombre, apellido, edad) en una base de datos 
 ## Pasos para conectarnos a una bass de datos
 
 - PASO 1: Entrar a [https://cloud.mongodb.com/v2/6220e379eac5a809ecc713f8#clusters](https://cloud.mongodb.com/v2/6220e379eac5a809ecc713f8#clusters) para crear el CLUSTER, lo ideal es buscar un servidor que proporcione en Sao Pablo (que sea free).
+
+Primeros pasos:
+
+* Iniciar un proyecto con express-generator
+
+1. Crear la carpeta "controller" y migrar los cb de routes.
+
+2. Instalar `mongoose` y `dotenv`
+```
+npm i mongoose
+npm i dotenv
+```
+
+3. Crear archivo `.env` y colocar ruta de conección (se puede llamar como quieras. Ej: MONGO_CNN). Asignar username y password que creamos en la sección `Database Access`.
+
+4. En `www` agregar la linea `require('dotenv').config();` para utilizar los env dentro del archivo.
+
+5. Crear una carpeta `db` con un archivo `db.js` y generar la conección con mongoose.
+
+6. Ejecutar la función dentro de App.js
