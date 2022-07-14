@@ -27,3 +27,51 @@ Una de las diferencias más importantes con respecto a las bases de datos relaci
 - Es de uso gratuito.
 
 ---
+
+## CONCEPTO
+
+- Es NoSQL, es decir es una base de datos NO RELACIONAL, va creciendo y se utiliza con más frecuencia.
+
+- El concepto NoSQL define sistemas que difieren del modelo clásico SQL. Lo más destacado de NoSQL es que no usan SQL como lenguaje principal de consulta.
+
+- MongoDB es una base de datos orientada a documentos. No se basa en el concepto de tabla fila y registro sino que se apoya en el concepto de **Colección**, **Documento** y **Propiedad**.
+
+---
+
+## Arquitectura
+
+
+```
+Servidor MongoDB
+
+|-------------------------------|
+|                               |
+| Database1         Database2   |
+| -------------    ------------ |
+| |            |   |          | |
+| |Coleccion1  |   |          | |
+```
+----
+
+## Diferencias
+
+- Aqui comienzan las diferencias importantes entre una base de datos SQL y una NoSQL. El concepto de fila y de documentos son bastantes diferentes.
+
+- Una fila está compuesta de columnas y siempre son las mismas para todas ellas.
+
+- En cambio un documento está compuesto por claves y valores y cada documento puede tener varaiciones importantes.
+
+---
+
+## Ejemplo
+
+Imaginemos que tenemos un listado de **Persona** con **nombre**, **apellido** y **edad**.
+
+En una base de datos relacional dispondremos de la sigueinte tabla:
+
+| nombre | apellido | edad |
+| ------ | -------- | -----|
+
+Ahora el mismo concepto de Persona(nombre, apellido, edad) en una base de datos MongoDB cada persona sería un objeto y cada propiedad no es un requisito obligatorio, lo puede tener o no, por ejemplo una persona ppuede no tener la clase edad, y al ver esa persona edad ni va a estar.
+
+---
