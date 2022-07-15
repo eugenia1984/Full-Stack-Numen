@@ -54,7 +54,18 @@ Linea del tiempo
 
 ---
 
-- [**clase 3**](https://github.com/eugenia1984/Full-Stack-Numen/tree/main/node/node03) Base de datos
+- [**clase 3**](https://view.genial.ly/6132372d7cc0a80da658bb42/presentation-01-be-avanzado)Base de datos
+```
+MongoDB
+Arquitectura
+Diferencias
+Ejemplo
+Ventajas
+Conexion
+Model Usuario
+```
+
+[Y aclaración de la teoría](https://github.com/eugenia1984/Full-Stack-Numen/tree/main/node/node03) 
 
 ---
 
