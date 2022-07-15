@@ -12,7 +12,9 @@ Es una BASE DE DATOS.
 
 Es orientada a DOCUMENTOS. Esto quiere decir que en lugar de guardar los datos en registros, guarda los datos en documentos. Estos documentos son almacenados en un JSON.
 
-Una de las diferencias más importantes con respecto a las bases de datos relacionales es que no es necesario seguir un esquema.
+Una de las diferencias más importantes con respecto a las bases de datos relacionales es que no es necesario seguir un esquema. Los documentos de una misma colección, concepto similar a una tabla de una base de datos relacional, pueden tener esquemas diferentes.
+
+[Leer más acá](https://www.mongodb.com/cloud/atlas/lp/try2?utm_content=rlsavisitor&utm_source=google&utm_campaign=gs_americas_rlsamultirest_search_brand_atlas_desktop_rlsa&utm_term=download%20mongodb&utm_medium=cpc_paid_search&utm_ad=e&utm_ad_campaign_id=14412646317&gclid=CjwKCAjwj8eJBhA5EiwAg3z0mwLfWhw_GD8n_tgut4cJe894OM-QJpX4FvyHQMegUYLrRuHeY7meIBoCT0AQAvD_BwE)
 
 ---
 
@@ -44,12 +46,23 @@ Una de las diferencias más importantes con respecto a las bases de datos relaci
 ```
 Servidor MongoDB
 
-|-------------------------------|
-|                               |
-| Database1         Database2   |
-| -------------    ------------ |
-| |            |   |          | |
-| |Coleccion1  |   |          | |
+|-------------------------------------|
+|                                     |
+| Database1             Database2     |
+| ---------------    ---------------- |
+| |              |   |              | |
+| | Coleccion1   |   | Coleccion3   | |
+| | -----------  |   | ------------ | |
+| | |Documentos| |   | |Documentos| | |
+| | -----------  |   | ------------ | |
+| |              |   |              | |
+| | Coleccion2   |   | Coleccion4   | |
+| | -----------  |   | ------------ | |
+| | |Documentos| |   | |Documentos| | |
+| | -----------  |   | ------------ | |
+| |--------------|   |--------------| |
+|-------------------------------------|
+
 ```
 ----
 
@@ -59,7 +72,7 @@ Servidor MongoDB
 
 - Una fila está compuesta de columnas y siempre son las mismas para todas ellas.
 
-- En cambio un documento está compuesto por claves y valores y cada documento puede tener varaiciones importantes.
+- En cambio un documento está compuesto por claves y valores y cada documento puede tener varaiciones importantes con rsespecto al anterior dentro de una colección.
 
 ---
 
@@ -78,9 +91,17 @@ Ahora el mismo concepto de Persona(nombre, apellido, edad) en una base de datos 
 
 ## Ventajas y Desventajas
 
+
 ### Ventajas
 
-- La escalabilidad y su caracter
+- La escalabilidad y su carácter descentralizado hacen que soporte estructuras distribuidas.
+
+- Permiten realizar sistemas más abiertos y flexibles debido a su fácil adaptacion de nuevas evoluciones de nuestras aplicaciones web
+
+- No se requieren potente recursos para poder trabajar con bases de datos NoSQL.
+
+- Optimización de las consultas en bade de datos para grandes cantidad de datos almacenados
+
 
 ### Desventajas
 
@@ -115,3 +136,52 @@ npm i dotenv
 5. Crear una carpeta `db` con un archivo `db.js` y generar la conección con mongoose.
 
 6. Ejecutar la función dentro de App.js
+
+
+---
+
+## Creamos un usuario
+
+Modelo usuario
+
+Vamos a crear todas las propiedades de nuestro usuario
+
+Luego realizaremos el CRUD (CREATE READ UPDATE DELETE) del usuario
+
+### Schema
+
+¿ Para que utilizamos los esquemas?
+
+**Un esquema en Mongoose es una estructura JSON que contiene información acerca de las propiedades de un documento.**
+
+En otras palabras, los esquemas sirven como guias de la estructura de los documentos. Estos son necesitados para la creación del modelo. Así que antes de utilizar los modelos de manera apropiada, es necesario definir sus esquemas.
+
+[Para poder leer más sobre el tema](https://mongoosejs.com/docs/guide.html)
+
+Ejemplo en codigo:
+
+```JavaScript
+const { schema, model} = require('mongoose');
+
+const UsuariosSchema = Schema({
+  nombre: {
+    type: String,
+    required: [true, 'el nombre es obligatorio']
+  },
+  correo: {
+    type: String.
+    required: [true, 'El correo es obligatorio'],
+    unique: true
+  },
+  password: {
+  },
+  img: {
+  },
+  rol: {
+  },
+  estado: {
+  },
+  google: {
+  },
+});
+```
