@@ -54,7 +54,9 @@ Linea del tiempo
 
 ---
 
-- [**clase 3**](https://view.genial.ly/6132372d7cc0a80da658bb42/presentation-01-be-avanzado)Base de datos
+- [**clase 3**](https://view.genial.ly/6132372d7cc0a80da658bb42/presentation-01-be-avanzado):
+
+**Base de datos**
 ```
 MongoDB
 Arquitectura
