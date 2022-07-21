@@ -179,13 +179,37 @@ const usuariosGet = async(req = request , res = response) => {
 ---
 
 
-## DELETE
+### DELETE
+
+- 1 Hacer la logica en el controller del delete
+
+```JavaScript
+const usuariosDelete = async(req, res = response) => {
+  
+    const { id } = req.params;
+    
+    /// fisicamente lo borramos
+    // const usuario = await Usuario.findByIdAndDelete{ id };
+    
+    const usuario = await Usuario.findByIdAndUpdate{ id, {estado: false}};
+    
+    res.json(usuario);
+}
+```
+
+- 2 Colocar todos los middlewares en nuestras rutas
+
+```JavaScript
+router.delete('/:id', [
+  check('id', 'No es un ID valido').isMongoId(),
+  check('id').custom( existeUsuarioPorId ),
+  validarCampos
+], usuariosDelete );
+```
 
 ---
 
 
 ## 6 CRUD
-
----
 
 
