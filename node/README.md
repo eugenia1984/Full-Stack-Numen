@@ -92,3 +92,9 @@ Requerimientos para el servidor:
 6- Que contenga una ruta que se comunique a una API externa. 
 
 ---
+
+[clase 4]https://github.com/eugenia1984/Full-Stack-Numen/tree/main/node/node04)
+
+---
+
+[clase 5](https://github.com/eugenia1984/Full-Stack-Numen/tree/main/node/node05)
