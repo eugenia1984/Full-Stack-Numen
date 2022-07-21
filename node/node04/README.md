@@ -30,9 +30,70 @@ Express-validator nos facilita, como lo dice su nombre, muchos middlewares para 
 
 ## 4 Bcriptjs
 
+Basicamente nos va a ayudar a encriptar la contraseña de nuestros usuarios.
+
+[https://www.npmjs.com/package/bcryptjs](https://www.npmjs.com/package/bcryptjs)
+
 ---
 
 ## 5 Crear Usuario
+
+
+->> Pasos a seguir
+
+- 1 Hacer la logica en el controller del post
+
+```JavaScript
+const usuariosPost = async(req, res = response) => {
+  const body = res.body;
+  consr usuario = new Usuario { body };
+  
+  await usuario.save();
+  
+  res.json({
+    msg: 'post API - usuariosPost',
+    usuario
+  })
+}
+```
+
+- 2 Encriptar la contraseña
+
+
+```JavaScript
+const bcryptjs = require('bycryptjs');
+const usuariosPost = async(req, res = response) => {
+  
+  const { nombre, correo, password, rol } = req.body;
+  const usuario = new Usuario({ nombre, correo, password, rol});
+  
+  // Encriptar la contraseña
+  const salt = bcryptjs.genSaltSync();
+  usuario.password = bcryptjs.hashSync( password, salt );
+  
+  // Guarda en ID
+  await usuario.save();
+  
+  res.json({
+    usuario
+  })
+}
+```
+
+- 3 Colocar todos los middleware en las nuevas rutas
+
+
+```JavaScript
+router.post('/', [
+  check('nombre', 'El nombre es obligatorio').not().isEmpty(),
+  check('password', 'El password debe ser más de 6 letras').isLength({ min: 6}),
+  check('correo', 'El correo no es válido').isEmail(),
+  check('correo').custom(emailExiste),
+  // chack('rol', 'No es un rol valido').isIn('ADMIN_ROLE', 'USER_ROLE'),
+  check('rol').custom(esRolValido),
+  validarCampos
+], usuarioPost );
+```
 
 ---
 
