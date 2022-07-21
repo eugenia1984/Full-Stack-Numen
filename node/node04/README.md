@@ -41,6 +41,8 @@ Basicamente nos va a ayudar a encriptar la contraseña de nuestros usuarios.
 
 ->> Pasos a seguir
 
+### POST
+
 - 1 Hacer la logica en el controller del post
 
 ```JavaScript
@@ -93,6 +95,45 @@ router.post('/', [
   check('rol').custom(esRolValido),
   validarCampos
 ], usuarioPost );
+```
+
+### PUT
+
+- 1 Hacer la logica en el controller del put
+
+```JavaScript
+const usuariosPut = async(req, res = response) => {
+
+  const {id } = req.params;
+  const { _id, password, google, correo, ...resto } = req.body;
+  
+  if ( password ) {
+    // Encriptar la contraseña
+    const salt = bcryptjs.genSaltSync();
+    resto.password = bcryptjs.hashSync( password, salt);
+  }
+  
+  const usuario = await Usuario.findByIdAndUpdate( id, resto);
+  
+  res.json(usuario);
+}
+
+const usuariosPatch = (req, res = response ) => {
+  res.json({
+    msg: 'partch API - usuariosPatch'
+  });
+}
+```
+
+- 2 Colocamos los middleware
+
+```JavaScript
+router.put('/:id', [
+  check('id', 'No es un ID válido').isMongoID(),
+  check('id').custom( existeUsuarioPOrId ),
+  check('rol').custom( esRolValido ),
+  validarCampos
+], usuariosPut );
 ```
 
 ---
