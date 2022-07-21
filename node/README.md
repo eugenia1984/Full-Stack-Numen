@@ -93,7 +93,7 @@ Requerimientos para el servidor:
 
 ---
 
-[clase 4 : teoria vista en clase](https://github.com/eugenia1984/Full-Stack-Numen/tree/main/node/node04)
+- [**clase 4** : teoria vista en clase](https://github.com/eugenia1984/Full-Stack-Numen/tree/main/node/node04)
 
 ```
 Objetivo
@@ -103,8 +103,18 @@ Bcriptjs
 Crear Usuario
 CRUD
 ```
+
 [Aca esta la diapositiva](https://view.genial.ly/613f6f1f7840fe0d9f389087/presentation-02-be-avanzado)
 
 ---
 
-[clase 5](https://github.com/eugenia1984/Full-Stack-Numen/tree/main/node/node05)
+- [**clase 5**](https://github.com/eugenia1984/Full-Stack-Numen/tree/main/node/node05)
+
+
+---
+
+- [**clase 6**]
+
+---
+
+- [**clase 7**]
