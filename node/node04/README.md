@@ -136,7 +136,53 @@ router.put('/:id', [
 ], usuariosPut );
 ```
 
+### GET
+
+- 1 Hacer la logica en el controller del GET (traemos todos los usuarios que  s
+
+```JavaScript
+const usuariosGet = async(req = request, res = response) => {
+  
+  // const { q, nombre = 'No name', apikey, page =1,  limit } = req.query;
+  const usuarios = await Usuario.find();
+  
+  res.json({
+    usuarios
+  });
+}
+```
+
+- 2 Evolucionamos el controller para ponerle un filtro y que no nos traiga todos los usuarios
+
+```JavaScript
+const usuariosGet = async(req = request , res = response) => {
+
+  const { limite = 5, desde = 0 } = req.query;
+  const query = { estado: true };
+  
+  const [ total, usuarios ] = await Promise.all([
+    Usuario.countDocuments(query),
+    Usuario.find(query)
+      .skip( Number( desde ) )
+      .limit( Number( limite ))
+  ]);
+  
+  res.json({
+    total,
+    usuarios
+  });
+}
+```
+- 3  No hace falta poner middlewares en el get =)
+
+
 ---
+
+
+## DELETE
+
+---
+
 
 ## 6 CRUD
 
