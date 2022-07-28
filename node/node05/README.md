@@ -1,4 +1,4 @@
-# Node.js - Clase 5
+# Node.js - Clase 5 : liberias
 
 ---
 
@@ -29,6 +29,8 @@ En el **package.json** podemos agregar scrips para ir corriendo el proyecto
 
 ## :star: Bcryptjs
 
+[https://openbase.com/js/bcryptjs/documentation](https://openbase.com/js/bcryptjs/documentation)
+
 Sirve para el hasheo, para encriptar
 
 
@@ -53,3 +55,64 @@ const prueba = (req, res) => {
 ```
 
 ---
+
+## :star: axios
+
+[https://www.npmjs.com/package/axios](https://www.npmjs.com/package/axios)
+
+Nos permite pegarle a URLs, tanto para rutas externas a nuestro BackEnd como las propias de nuestro BackEnd.
+
+->> para el proyecto final hay darle a una ruta publica y que tenga una conexion segura
+
+
+
+---
+
+## :star: TypeScript
+
+Los archivos son **.ts**
+
+Type por tipado, es fuertemente tipado.
+
+Vamos a tener un archivo con muchos ejemplos.
+
+
+### variables
+
+```TypeScript
+let perrito: String = "Pipi";
+let edad: Number = 22;
+let verdad: boolean = true;
+let algo: any = "hola" // para cuaquier tipo de dato
+let nada: void; // no se puede rellenar, no se le puede dar valor
+let sinnada: undefined; 
+let perritos: string[]= ["Perrito1", "Perrito2"];
+```
+
+
+### funciones
+
+```TypeScript
+let hacerCuenta =():number => {
+  return 1+1;
+}
+
+let darSaludo =():string => {
+  return "hola";
+}
+
+// como es una funcion sin return es de tipo void
+let noDevuelveNada =():void => {
+  console.log("hola");
+}
+```
+
+Cuando tengo parametros
+
+```TypeScript
+let returnUnaSum=(num1:number, num2:number):number=>{
+  return num1 + num2;
+}
+```
+---
+
