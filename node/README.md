@@ -108,12 +108,22 @@ CRUD
 
 ---
 
-- [**clase 5**](https://github.com/eugenia1984/Full-Stack-Numen/tree/main/node/node05)
+- [**clase 5**](https://github.com/eugenia1984/Full-Stack-Numen/tree/main/node/node05): Librerias y TS.
 
+```
+Nodemon
+Bcryptjs
+axios 
+```
+
+-> [Aca se pueden ver las diapositivas](https://view.genial.ly/613f6f1f7840fe0d9f389087/presentation-02-be-avanzado)
 
 ---
 
-- [**clase 6**]()
+- [**clase 6**](https://github.com/eugenia1984/Full-Stack-Numen/tree/main/node/node06) Session y Cookies
+
+
+->> [Aca esta la presentacion](https://view.genial.ly/6245d9e2b86c17001bded4bd/presentation-presentacion-genial)
 
 ---
 
