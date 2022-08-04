@@ -58,4 +58,16 @@ entonces tenemos que priorisar algunos datos ante otros
 
 ### Como instalar Cookies?
 
+- vamos a requerir en la carpeta app.js cookie parser
+
+```JavaScript
+const cookieParser = require('cookie-parser')
+```
+
+- Despues de eso con app use vamos a hacer uso de una configuracion a nivel middleware de aplicacion
+
+```JavaScript
+app.use(cookieParser());
+```
+
 ---
