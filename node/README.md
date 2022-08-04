@@ -122,9 +122,15 @@ axios
 
 - [**clase 6**](https://github.com/eugenia1984/Full-Stack-Numen/tree/main/node/node06) Session y Cookies
 
+```
+Sessions
+Cookies
+```
 
 ->> [Aca esta la presentacion](https://view.genial.ly/6245d9e2b86c17001bded4bd/presentation-presentacion-genial)
 
 ---
 
 - [**clase 7**]()
+
+---
