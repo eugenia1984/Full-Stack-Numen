@@ -6,6 +6,8 @@
 
 ## :star: Session
 
+**No usar Nodemoon con Sessions porque al estar actualizandose constantemente se me va a cerrar la sesion**
+
 ### Que es una session en un web server?
 
 Una session en un web server solo podra suceder a nivel navegador la misma era individual para cada usuario, la session consiste en un ambiende donde se comparte informacion de una ventada a la otra sin que se pierda dicha informacion, no importa si se recarga las rutas.
