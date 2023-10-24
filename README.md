@@ -87,7 +87,7 @@ I based [in this Bootstrap template](https://github.com/StartBootstrap/startboot
 
 - Notes: 
 
-I appreciate your interest in this repository ⌨️ with ❤️ by [María Eugenia Cost](https://github.com/eugenia1984) a 😊 and follow me on [LinkedIn](https://www.linkedin.com/in/mar%C3%ADaeugeniacosta/)
+I appreciate your interest in this repository ⌨️ with ❤️ by [María Eugenia Cost](https://github.com/eugenia1984) a 😊 and follow me on [LinkedIn - maria-eugenia-costa](https://www.linkedin.com/in/maria-eugenia-costa/)
 
 
 ---
@@ -198,4 +198,6 @@ Me base en [este template ya armado de Bootstrap](https://github.com/StartBootst
 
 ## Notas: 
 
-Aprecio tu interés por este repositorio ⌨️ con ❤️ de [María Eugenia Costa](https://github.com/eugenia1984)  😊 y seguime en [LinkedIn](https://www.linkedin.com/in/mar%C3%ADaeugeniacosta/)
+Aprecio tu interés por este repositorio ⌨️ con ❤️ de [María Eugenia Costa](https://github.com/eugenia1984)  😊 y seguime en [LinkedIn - maria-eugenia-costa](https://www.linkedin.com/in/maria-eugenia-costa/)
+
+---
